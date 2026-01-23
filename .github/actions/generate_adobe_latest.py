@@ -539,6 +539,38 @@ def update_version_history(products, output_dir, jamf_data=None):
     return len(new_entries)
 
 
+def download_product_icon(sap_code, version, icon_url, icons_dir=".github/icons"):
+    """Download a product icon to the local icons directory."""
+    if not icon_url or icon_url == 'N/A':
+        return False
+
+    os.makedirs(icons_dir, exist_ok=True)
+
+    # Create filename: SAP_VERSION.png (e.g., PHSP_27_2.png)
+    version_str = version.replace('.', '_')
+    filename = f"{sap_code}_{version_str}.png"
+    filepath = os.path.join(icons_dir, filename)
+
+    # Skip if already exists
+    if os.path.exists(filepath):
+        return True
+
+    try:
+        result = subprocess.run(
+            ["curl", "-s", "-o", filepath, icon_url],
+            capture_output=True, timeout=30
+        )
+        if os.path.exists(filepath) and os.path.getsize(filepath) > 0:
+            print(f"Downloaded icon: {filename}")
+            return True
+        else:
+            print(f"Failed to download icon: {filename}")
+            return False
+    except Exception as e:
+        print(f"Error downloading icon {filename}: {e}")
+        return False
+
+
 def save_version_history(history, output_dir):
     """Save version history in JSON, YAML, and XML formats with last_updated at top."""
     from collections import OrderedDict
@@ -635,6 +667,15 @@ def main():
                     print(f"Added release date for {product_name}: {acrobat_release_dates[full_version]}")
 
     print(f"Found {len(products)} unique products")
+
+    # Download icons for all products (will skip existing ones)
+    print("Checking product icons...")
+    for name, info in products.items():
+        download_product_icon(
+            info['sap_code'],
+            info['version'],
+            info.get('icon_url', '')
+        )
 
     # Save full product data in multiple formats
     json_data = convert_to_json(products)

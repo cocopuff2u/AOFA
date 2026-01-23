@@ -54,6 +54,12 @@ def format_date_source(source):
     }
     return source_map.get(source, source)
 
+def get_local_icon_path(sap_code, version):
+    """Get the local icon path for a product."""
+    # Convert version to filename format: 27.2 -> 27_2
+    version_str = version.replace('.', '_')
+    return f".github/icons/{sap_code}_{version_str}.png"
+
 def generate_readme():
     """Generate the README.md file."""
     data = load_product_data()
@@ -87,7 +93,9 @@ def generate_readme():
         date_source = history_entry.get('date_source', 'N/A')
 
         # Build product cell (icon + name + space + sap code below title)
-        icon_html = f"<img src=\"{icon_url}\" alt=\"{name}\" width=\"80\"><br>" if icon_url and icon_url != 'N/A' else ""
+        # Use local icon path instead of CDN URL
+        local_icon = get_local_icon_path(sap, product.get('version', ''))
+        icon_html = f"<img src=\"{local_icon}\" alt=\"{name}\" width=\"80\"><br>"
         product_cell = f"{icon_html}**{name}**<br><br>**SAP Code:**<br>`{sap}`"
 
         # Format date source for display
@@ -126,7 +134,9 @@ def generate_readme():
         date_source = history_entry.get('date_source', 'N/A')
 
         # Build product cell (icon + name + space + sap code below title)
-        icon_html = f"<img src=\"{icon_url}\" alt=\"{name}\" width=\"80\"><br>" if icon_url and icon_url != 'N/A' else ""
+        # Use local icon path instead of CDN URL
+        local_icon = get_local_icon_path(sap, product.get('version', ''))
+        icon_html = f"<img src=\"{local_icon}\" alt=\"{name}\" width=\"80\"><br>"
         product_cell = f"{icon_html}**{name}**<br><br>**SAP Code:**<br>`{sap}`"
 
         # Format date source for display
@@ -156,15 +166,23 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 </div>
 
+<div align="center">
+
 | **Product** | **Version Information** | **Links** |
 |-------------|------------------------|-----------|
 {chr(10).join(product_rows)}
 
+</div>
+
 ## Beta Applications
+
+<div align="center">
 
 | **Product** | **Version Information** |
 |-------------|------------------------|
 {chr(10).join(beta_rows)}
+
+</div>
 
 ## Release Date Sources
 
