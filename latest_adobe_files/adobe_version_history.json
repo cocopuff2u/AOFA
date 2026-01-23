@@ -1,0 +1,413 @@
+{
+  "last_updated": "January 23, 2026 08:38 AM EST",
+  "versions": [
+    {
+      "display_name": "UXP Developer Tools",
+      "sap_code": "UXPD",
+      "version": "2.1.0",
+      "full_version": "2.1.0.30",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Touch App Plugins",
+      "sap_code": "TAPI",
+      "version": "1.0",
+      "full_version": "1.0",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Substance Painter",
+      "sap_code": "SBSTP",
+      "version": "7.1.1",
+      "full_version": "7.1.1.959",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Substance Designer",
+      "sap_code": "SBSTD",
+      "version": "9.3.0",
+      "full_version": "9.3.0.3187",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Substance Alchemist",
+      "sap_code": "SBSTA",
+      "version": "2.3.2",
+      "full_version": "2.3.2.135",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Scout CC",
+      "sap_code": "ASCT",
+      "version": "1.1.3",
+      "full_version": "1.1.3",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Premiere Rush CC",
+      "sap_code": "RUSH",
+      "version": "1.0.4",
+      "full_version": "1.0.4.2",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Premiere Rush",
+      "sap_code": "RUSH",
+      "version": "2.9",
+      "full_version": "2.9.0.14",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Photoshop (Beta)",
+      "sap_code": "PHSPBETA",
+      "version": "25.9",
+      "full_version": "25.9.0.2611",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Muse CC (2017)",
+      "sap_code": "MUSE",
+      "version": "2017.1.0",
+      "full_version": "2017.1.0.821",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Muse CC",
+      "sap_code": "MUSE",
+      "version": "2018.1.1",
+      "full_version": "2018.1.1.29",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "InDesign (Beta)",
+      "sap_code": "IDSNBETA",
+      "version": "20.6",
+      "full_version": "20.6.0.042",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Illustrator (Prerelease)",
+      "sap_code": "ILSTPR",
+      "version": "27.7",
+      "full_version": "27.7.0.421",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Gaming SDK 1.4",
+      "sap_code": "GSDK",
+      "version": "1.4",
+      "full_version": "1.4",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Gaming SDK 1.3",
+      "sap_code": "GSDK",
+      "version": "1.3",
+      "full_version": "1.3",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Gaming SDK 1.2",
+      "sap_code": "GSDK",
+      "version": "1.2",
+      "full_version": "1.2",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Flash Builder Premium",
+      "sap_code": "FLBR",
+      "version": "4.7",
+      "full_version": "4.7",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Fireworks CS6",
+      "sap_code": "FWKS",
+      "version": "12.0.0",
+      "full_version": "12.0.0",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Extension Manager CC",
+      "sap_code": "KEMN",
+      "version": "7.0",
+      "full_version": "7.0",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Extendscript Toolkit CC",
+      "sap_code": "KETK",
+      "version": "4.0",
+      "full_version": "4.0",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Creative Cloud",
+      "sap_code": "KCCC",
+      "version": "6.8.1",
+      "full_version": "6.8.1",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Character Animator (Beta)",
+      "sap_code": "CHARBETA",
+      "version": "25.6",
+      "full_version": "25.6.0.092",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Animate",
+      "sap_code": "FLPR",
+      "version": "24.0.9",
+      "full_version": "24.0.9.73",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Adobe Application Manager",
+      "sap_code": "AAM",
+      "version": "6.2.10",
+      "full_version": "6.2.10",
+      "release_date": "2026-01-23",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Substance 3D Stager",
+      "sap_code": "STGR",
+      "version": "3.1.7",
+      "full_version": "3.1.7.6455",
+      "release_date": "2026-01-22",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Dimension",
+      "sap_code": "ESHR",
+      "version": "4.1.7",
+      "full_version": "4.1.7.4712",
+      "release_date": "2026-01-22",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Substance 3D Designer",
+      "sap_code": "SBSTD",
+      "version": "15.1.1",
+      "full_version": "15.1.1.10305",
+      "release_date": "2026-01-21",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Premiere",
+      "sap_code": "PPRO",
+      "version": "26.0",
+      "full_version": "26.0.0.72",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Media Encoder",
+      "sap_code": "AME",
+      "version": "26.0",
+      "full_version": "26.0.0.60",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Character Animator",
+      "sap_code": "CHAR",
+      "version": "26.0",
+      "full_version": "26.0.0.50",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Audition",
+      "sap_code": "AUDT",
+      "version": "26.0",
+      "full_version": "26.0.0.56",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "After Effects",
+      "sap_code": "AEFT",
+      "version": "26.0",
+      "full_version": "26.0.0.67",
+      "release_date": "2026-01-20",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "25.001",
+      "full_version": "25.001.21111",
+      "release_date": "2026-01-20",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Acrobat",
+      "sap_code": "APRO",
+      "version": "25.1",
+      "full_version": "25.001.21111",
+      "release_date": "2026-01-20",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Lightroom Classic",
+      "sap_code": "LTRM",
+      "version": "15.1.1",
+      "full_version": "15.1.1.202601141538",
+      "release_date": "2026-01-14",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Substance 3D Sampler",
+      "sap_code": "SBSTA",
+      "version": "5.1.3",
+      "full_version": "5.1.3.8787",
+      "release_date": "2026-01-13",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Premiere Pro",
+      "sap_code": "PPRO",
+      "version": "25.6.4",
+      "full_version": "25.6.4.005",
+      "release_date": "2026-01-13",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "InDesign",
+      "sap_code": "IDSN",
+      "version": "21.1",
+      "full_version": "21.1.0.056",
+      "release_date": "2025-12-19",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "InCopy",
+      "sap_code": "AICY",
+      "version": "21.1",
+      "full_version": "21.1.0.056",
+      "release_date": "2025-12-19",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Photoshop",
+      "sap_code": "PHSP",
+      "version": "27.2",
+      "full_version": "27.2.0.15",
+      "release_date": "2025-12-18",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Illustrator",
+      "sap_code": "ILST",
+      "version": "30.1",
+      "full_version": "30.1.0.136",
+      "release_date": "2025-12-14",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Lightroom",
+      "sap_code": "LRCC",
+      "version": "9.1",
+      "full_version": "9.1.202512041659",
+      "release_date": "2025-12-04",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Dreamweaver",
+      "sap_code": "DRWV",
+      "version": "21.7",
+      "full_version": "21.7.0.15757",
+      "release_date": "2025-12-01",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Bridge (Beta)",
+      "sap_code": "KBRGBETA",
+      "version": "16.0.1",
+      "full_version": "16.0.1.15",
+      "release_date": "2025-12-01",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Bridge",
+      "sap_code": "KBRG",
+      "version": "16.0.1",
+      "full_version": "16.0.1.18",
+      "release_date": "2025-12-01",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "XD (Beta)",
+      "sap_code": "SPRKBE",
+      "version": "57.1.12",
+      "full_version": "57.1.12.2",
+      "release_date": "2024-07-01",
+      "date_source": "manual"
+    },
+    {
+      "display_name": "Substance 3D Painter",
+      "sap_code": "SBSTP",
+      "version": "9.1.2",
+      "full_version": "9.1.2.3332",
+      "release_date": "2024-03-11",
+      "date_source": "manual"
+    }
+  ]
+}

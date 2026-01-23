@@ -1,0 +1,870 @@
+{
+  "last_updated": "January 23, 2026 09:47 AM EST",
+  "products": [
+    {
+      "display_name": "Acrobat",
+      "sap_code": "APRO",
+      "version": "25.1",
+      "full_version": "25.001.21111",
+      "release_date": "2026-01-20",
+      "license_mode": "RESIDUAL",
+      "min_macos_version": "10.15.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/25.1/96x96.png",
+      "product_page": "https://creative.adobe.com/products/acrobat",
+      "whats_new_url": "https://creative.adobe.com/products/acrobat",
+      "system_requirements_url": "N/A",
+      "categories": [
+        "acrobat-pdf",
+        "design"
+      ]
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "25.001",
+      "full_version": "25.001.21111",
+      "release_date": "2026-01-20",
+      "license_mode": "FREE",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/25.1/96x96.png",
+      "product_page": "https://www.adobe.com/acrobat/pdf-reader.html",
+      "whats_new_url": "https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html",
+      "system_requirements_url": "https://helpx.adobe.com/reader/system-requirements.html",
+      "categories": [
+        "pdf-document"
+      ]
+    },
+    {
+      "display_name": "Adobe Application Manager",
+      "sap_code": "AAM",
+      "version": "6.2.10",
+      "full_version": "6.2.10",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AAM/6.2.10/96x96.png",
+      "product_page": "N/A",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "After Effects",
+      "sap_code": "AEFT",
+      "version": "26.0",
+      "full_version": "26.0.0.67",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "6.51 GB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/aftereffects.html",
+      "whats_new_url": "https://helpx.adobe.com/after-effects/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/after-effects/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFTBETA/26.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/aftereffects.html",
+      "whats_new_url": "https://helpx.adobe.com/after-effects/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/after-effects/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Animate",
+      "sap_code": "FLPR",
+      "version": "24.0.9",
+      "full_version": "24.0.9.73",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/24.0.9/96x96.png",
+      "product_page": "https://www.adobe.com/products/animate.html",
+      "whats_new_url": "https://helpx.adobe.com/animate/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/animate/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Audition",
+      "sap_code": "AUDT",
+      "version": "26.0",
+      "full_version": "26.0.0.56",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "776.7 MB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/audition.html",
+      "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/audition/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDTBETA/26.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/audition.html",
+      "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/audition/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Bridge",
+      "sap_code": "KBRG",
+      "version": "16.0.1",
+      "full_version": "16.0.1.18",
+      "release_date": "N/A",
+      "license_mode": "FREE",
+      "min_macos_version": "13.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/bridge.html",
+      "whats_new_url": "https://helpx.adobe.com/bridge/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/bridge/system-requirements.html",
+      "categories": [
+        "photography",
+        "video-audio",
+        "design",
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Bridge (Beta)",
+      "sap_code": "KBRGBETA",
+      "version": "16.0.1",
+      "full_version": "16.0.1.15",
+      "release_date": "N/A",
+      "license_mode": "FREE",
+      "min_macos_version": "13.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRGBETA/16.0.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/bridge.html",
+      "whats_new_url": "https://helpx.adobe.com/bridge/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/bridge/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Character Animator",
+      "sap_code": "CHAR",
+      "version": "26.0",
+      "full_version": "26.0.0.50",
+      "release_date": "N/A",
+      "license_mode": "FREEMIUM",
+      "min_macos_version": "14.0.0",
+      "download_size": "1.65 GB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/character-animator.html",
+      "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/adobe-character-animator/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Character Animator (Beta)",
+      "sap_code": "CHARBETA",
+      "version": "25.6",
+      "full_version": "25.6.0.092",
+      "release_date": "N/A",
+      "license_mode": "FREEMIUM",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHARBETA/25.6/96x96.png",
+      "product_page": "https://www.adobe.com/products/character-animator.html",
+      "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/adobe-character-animator/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Creative Cloud",
+      "sap_code": "KCCC",
+      "version": "6.8.1",
+      "full_version": "6.8.1",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KCCC/6.8.1/96x96.png",
+      "product_page": "N/A",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": [
+        "photography",
+        "social-media",
+        "ar",
+        "design",
+        "acrobat-pdf",
+        "video-audio",
+        "illustration"
+      ]
+    },
+    {
+      "display_name": "Dimension",
+      "sap_code": "ESHR",
+      "version": "4.1.7",
+      "full_version": "4.1.7.4712",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ESHR/4.1.7/96x96.png",
+      "product_page": "https://www.adobe.com/go/dn",
+      "whats_new_url": "https://www.adobe.com/go/dn-release-notes",
+      "system_requirements_url": "https://www.adobe.com/go/dn-requirements",
+      "categories": [
+        "design",
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Dreamweaver",
+      "sap_code": "DRWV",
+      "version": "21.7",
+      "full_version": "21.7.0.15757",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "10.14",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.7/96x96.png",
+      "product_page": "https://www.adobe.com/go/dreamweaver",
+      "whats_new_url": "https://www.adobe.com/go/dw_whatsnew",
+      "system_requirements_url": "https://www.adobe.com/go/system_req_page_dreamweaver_prod",
+      "categories": []
+    },
+    {
+      "display_name": "Extendscript Toolkit CC",
+      "sap_code": "KETK",
+      "version": "4.0",
+      "full_version": "4.0",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KETK/4.0/96x96.png",
+      "product_page": "https://creative.adobe.com/products/estk",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Extension Manager CC",
+      "sap_code": "KEMN",
+      "version": "7.0",
+      "full_version": "7.0",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KEMN/7.0/96x96.png",
+      "product_page": "https://creative.adobe.com/products/extension-manager",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Fireworks CS6",
+      "sap_code": "FWKS",
+      "version": "12.0.0",
+      "full_version": "12.0.0",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/FWKS/12.0.0/96x96.png",
+      "product_page": "https://creative.adobe.com/products/fireworks",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": [
+        "Web and App design"
+      ]
+    },
+    {
+      "display_name": "Flash Builder Premium",
+      "sap_code": "FLBR",
+      "version": "4.7",
+      "full_version": "4.7",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/FLBR/4.7/96x96.png",
+      "product_page": "https://creative.adobe.com/products/flash-builder",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Gaming SDK 1.2",
+      "sap_code": "GSDK",
+      "version": "1.2",
+      "full_version": "1.2",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.2/96x96.png",
+      "product_page": "https://creative.adobe.com/products/gaming-sdk",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Gaming SDK 1.3",
+      "sap_code": "GSDK",
+      "version": "1.3",
+      "full_version": "1.3",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.3/96x96.png",
+      "product_page": "https://creative.adobe.com/products/gaming-sdk",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Gaming SDK 1.4",
+      "sap_code": "GSDK",
+      "version": "1.4",
+      "full_version": "1.4",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.4/96x96.png",
+      "product_page": "https://creative.adobe.com/products/gaming-sdk",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Illustrator",
+      "sap_code": "ILST",
+      "version": "30.1",
+      "full_version": "30.1.0.136",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "13.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.1/96x96.png",
+      "product_page": "https://creative.adobe.com/products/illustrator",
+      "whats_new_url": "https://helpx.adobe.com/illustrator/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/illustrator/system-requirements.html",
+      "categories": [
+        "design",
+        "illustration",
+        "gen-ai"
+      ]
+    },
+    {
+      "display_name": "Illustrator (Prerelease)",
+      "sap_code": "ILSTPR",
+      "version": "27.7",
+      "full_version": "27.7.0.421",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "10.15.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ILSTPR/27.7/96x96.png",
+      "product_page": "https://creative.adobe.com/products/illustrator",
+      "whats_new_url": "https://www.adobe.com/products/illustrator/features.html",
+      "system_requirements_url": "https://helpx.adobe.com/illustrator/system-requirements.html",
+      "categories": [
+        "prerelease"
+      ]
+    },
+    {
+      "display_name": "InCopy",
+      "sap_code": "AICY",
+      "version": "21.1",
+      "full_version": "21.1.0.056",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "13.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AICY/21.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/incopy.html",
+      "whats_new_url": "https://helpx.adobe.com/incopy/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/incopy/system-requirements.html",
+      "categories": [
+        "design"
+      ]
+    },
+    {
+      "display_name": "InDesign",
+      "sap_code": "IDSN",
+      "version": "21.1",
+      "full_version": "21.1.0.056",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "13.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSN/21.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/indesign.html",
+      "whats_new_url": "https://helpx.adobe.com/indesign/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/indesign/system-requirements.html",
+      "categories": [
+        "design"
+      ]
+    },
+    {
+      "display_name": "InDesign (Beta)",
+      "sap_code": "IDSNBETA",
+      "version": "20.6",
+      "full_version": "20.6.0.042",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSNBETA/20.6/96x96.png",
+      "product_page": "https://www.adobe.com/products/indesign.html",
+      "whats_new_url": "https://helpx.adobe.com/indesign/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/indesign/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Lightroom",
+      "sap_code": "LRCC",
+      "version": "9.1",
+      "full_version": "9.1.202512041659",
+      "release_date": "2025-12-04",
+      "license_mode": "RESIDUAL",
+      "min_macos_version": "14.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.1/96x96.png",
+      "product_page": "https://www.adobe.com/go/lrcc_learnmore",
+      "whats_new_url": "https://www.adobe.com/go/lrcc_whatsnew",
+      "system_requirements_url": "https://helpx.adobe.com/lightroom-cc/system-requirements.html",
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "display_name": "Lightroom Classic",
+      "sap_code": "LTRM",
+      "version": "15.1.1",
+      "full_version": "15.1.1.202601141538",
+      "release_date": "2026-01-14",
+      "license_mode": "RESIDUAL",
+      "min_macos_version": "14.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
+      "whats_new_url": "https://helpx.adobe.com/lightroom-classic/help/whats-new.html",
+      "system_requirements_url": "https://www.adobe.com/go/system_req_page_lightroom-classic_prod",
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "display_name": "Media Encoder",
+      "sap_code": "AME",
+      "version": "26.0",
+      "full_version": "26.0.0.60",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "2.78 GB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/media-encoder.html",
+      "whats_new_url": "https://helpx.adobe.com/media-encoder/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/media-encoder/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AMEBETA/26.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/media-encoder.html",
+      "whats_new_url": "https://helpx.adobe.com/media-encoder/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/media-encoder/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Muse CC",
+      "sap_code": "MUSE",
+      "version": "2018.1.1",
+      "full_version": "2018.1.1.29",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "10.10",
+      "download_size": "700.2 MB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/MUSE/2018.1.1/96x96.png",
+      "product_page": "https://creative.adobe.com/products/muse",
+      "whats_new_url": "http://www.adobe.com/products/muse/features.html",
+      "system_requirements_url": "https://helpx.adobe.com/muse/system-requirements.html",
+      "categories": []
+    },
+    {
+      "display_name": "Muse CC (2017)",
+      "sap_code": "MUSE",
+      "version": "2017.1.0",
+      "full_version": "2017.1.0.821",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "10.10",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/MUSE/2017.1.0/96x96.png",
+      "product_page": "https://creative.adobe.com/products/muse",
+      "whats_new_url": "http://www.adobe.com/products/muse/features.html",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Photoshop",
+      "sap_code": "PHSP",
+      "version": "27.2",
+      "full_version": "27.2.0.15",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "13.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.2/96x96.png",
+      "product_page": "https://www.adobe.com/products/photoshop",
+      "whats_new_url": "https://helpx.adobe.com/photoshop/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/photoshop/system-requirements.html",
+      "categories": [
+        "design",
+        "gen-ai",
+        "social-media",
+        "illustration",
+        "video-audio",
+        "ar",
+        "photography"
+      ]
+    },
+    {
+      "display_name": "Photoshop (Beta)",
+      "sap_code": "PHSPBETA",
+      "version": "25.9",
+      "full_version": "25.9.0.2611",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "11.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSPBETA/25.9/96x96.png",
+      "product_page": "https://creative.adobe.com/products/photoshop",
+      "whats_new_url": "https://www.adobe.com/products/photoshop/features.html",
+      "system_requirements_url": "https://helpx.adobe.com/photoshop/system-requirements.html",
+      "categories": [
+        "beta-apps",
+        "gen-ai"
+      ]
+    },
+    {
+      "display_name": "Premiere",
+      "sap_code": "PPRO",
+      "version": "26.0",
+      "full_version": "26.0.0.72",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "3.85 GB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/premiere.html",
+      "whats_new_url": "https://helpx.adobe.com/premiere-pro/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/premiere-pro/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.1.1",
+      "full_version": "26.1.1.32",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "14.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PPROBETA/26.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/premiere.html",
+      "whats_new_url": "https://helpx.adobe.com/premiere-pro/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/premiere-pro/system-requirements.html",
+      "categories": [
+        "beta-apps"
+      ]
+    },
+    {
+      "display_name": "Premiere Pro",
+      "sap_code": "PPRO",
+      "version": "25.6.4",
+      "full_version": "25.6.4.005",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/25.6.4/96x96.png",
+      "product_page": "https://www.adobe.com/products/premiere.html",
+      "whats_new_url": "https://helpx.adobe.com/premiere-pro/using/whats-new.html",
+      "system_requirements_url": "https://helpx.adobe.com/premiere-pro/system-requirements.html",
+      "categories": [
+        "video-audio"
+      ]
+    },
+    {
+      "display_name": "Premiere Rush",
+      "sap_code": "RUSH",
+      "version": "2.9",
+      "full_version": "2.9.0.14",
+      "release_date": "N/A",
+      "license_mode": "FREEMIUM",
+      "min_macos_version": "10.15.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/RUSH/2.9/96x96.png",
+      "product_page": "https://www.adobe.com/products/rush.html",
+      "whats_new_url": "https://www.adobe.com/go/rushwhatsnew",
+      "system_requirements_url": "https://helpx.adobe.com/rush/system-requirements.html",
+      "categories": [
+        "video-audio",
+        "your-free-membership",
+        "social-media"
+      ]
+    },
+    {
+      "display_name": "Premiere Rush CC",
+      "sap_code": "RUSH",
+      "version": "1.0.4",
+      "full_version": "1.0.4.2",
+      "release_date": "N/A",
+      "license_mode": "FREEMIUM",
+      "min_macos_version": "10.13.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/RUSH/1.0.4/96x96.png",
+      "product_page": "https://www.adobe.com/products/rush.html",
+      "whats_new_url": "https://www.adobe.com/go/rushwhatsnew",
+      "system_requirements_url": "https://helpx.adobe.com/rush/system-requirements.html",
+      "categories": [
+        "video-audio",
+        "your-free-membership",
+        "social-media"
+      ]
+    },
+    {
+      "display_name": "Scout CC",
+      "sap_code": "ASCT",
+      "version": "1.1.3",
+      "full_version": "1.1.3",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ASCT/1.1.3/96x96.png",
+      "product_page": "https://creative.adobe.com/products/scout",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "Substance 3D Designer",
+      "sap_code": "SBSTD",
+      "version": "15.1.1",
+      "full_version": "15.1.1.10305",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "11.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/15.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/go/designer-more-info",
+      "whats_new_url": "https://www.adobe.com/go/Substance-3D-release-notes-Designer",
+      "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Designer",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance 3D Painter",
+      "sap_code": "SBSTP",
+      "version": "9.1.2",
+      "full_version": "9.1.2.3332",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "11.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
+      "product_page": "https://www.adobe.com/go/painter-more-info",
+      "whats_new_url": "https://www.adobe.com/go/painter-release-notes",
+      "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Painter",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance 3D Sampler",
+      "sap_code": "SBSTA",
+      "version": "5.1.3",
+      "full_version": "5.1.3.8787",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/5.1.3/96x96.png",
+      "product_page": "https://www.adobe.com/go/sampler-more-info",
+      "whats_new_url": "https://www.adobe.com/go/sampler-release-notes",
+      "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Sampler",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance 3D Stager",
+      "sap_code": "STGR",
+      "version": "3.1.7",
+      "full_version": "3.1.7.6455",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "12.0.0",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/STGR/3.1.7/96x96.png",
+      "product_page": "https://www.adobe.com/go/stager",
+      "whats_new_url": "https://www.adobe.com/go/stager-release-notes",
+      "system_requirements_url": "https://www.adobe.com/go/stager-requirements",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance Alchemist",
+      "sap_code": "SBSTA",
+      "version": "2.3.2",
+      "full_version": "2.3.2.135",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "10.12",
+      "download_size": "815.4 MB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/2.3.2/96x96.png",
+      "product_page": "https://www.adobe.com/products/substance.html",
+      "whats_new_url": "https://www.adobe.com/products/substance.html",
+      "system_requirements_url": "https://docs.substance3d.com/sadoc/technical-requirements-185106444.html",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance Designer",
+      "sap_code": "SBSTD",
+      "version": "9.3.0",
+      "full_version": "9.3.0.3187",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "10.12",
+      "download_size": "919.1 MB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/9.3.0/96x96.png",
+      "product_page": "https://www.adobe.com/products/substance.html",
+      "whats_new_url": "https://www.adobe.com/products/substance.html",
+      "system_requirements_url": "https://docs.substance3d.com/sddoc/technical-requirements-185106446.html",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Substance Painter",
+      "sap_code": "SBSTP",
+      "version": "7.1.1",
+      "full_version": "7.1.1.959",
+      "release_date": "N/A",
+      "license_mode": "PAID",
+      "min_macos_version": "10.12",
+      "download_size": "2.33 GB",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/7.1.1/96x96.png",
+      "product_page": "https://www.adobe.com/products/substance.html",
+      "whats_new_url": "https://www.adobe.com/products/substance.html",
+      "system_requirements_url": "https://docs.substance3d.com/spdoc/technical-requirements-172824034.html",
+      "categories": [
+        "ar"
+      ]
+    },
+    {
+      "display_name": "Touch App Plugins",
+      "sap_code": "TAPI",
+      "version": "1.0",
+      "full_version": "1.0",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/TAPI/1.0/96x96.png",
+      "product_page": "N/A",
+      "whats_new_url": "N/A",
+      "system_requirements_url": "N/A",
+      "categories": []
+    },
+    {
+      "display_name": "UXP Developer Tools",
+      "sap_code": "UXPD",
+      "version": "2.1.0",
+      "full_version": "2.1.0.30",
+      "release_date": "N/A",
+      "license_mode": "N/A",
+      "min_macos_version": "10.13.6",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/UXPD/2.1.0/96x96.png",
+      "product_page": "https://www.adobe.com/go/uxp-developer-tool-support",
+      "whats_new_url": "https://www.adobe.com/go/uxp-developer-tool-support",
+      "system_requirements_url": "https://www.adobe.com/go/uxp-devtool-sysreq/",
+      "categories": []
+    },
+    {
+      "display_name": "XD (Beta)",
+      "sap_code": "SPRKBE",
+      "version": "57.1.12",
+      "full_version": "57.1.12.2",
+      "release_date": "N/A",
+      "license_mode": "RESIDUAL",
+      "min_macos_version": "10.15",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SPRKBE/57.1.12/96x96.png",
+      "product_page": "https://www.adobe.com/go/xd_more_info",
+      "whats_new_url": "https://www.adobe.com/go/xd_whats_new",
+      "system_requirements_url": "https://www.adobe.com/go/xd_sysreqs",
+      "categories": [
+        "beta-apps"
+      ]
+    }
+  ]
+}
