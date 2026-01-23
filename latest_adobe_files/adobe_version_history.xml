@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>January 23, 2026 08:38 AM EST</last_updated>
+  <last_updated>January 23, 2026 02:40 PM EST</last_updated>
   <versions>
     <version>
       <display_name>UXP Developer Tools</display_name>
@@ -183,6 +183,14 @@
       <sap_code>FLPR</sap_code>
       <version>24.0.9</version>
       <full_version>24.0.9.73</full_version>
+      <release_date>2026-01-23</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>After Effects (Beta)</display_name>
+      <sap_code>AEFTBETA</sap_code>
+      <version>26.1.1</version>
+      <full_version>26.1.1.33</full_version>
       <release_date>2026-01-23</release_date>
       <date_source>first_seen</date_source>
     </version>

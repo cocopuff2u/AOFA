@@ -1,4 +1,4 @@
-last_updated: "January 23, 2026 08:38 AM EST"
+last_updated: "January 23, 2026 02:40 PM EST"
 versions:
   - display_name: "UXP Developer Tools"
     sap_code: "UXPD"
@@ -136,6 +136,12 @@ versions:
     sap_code: "FLPR"
     version: "24.0.9"
     full_version: "24.0.9.73"
+    release_date: "2026-01-23"
+    date_source: "first_seen"
+  - display_name: "After Effects (Beta)"
+    sap_code: "AEFTBETA"
+    version: "26.1.1"
+    full_version: "26.1.1.33"
     release_date: "2026-01-23"
     date_source: "first_seen"
   - display_name: "Adobe Application Manager"
