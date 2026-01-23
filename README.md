@@ -1,6 +1,8 @@
 # **AOFA**
 **A**dobe **O**verview **F**eed for **A**pple
 
+<img src=".github/images/aofa_icon.png" alt="AOFA Logo" width="150">
+
 **AOFA** automatically aggregates Adobe Creative Cloud product information for macOS from multiple sources including Adobe's CDN API, Adobe Release Manager, official release notes, and Jamf's patch catalog. Data is refreshed hourly to provide the latest version numbers, release dates, and download information.
 
 We welcome community contributions—fork the repository, ask questions, or share insights to help keep this resource accurate and useful for everyone.
