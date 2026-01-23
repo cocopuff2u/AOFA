@@ -1,0 +1,2 @@
+# Force GitHub to detect Python in .github folder
+.github/actions/*.py linguist-detectable
