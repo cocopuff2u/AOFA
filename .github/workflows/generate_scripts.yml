@@ -2,7 +2,7 @@ name: Update Adobe Product Data
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # Runs at the top of every hour
+    - cron: '3 */1 * * *'  # Runs every hour at minute 3
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
