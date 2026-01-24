@@ -2,8 +2,8 @@ name: Update Adobe Product Data
 
 on:
   schedule:
-    - cron: '55 * * * *'  # Runs at minute 55 of every hour
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '3 */1 * * *' # Runs every 1 hour
+  workflow_dispatch:
 
 jobs:
   update-adobe-data:
