@@ -1,6 +1,14 @@
 {
-  "last_updated": "January 23, 2026 02:40 PM EST",
+  "last_updated": "January 26, 2026 01:16 PM EST",
   "versions": [
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.2",
+      "full_version": "26.2.0.5",
+      "release_date": "2026-01-26",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "UXP Developer Tools",
       "sap_code": "UXPD",
