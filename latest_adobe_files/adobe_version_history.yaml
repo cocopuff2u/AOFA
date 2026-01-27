@@ -1,5 +1,11 @@
-last_updated: "January 27, 2026 04:16 AM EST"
+last_updated: "January 27, 2026 09:17 AM EST"
 versions:
+  - display_name: "Photoshop"
+    sap_code: "PHSP"
+    version: "27.3"
+    full_version: "27.3.0.13"
+    release_date: "2026-01-27"
+    date_source: "first_seen"
   - display_name: "InDesign"
     sap_code: "IDSN"
     version: "21.2"

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>January 27, 2026 04:16 AM EST</last_updated>
+  <last_updated>January 27, 2026 09:17 AM EST</last_updated>
   <versions>
+    <version>
+      <display_name>Photoshop</display_name>
+      <sap_code>PHSP</sap_code>
+      <version>27.3</version>
+      <full_version>27.3.0.13</full_version>
+      <release_date>2026-01-27</release_date>
+      <date_source>first_seen</date_source>
+    </version>
     <version>
       <display_name>InDesign</display_name>
       <sap_code>IDSN</sap_code>
