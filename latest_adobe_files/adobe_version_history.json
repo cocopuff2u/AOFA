@@ -1,5 +1,5 @@
 {
-  "last_updated": "January 27, 2026 12:14 PM EST",
+  "last_updated": "January 27, 2026 02:16 PM EST",
   "versions": [
     {
       "display_name": "Photoshop",
@@ -30,6 +30,14 @@
       "sap_code": "AICY",
       "version": "21.2",
       "full_version": "21.2.0.030",
+      "release_date": "2026-01-27",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.2",
+      "full_version": "26.2.0.6",
       "release_date": "2026-01-27",
       "date_source": "first_seen"
     },

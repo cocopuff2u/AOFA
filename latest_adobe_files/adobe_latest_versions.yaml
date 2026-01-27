@@ -1,4 +1,4 @@
-last_updated: January 27, 2026 01:17 PM EST
+last_updated: January 27, 2026 02:16 PM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -91,7 +91,7 @@ products:
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 877.1 MB
+  download_size: 776.7 MB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
@@ -101,7 +101,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '26.2'
-  full_version: 26.2.0.5
+  full_version: 26.2.0.6
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -507,7 +507,7 @@ products:
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 3.85 GB
+  download_size: 4.10 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
