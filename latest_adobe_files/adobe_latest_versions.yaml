@@ -1,4 +1,4 @@
-last_updated: January 27, 2026 03:14 AM EST
+last_updated: January 27, 2026 04:16 AM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.65 GB
+  download_size: 1.52 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -343,13 +343,13 @@ products:
   - prerelease
 - display_name: InCopy
   sap_code: AICY
-  version: '21.1'
-  full_version: 21.1.0.056
+  version: '21.2'
+  full_version: 21.2.0.030
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AICY/21.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AICY/21.2/96x96.png
   product_page: https://www.adobe.com/products/incopy.html
   whats_new_url: https://helpx.adobe.com/incopy/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/incopy/system-requirements.html
@@ -357,13 +357,13 @@ products:
   - design
 - display_name: InDesign
   sap_code: IDSN
-  version: '21.1'
-  full_version: 21.1.0.056
+  version: '21.2'
+  full_version: 21.2.0.030
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSN/21.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSN/21.2/96x96.png
   product_page: https://www.adobe.com/products/indesign.html
   whats_new_url: https://helpx.adobe.com/indesign/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/indesign/system-requirements.html
