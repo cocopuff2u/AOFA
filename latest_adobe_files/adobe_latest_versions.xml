@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>January 28, 2026 03:13 PM EST</last_updated>
+  <last_updated>January 28, 2026 04:14 PM EST</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -72,13 +72,13 @@
     <product>
       <display_name>After Effects (Beta)</display_name>
       <sap_code>AEFTBETA</sap_code>
-      <version>26.1.1</version>
-      <full_version>26.1.1.33</full_version>
+      <version>26.2</version>
+      <full_version>26.2.0.5</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFTBETA/26.1.1/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFTBETA/26.2/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/aftereffects.html</product_page>
       <whats_new_url>https://helpx.adobe.com/after-effects/using/whats-new.html</whats_new_url>
       <system_requirements_url>https://helpx.adobe.com/after-effects/system-requirements.html</system_requirements_url>
@@ -182,7 +182,7 @@
       <release_date>N/A</release_date>
       <license_mode>FREEMIUM</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>1.65 GB</download_size>
+      <download_size>1.52 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/character-animator.html</product_page>
       <whats_new_url>https://helpx.adobe.com/adobe-character-animator/using/whats-new.html</whats_new_url>
@@ -725,7 +725,7 @@
       <full_version>9.1.2.3332</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
-      <min_macos_version>12.0.0</min_macos_version>
+      <min_macos_version>11.0.0</min_macos_version>
       <download_size>N/A</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/painter-more-info</product_page>
