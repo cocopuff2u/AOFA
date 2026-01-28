@@ -1,4 +1,4 @@
-last_updated: January 28, 2026 03:14 AM EST
+last_updated: January 28, 2026 04:17 AM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -91,7 +91,7 @@ products:
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 877.1 MB
+  download_size: 776.7 MB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.65 GB
+  download_size: 1.52 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -507,7 +507,7 @@ products:
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 4.10 GB
+  download_size: 3.85 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
@@ -607,7 +607,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
