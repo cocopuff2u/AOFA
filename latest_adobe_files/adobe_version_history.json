@@ -1,6 +1,14 @@
 {
-  "last_updated": "January 28, 2026 07:46 PM EST",
+  "last_updated": "January 29, 2026 07:22 AM EST",
   "versions": [
+    {
+      "display_name": "Premiere Rush",
+      "sap_code": "RUSH",
+      "version": "1.5.8",
+      "full_version": "1.5.8.550",
+      "release_date": "2026-01-29",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
