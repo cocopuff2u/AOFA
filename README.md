@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">January 28, 2026 06:13 PM EST</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">January 28, 2026 07:46 PM EST</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -77,7 +77,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/KBRGBETA_16_0_1.png" alt="Bridge (Beta)" width="80"><br>**Bridge (Beta)**<br><br>**SAP Code:**<br>`KBRGBETA` | **Version:**<br>`16.0.1.15`<br><br>**Release Date:**<br>`2025-12-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 | <img src=".github/icons/CHARBETA_25_6.png" alt="Character Animator (Beta)" width="80"><br>**Character Animator (Beta)**<br><br>**SAP Code:**<br>`CHARBETA` | **Version:**<br>`25.6.0.092`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/IDSNBETA_20_6.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`20.6.0.042`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/AMEBETA_26_2.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`26.2.0.6`<br><br>**Release Date:**<br>`2026-01-27`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/AMEBETA_26_2.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`26.2.0.7`<br><br>**Release Date:**<br>`2026-01-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PPROBETA_26_1_1.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`26.1.1.32`<br><br>**Release Date:**<br>`2026-01-20`<br><br>**Release Date Source:**<br>`Manual Research` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
