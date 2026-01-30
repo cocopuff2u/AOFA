@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>January 29, 2026 08:41 PM EST</last_updated>
+  <last_updated>January 29, 2026 10:05 PM EST</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -111,7 +111,7 @@
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>776.7 MB</download_size>
+      <download_size>877.1 MB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/audition.html</product_page>
       <whats_new_url>https://helpx.adobe.com/audition/using/whats-new.html</whats_new_url>
@@ -500,7 +500,7 @@
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>2.95 GB</download_size>
+      <download_size>2.78 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/media-encoder.html</product_page>
       <whats_new_url>https://helpx.adobe.com/media-encoder/using/whats-new.html</whats_new_url>
