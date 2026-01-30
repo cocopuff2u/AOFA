@@ -1,4 +1,4 @@
-last_updated: January 30, 2026 06:16 AM EST
+last_updated: January 30, 2026 07:21 AM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.52 GB
+  download_size: 1.65 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
