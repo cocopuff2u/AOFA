@@ -1,6 +1,14 @@
 {
-  "last_updated": "January 29, 2026 04:13 PM EST",
+  "last_updated": "January 30, 2026 03:14 PM EST",
   "versions": [
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "26.2",
+      "full_version": "26.2.0.7",
+      "release_date": "2026-01-30",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere Rush",
       "sap_code": "RUSH",

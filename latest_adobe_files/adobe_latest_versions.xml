@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>January 30, 2026 02:18 PM EST</last_updated>
+  <last_updated>January 30, 2026 03:14 PM EST</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -73,7 +73,7 @@
       <display_name>After Effects (Beta)</display_name>
       <sap_code>AEFTBETA</sap_code>
       <version>26.2</version>
-      <full_version>26.2.0.5</full_version>
+      <full_version>26.2.0.7</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
@@ -500,7 +500,7 @@
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>2.78 GB</download_size>
+      <download_size>2.95 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/media-encoder.html</product_page>
       <whats_new_url>https://helpx.adobe.com/media-encoder/using/whats-new.html</whats_new_url>
