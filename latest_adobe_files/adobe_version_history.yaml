@@ -1,4 +1,4 @@
-last_updated: "February 17, 2026 02:26 PM EST"
+last_updated: "February 17, 2026 03:18 PM EST"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -16,6 +16,12 @@ versions:
     sap_code: "AUDTBETA"
     version: "26.2"
     full_version: "26.2.0.27"
+    release_date: "2026-02-17"
+    date_source: "first_seen"
+  - display_name: "After Effects (Beta)"
+    sap_code: "AEFTBETA"
+    version: "26.2"
+    full_version: "26.2.0.25"
     release_date: "2026-02-17"
     date_source: "first_seen"
   - display_name: "Media Encoder (Beta)"
