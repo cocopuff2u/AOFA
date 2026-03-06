@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 06, 2026 08:30 AM EST",
+  "last_updated": "March 06, 2026 09:20 AM EST",
   "products": [
     {
       "display_name": "Acrobat",
@@ -17,6 +17,23 @@
       "categories": [
         "acrobat-pdf",
         "design"
+      ]
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "25.001",
+      "full_version": "25.001.21265",
+      "release_date": "2026-03-02",
+      "license_mode": "FREE",
+      "min_macos_version": "N/A",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/25.1/96x96.png",
+      "product_page": "https://www.adobe.com/acrobat/pdf-reader.html",
+      "whats_new_url": "https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html",
+      "system_requirements_url": "https://helpx.adobe.com/reader/system-requirements.html",
+      "categories": [
+        "pdf-document"
       ]
     },
     {
@@ -93,7 +110,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "877.1 MB",
+      "download_size": "776.7 MB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
@@ -482,7 +499,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "2.95 GB",
+      "download_size": "2.78 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/media-encoder.html",
       "whats_new_url": "https://helpx.adobe.com/media-encoder/using/whats-new.html",
@@ -669,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "11.0.0",
+      "min_macos_version": "12.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
