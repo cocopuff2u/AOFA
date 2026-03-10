@@ -1,4 +1,4 @@
-last_updated: March 10, 2026 01:23 PM EDT
+last_updated: March 10, 2026 02:26 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.65 GB
+  download_size: 1.52 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -413,13 +413,13 @@ products:
   - photography
 - display_name: Media Encoder
   sap_code: AME
-  version: '26.0'
-  full_version: 26.0.0.60
+  version: 26.0.2
+  full_version: 26.0.2.2
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 2.95 GB
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0/96x96.png
+  download_size: N/A
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0.2/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/media-encoder/system-requirements.html
@@ -502,13 +502,13 @@ products:
   - gen-ai
 - display_name: Premiere
   sap_code: PPRO
-  version: 26.0.1
-  full_version: 26.0.1.3
+  version: 26.0.2
+  full_version: 26.0.2.2
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0.2/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/premiere-pro/system-requirements.html
