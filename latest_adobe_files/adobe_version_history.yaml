@@ -1,4 +1,4 @@
-last_updated: "March 10, 2026 08:24 AM EDT"
+last_updated: "March 10, 2026 11:28 AM EDT"
 versions:
   - display_name: "Substance 3D Designer"
     sap_code: "SBSTD"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AMEBETA"
     version: "26.3"
     full_version: "26.3.0.6"
+    release_date: "2026-03-10"
+    date_source: "first_seen"
+  - display_name: "Media Encoder (Beta)"
+    sap_code: "AMEBETA"
+    version: "26.3"
+    full_version: "26.3.0.7"
     release_date: "2026-03-10"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
