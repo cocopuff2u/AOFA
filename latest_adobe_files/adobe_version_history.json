@@ -1,11 +1,19 @@
 {
-  "last_updated": "March 10, 2026 06:21 AM EDT",
+  "last_updated": "March 10, 2026 08:24 AM EDT",
   "versions": [
     {
       "display_name": "Substance 3D Designer",
       "sap_code": "SBSTD",
       "version": "15.1.3",
       "full_version": "15.1.3.10606",
+      "release_date": "2026-03-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.6",
       "release_date": "2026-03-10",
       "date_source": "first_seen"
     },
@@ -96,6 +104,14 @@
       "full_version": "26.2.0.42",
       "release_date": "2026-03-03",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "25.001",
+      "full_version": "25.001.21288",
+      "release_date": "2026-03-03",
+      "date_source": "jamf"
     },
     {
       "display_name": "Acrobat",
