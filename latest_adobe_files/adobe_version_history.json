@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 09, 2026 04:15 PM EDT",
+  "last_updated": "March 10, 2026 04:21 AM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -88,6 +88,14 @@
       "full_version": "26.2.0.42",
       "release_date": "2026-03-03",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat",
+      "sap_code": "APRO",
+      "version": "25.1",
+      "full_version": "25.001.21288",
+      "release_date": "2026-03-03",
+      "date_source": "jamf"
     },
     {
       "display_name": "Premiere (Beta)",
