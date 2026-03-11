@@ -1,11 +1,19 @@
 {
-  "last_updated": "March 11, 2026 05:23 AM EDT",
+  "last_updated": "March 11, 2026 02:28 PM EDT",
   "versions": [
     {
       "display_name": "InDesign (Beta)",
       "sap_code": "IDSNBETA",
       "version": "21.3",
       "full_version": "21.3.0.052",
+      "release_date": "2026-03-11",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.9",
       "release_date": "2026-03-11",
       "date_source": "first_seen"
     },
