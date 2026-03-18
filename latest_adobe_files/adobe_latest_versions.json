@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 18, 2026 01:37 AM EDT",
+  "last_updated": "March 18, 2026 02:34 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -110,7 +110,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "776.7 MB",
+      "download_size": "877.1 MB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
@@ -181,7 +181,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.52 GB",
+      "download_size": "1.65 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/character-animator.html",
       "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
@@ -477,13 +477,13 @@
     {
       "display_name": "Lightroom Classic",
       "sap_code": "LTRM",
-      "version": "15.2",
-      "full_version": "15.2.0.202602111402",
-      "release_date": "2026-02-11",
+      "version": "15.2.1",
+      "full_version": "15.2.1.202603161217",
+      "release_date": "2026-03-16",
       "license_mode": "RESIDUAL",
       "min_macos_version": "14.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.2/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.2.1/96x96.png",
       "product_page": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
       "whats_new_url": "https://helpx.adobe.com/lightroom-classic/help/whats-new.html",
       "system_requirements_url": "https://www.adobe.com/go/system_req_page_lightroom-classic_prod",

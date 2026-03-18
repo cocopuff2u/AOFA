@@ -1,4 +1,4 @@
-last_updated: "March 17, 2026 04:19 PM EDT"
+last_updated: "March 18, 2026 02:34 AM EDT"
 versions:
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
@@ -18,6 +18,12 @@ versions:
     full_version: "26.3.0.14"
     release_date: "2026-03-16"
     date_source: "first_seen"
+  - display_name: "Lightroom Classic"
+    sap_code: "LTRM"
+    version: "15.2.1"
+    full_version: "15.2.1.202603161217"
+    release_date: "2026-03-16"
+    date_source: "api"
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
     version: "26.3"
