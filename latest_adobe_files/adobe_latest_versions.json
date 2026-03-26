@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 26, 2026 11:37 AM EDT",
+  "last_updated": "March 26, 2026 12:35 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -24,7 +24,7 @@
       "sap_code": "ARDR",
       "version": "26.001",
       "full_version": "26.001.21346",
-      "release_date": "N/A",
+      "release_date": "2026-03-26",
       "license_mode": "FREE",
       "min_macos_version": "N/A",
       "download_size": "N/A",
@@ -110,7 +110,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "877.1 MB",
+      "download_size": "776.7 MB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
@@ -181,7 +181,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.65 GB",
+      "download_size": "1.52 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/character-animator.html",
       "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
