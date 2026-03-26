@@ -1,4 +1,4 @@
-last_updated: "March 26, 2026 05:30 AM EDT"
+last_updated: "March 26, 2026 11:37 AM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AUDTBETA"
     version: "26.3"
     full_version: "26.3.0.22"
+    release_date: "2026-03-26"
+    date_source: "first_seen"
+  - display_name: "Acrobat Reader"
+    sap_code: "ARDR"
+    version: "26.001"
+    full_version: "26.001.21346"
     release_date: "2026-03-26"
     date_source: "first_seen"
   - display_name: "Media Encoder (Beta)"
