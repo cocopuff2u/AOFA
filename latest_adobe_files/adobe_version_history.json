@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 27, 2026 03:22 PM EDT",
+  "last_updated": "March 27, 2026 04:18 PM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -30,6 +30,14 @@
       "sap_code": "AICY",
       "version": "21.3",
       "full_version": "21.3.0.060",
+      "release_date": "2026-03-27",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.24",
       "release_date": "2026-03-27",
       "date_source": "first_seen"
     },
