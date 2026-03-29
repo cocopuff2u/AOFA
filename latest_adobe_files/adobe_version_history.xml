@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>March 28, 2026 09:28 AM EDT</last_updated>
+  <last_updated>March 29, 2026 06:14 PM EDT</last_updated>
   <versions>
+    <version>
+      <display_name>Audition (Beta)</display_name>
+      <sap_code>AUDTBETA</sap_code>
+      <version>26.3</version>
+      <full_version>26.3.0.26</full_version>
+      <release_date>2026-03-29</release_date>
+      <date_source>first_seen</date_source>
+    </version>
     <version>
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
