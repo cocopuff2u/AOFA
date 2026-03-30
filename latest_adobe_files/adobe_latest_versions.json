@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 30, 2026 08:32 AM EDT",
+  "last_updated": "March 30, 2026 09:40 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -373,13 +373,13 @@
     {
       "display_name": "Illustrator",
       "sap_code": "ILST",
-      "version": "30.2.1",
-      "full_version": "30.2.1.1",
+      "version": "30.3",
+      "full_version": "30.3.0.182",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "13.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.2.1/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.3/96x96.png",
       "product_page": "https://creative.adobe.com/products/illustrator",
       "whats_new_url": "https://helpx.adobe.com/illustrator/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/illustrator/system-requirements.html",
