@@ -1,5 +1,5 @@
 {
-  "last_updated": "March 31, 2026 11:15 PM EDT",
+  "last_updated": "April 01, 2026 01:06 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -558,13 +558,13 @@
     {
       "display_name": "Photoshop",
       "sap_code": "PHSP",
-      "version": "27.4",
-      "full_version": "27.4.0.15",
+      "version": "27.5",
+      "full_version": "27.5.0.13",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "13.0.0",
-      "download_size": "6.91 GB",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.4/96x96.png",
+      "download_size": "N/A",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.5/96x96.png",
       "product_page": "https://www.adobe.com/products/photoshop",
       "whats_new_url": "https://helpx.adobe.com/photoshop/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/photoshop/system-requirements.html",
