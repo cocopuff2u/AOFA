@@ -1,11 +1,19 @@
 {
-  "last_updated": "April 01, 2026 01:06 AM EDT",
+  "last_updated": "April 01, 2026 05:35 AM EDT",
   "versions": [
     {
       "display_name": "Photoshop",
       "sap_code": "PHSP",
       "version": "27.5",
       "full_version": "27.5.0.13",
+      "release_date": "2026-04-01",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.29",
       "release_date": "2026-04-01",
       "date_source": "first_seen"
     },
