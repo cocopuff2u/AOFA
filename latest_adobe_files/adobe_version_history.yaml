@@ -1,4 +1,4 @@
-last_updated: "April 01, 2026 05:35 AM EDT"
+last_updated: "April 01, 2026 07:27 AM EDT"
 versions:
   - display_name: "Photoshop"
     sap_code: "PHSP"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AMEBETA"
     version: "26.3"
     full_version: "26.3.0.29"
+    release_date: "2026-04-01"
+    date_source: "first_seen"
+  - display_name: "Bridge"
+    sap_code: "KBRG"
+    version: "16.0.3"
+    full_version: "16.0.3.21"
     release_date: "2026-04-01"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
