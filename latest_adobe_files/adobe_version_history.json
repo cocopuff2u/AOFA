@@ -1,6 +1,14 @@
 {
-  "last_updated": "March 31, 2026 02:29 PM EDT",
+  "last_updated": "March 31, 2026 09:43 PM EDT",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.30",
+      "release_date": "2026-03-31",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "After Effects (Beta)",
       "sap_code": "AEFTBETA",
