@@ -1,6 +1,14 @@
 {
-  "last_updated": "April 02, 2026 07:23 AM EDT",
+  "last_updated": "April 02, 2026 11:30 AM EDT",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.32",
+      "release_date": "2026-04-02",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
