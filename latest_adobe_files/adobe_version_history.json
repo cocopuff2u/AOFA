@@ -1,5 +1,5 @@
 {
-  "last_updated": "April 01, 2026 03:31 PM EDT",
+  "last_updated": "April 02, 2026 07:23 AM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -200,6 +200,14 @@
       "full_version": "26.001.21346",
       "release_date": "2026-03-26",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "26.001",
+      "full_version": "26.001.21367",
+      "release_date": "2026-03-26",
+      "date_source": "jamf"
     },
     {
       "display_name": "Media Encoder (Beta)",
