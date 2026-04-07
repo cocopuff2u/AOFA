@@ -1,4 +1,4 @@
-last_updated: April 06, 2026 08:55 PM EDT
+last_updated: April 06, 2026 09:43 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -517,7 +517,7 @@ products:
 - display_name: Premiere (Beta)
   sap_code: PPROBETA
   version: '26.3'
-  full_version: 26.3.0.33
+  full_version: 26.3.0.36
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
