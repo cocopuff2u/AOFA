@@ -1,6 +1,14 @@
 {
-  "last_updated": "April 07, 2026 05:23 PM EDT",
+  "last_updated": "April 07, 2026 08:55 PM EDT",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.37",
+      "release_date": "2026-04-07",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Audition (Beta)",
       "sap_code": "AUDTBETA",
