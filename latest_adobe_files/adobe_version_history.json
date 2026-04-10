@@ -1,11 +1,19 @@
 {
-  "last_updated": "April 10, 2026 12:27 PM EDT",
+  "last_updated": "April 10, 2026 02:28 PM EDT",
   "versions": [
     {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
       "version": "26.3",
       "full_version": "26.3.0.39",
+      "release_date": "2026-04-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.41",
       "release_date": "2026-04-10",
       "date_source": "first_seen"
     },
