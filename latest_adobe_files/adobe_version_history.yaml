@@ -1,4 +1,4 @@
-last_updated: "April 10, 2026 09:39 AM EDT"
+last_updated: "April 10, 2026 12:27 PM EDT"
 versions:
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
@@ -120,6 +120,12 @@ versions:
     full_version: "26.3.0.33"
     release_date: "2026-04-02"
     date_source: "first_seen"
+  - display_name: "Acrobat Reader"
+    sap_code: "ARDR"
+    version: "26.001"
+    full_version: "26.001.21411"
+    release_date: "2026-04-02"
+    date_source: "jamf"
   - display_name: "Acrobat"
     sap_code: "APRO"
     version: "26.1"
