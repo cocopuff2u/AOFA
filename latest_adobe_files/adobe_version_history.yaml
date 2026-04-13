@@ -1,4 +1,4 @@
-last_updated: "April 12, 2026 01:17 PM EDT"
+last_updated: "April 13, 2026 02:59 AM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -54,6 +54,12 @@ versions:
     full_version: "26.3.0.41"
     release_date: "2026-04-10"
     date_source: "first_seen"
+  - display_name: "Acrobat"
+    sap_code: "APRO"
+    version: "26.1"
+    full_version: "26.001.21411"
+    release_date: "2026-04-10"
+    date_source: "api"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "26.3"
