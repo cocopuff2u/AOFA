@@ -1,4 +1,4 @@
-last_updated: April 15, 2026 08:36 AM EDT
+last_updated: April 15, 2026 09:40 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -44,13 +44,13 @@ products:
   categories: []
 - display_name: After Effects
   sap_code: AEFT
-  version: '26.0'
-  full_version: 26.0.0.67
+  version: '26.2'
+  full_version: 26.2.0.49
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 6.51 GB
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.0/96x96.png
+  download_size: N/A
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.2/96x96.png
   product_page: https://www.adobe.com/products/aftereffects.html
   whats_new_url: https://helpx.adobe.com/after-effects/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/after-effects/system-requirements.html
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.52 GB
+  download_size: 1.65 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -413,13 +413,13 @@ products:
   - photography
 - display_name: Media Encoder
   sap_code: AME
-  version: 26.0.2
-  full_version: 26.0.2.2
+  version: '26.2'
+  full_version: 26.2.0.52
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.0.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.2/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/media-encoder/system-requirements.html
@@ -428,7 +428,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '26.3'
-  full_version: 26.3.0.43
+  full_version: 26.3.0.44
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -502,13 +502,13 @@ products:
   - gen-ai
 - display_name: Premiere
   sap_code: PPRO
-  version: 26.0.2
-  full_version: 26.0.2.2
+  version: '26.2'
+  full_version: 26.2.0.65
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.0.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.2/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/premiere-pro/system-requirements.html
@@ -530,13 +530,13 @@ products:
   - beta-apps
 - display_name: Premiere Pro
   sap_code: PPRO
-  version: 25.6.4
-  full_version: 25.6.4.005
+  version: 25.6.5
+  full_version: 25.6.5.004
   release_date: N/A
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/25.6.4/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/25.6.5/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/premiere-pro/system-requirements.html
