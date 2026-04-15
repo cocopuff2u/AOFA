@@ -1,5 +1,5 @@
 {
-  "last_updated": "April 15, 2026 09:40 AM EDT",
+  "last_updated": "April 15, 2026 01:31 PM EDT",
   "versions": [
     {
       "display_name": "Premiere Pro",
@@ -10,10 +10,26 @@
       "date_source": "first_seen"
     },
     {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.45",
+      "release_date": "2026-04-15",
+      "date_source": "first_seen"
+    },
+    {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
       "version": "26.3",
       "full_version": "26.3.0.44",
+      "release_date": "2026-04-15",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "26.3",
+      "full_version": "26.3.0.46",
       "release_date": "2026-04-15",
       "date_source": "first_seen"
     },
