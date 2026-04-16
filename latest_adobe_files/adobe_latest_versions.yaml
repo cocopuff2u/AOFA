@@ -1,4 +1,4 @@
-last_updated: April 16, 2026 06:37 AM EDT
+last_updated: April 16, 2026 07:30 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -91,7 +91,7 @@ products:
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
-  download_size: 776.7 MB
+  download_size: 877.1 MB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
@@ -371,13 +371,13 @@ products:
   - design
 - display_name: InDesign (Beta)
   sap_code: IDSNBETA
-  version: '21.3'
-  full_version: 21.3.0.052
+  version: '21.4'
+  full_version: 21.4.0.044
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSNBETA/21.3/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSNBETA/21.4/96x96.png
   product_page: https://www.adobe.com/products/indesign.html
   whats_new_url: https://helpx.adobe.com/indesign/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/indesign/system-requirements.html
