@@ -1,5 +1,5 @@
 {
-  "last_updated": "April 15, 2026 02:36 PM EDT",
+  "last_updated": "April 16, 2026 01:09 AM EDT",
   "versions": [
     {
       "display_name": "Premiere Pro",
@@ -250,6 +250,14 @@
       "date_source": "first_seen"
     },
     {
+      "display_name": "Lightroom Classic",
+      "sap_code": "LTRM",
+      "version": "15.3",
+      "full_version": "15.3.0.202604090947",
+      "release_date": "2026-04-09",
+      "date_source": "api"
+    },
+    {
       "display_name": "Audition (Beta)",
       "sap_code": "AUDTBETA",
       "version": "26.3",
@@ -296,6 +304,14 @@
       "full_version": "26.3.0.37",
       "release_date": "2026-04-07",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Lightroom",
+      "sap_code": "LRCC",
+      "version": "9.3",
+      "full_version": "9.3.202604071929",
+      "release_date": "2026-04-07",
+      "date_source": "api"
     },
     {
       "display_name": "Audition (Beta)",
