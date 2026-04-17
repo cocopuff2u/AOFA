@@ -1,4 +1,4 @@
-last_updated: "April 16, 2026 02:37 PM EDT"
+last_updated: "April 17, 2026 06:34 AM EDT"
 versions:
   - display_name: "Substance 3D Sampler"
     sap_code: "SBSTA"
@@ -402,6 +402,12 @@ versions:
     full_version: "30.3.0.182"
     release_date: "2026-03-30"
     date_source: "first_seen"
+  - display_name: "Creative Cloud"
+    sap_code: "KCCC"
+    version: "6.9.1"
+    full_version: "6.9.1"
+    release_date: "2026-03-30"
+    date_source: "jamf"
   - display_name: "Audition (Beta)"
     sap_code: "AUDTBETA"
     version: "26.3"
