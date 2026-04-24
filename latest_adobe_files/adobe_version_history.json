@@ -1,5 +1,5 @@
 {
-  "last_updated": "April 24, 2026 02:53 AM EDT",
+  "last_updated": "April 24, 2026 06:40 AM EDT",
   "versions": [
     {
       "display_name": "Audition (Beta)",
@@ -310,6 +310,14 @@
       "sap_code": "AEFT",
       "version": "26.2",
       "full_version": "26.2.0.49",
+      "release_date": "2026-04-14",
+      "date_source": "jamf"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "26.001",
+      "full_version": "26.001.21483",
       "release_date": "2026-04-14",
       "date_source": "jamf"
     },
