@@ -1,4 +1,4 @@
-last_updated: "April 24, 2026 06:40 AM EDT"
+last_updated: "April 24, 2026 07:32 AM EDT"
 versions:
   - display_name: "Audition (Beta)"
     sap_code: "AUDTBETA"
@@ -244,6 +244,12 @@ versions:
     sap_code: "APRO"
     version: "26.1"
     full_version: "26.001.21462"
+    release_date: "2026-04-14"
+    date_source: "jamf"
+  - display_name: "Acrobat"
+    sap_code: "APRO"
+    version: "26.1"
+    full_version: "26.001.21483"
     release_date: "2026-04-14"
     date_source: "jamf"
   - display_name: "Premiere (Beta)"
