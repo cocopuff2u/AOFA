@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>April 28, 2026 11:00 AM EDT</last_updated>
+  <last_updated>April 28, 2026 02:44 PM EDT</last_updated>
   <versions>
     <version>
       <display_name>Photoshop</display_name>
@@ -15,6 +15,14 @@
       <sap_code>AMEBETA</sap_code>
       <version>26.3</version>
       <full_version>26.3.0.57</full_version>
+      <release_date>2026-04-28</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Audition (Beta)</display_name>
+      <sap_code>AUDTBETA</sap_code>
+      <version>26.3</version>
+      <full_version>26.3.0.59</full_version>
       <release_date>2026-04-28</release_date>
       <date_source>first_seen</date_source>
     </version>
