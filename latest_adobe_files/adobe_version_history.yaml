@@ -1,5 +1,11 @@
-last_updated: "April 28, 2026 07:26 PM EDT"
+last_updated: "April 29, 2026 09:42 AM EDT"
 versions:
+  - display_name: "Media Encoder (Beta)"
+    sap_code: "AMEBETA"
+    version: "26.3"
+    full_version: "26.3.0.58"
+    release_date: "2026-04-29"
+    date_source: "first_seen"
   - display_name: "Photoshop"
     sap_code: "PHSP"
     version: "27.6"
