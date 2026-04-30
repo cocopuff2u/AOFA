@@ -1,4 +1,4 @@
-last_updated: April 30, 2026 10:51 AM EDT
+last_updated: April 30, 2026 11:42 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -208,13 +208,13 @@ products:
   - ar
 - display_name: Dreamweaver
   sap_code: DRWV
-  version: '21.7'
-  full_version: 21.7.0.15757
+  version: '21.8'
+  full_version: 21.8.0.15898
   release_date: N/A
   license_mode: PAID
   min_macos_version: '10.14'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.7/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.8/96x96.png
   product_page: https://www.adobe.com/go/dreamweaver
   whats_new_url: https://www.adobe.com/go/dw_whatsnew
   system_requirements_url: https://www.adobe.com/go/system_req_page_dreamweaver_prod
@@ -517,7 +517,7 @@ products:
 - display_name: Premiere (Beta)
   sap_code: PPROBETA
   version: '26.3'
-  full_version: 26.3.0.59
+  full_version: 26.3.0.60
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0

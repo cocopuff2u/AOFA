@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>April 30, 2026 10:51 AM EDT</last_updated>
+  <last_updated>April 30, 2026 11:42 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -252,13 +252,13 @@
     <product>
       <display_name>Dreamweaver</display_name>
       <sap_code>DRWV</sap_code>
-      <version>21.7</version>
-      <full_version>21.7.0.15757</full_version>
+      <version>21.8</version>
+      <full_version>21.8.0.15898</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>10.14</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.7/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.8/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/dreamweaver</product_page>
       <whats_new_url>https://www.adobe.com/go/dw_whatsnew</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/system_req_page_dreamweaver_prod</system_requirements_url>
@@ -618,7 +618,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>26.3</version>
-      <full_version>26.3.0.59</full_version>
+      <full_version>26.3.0.60</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
