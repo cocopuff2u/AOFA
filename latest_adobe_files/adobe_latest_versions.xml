@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>May 01, 2026 12:28 PM EDT</last_updated>
+  <last_updated>May 01, 2026 01:29 PM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -124,7 +124,7 @@
       <display_name>Audition (Beta)</display_name>
       <sap_code>AUDTBETA</sap_code>
       <version>26.3</version>
-      <full_version>26.3.0.61</full_version>
+      <full_version>26.3.0.62</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
