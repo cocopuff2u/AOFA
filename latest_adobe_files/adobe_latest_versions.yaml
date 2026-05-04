@@ -1,4 +1,4 @@
-last_updated: May 04, 2026 01:39 PM EDT
+last_updated: May 04, 2026 02:45 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -59,7 +59,7 @@ products:
 - display_name: After Effects (Beta)
   sap_code: AEFTBETA
   version: '26.3'
-  full_version: 26.3.0.61
+  full_version: 26.3.0.66
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -101,7 +101,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '26.3'
-  full_version: 26.3.0.64
+  full_version: 26.3.0.65
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -413,13 +413,13 @@ products:
   - photography
 - display_name: Media Encoder
   sap_code: AME
-  version: '26.2'
-  full_version: 26.2.0.52
+  version: 26.2.2
+  full_version: 26.2.2.3
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.2.2/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/media-encoder/system-requirements.html
@@ -502,13 +502,13 @@ products:
   - gen-ai
 - display_name: Premiere
   sap_code: PPRO
-  version: '26.2'
-  full_version: 26.2.0.65
+  version: 26.2.2
+  full_version: 26.2.2.3
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.2.2/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/premiere-pro/system-requirements.html
@@ -575,7 +575,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
