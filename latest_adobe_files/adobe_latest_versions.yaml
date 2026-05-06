@@ -1,4 +1,4 @@
-last_updated: May 05, 2026 09:45 PM EDT
+last_updated: May 05, 2026 11:19 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -385,13 +385,13 @@ products:
   - beta-apps
 - display_name: Lightroom
   sap_code: LRCC
-  version: '9.3'
-  full_version: 9.3.202604071929
-  release_date: '2026-04-07'
+  version: 9.3.1
+  full_version: 9.3.1.202604291653
+  release_date: '2026-04-29'
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.3/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.3.1/96x96.png
   product_page: https://www.adobe.com/go/lrcc_learnmore
   whats_new_url: https://www.adobe.com/go/lrcc_whatsnew
   system_requirements_url: https://helpx.adobe.com/lightroom-cc/system-requirements.html
@@ -575,7 +575,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info

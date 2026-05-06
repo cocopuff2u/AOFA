@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 05, 2026 06:27 PM EDT",
+  "last_updated": "May 05, 2026 11:19 PM EDT",
   "versions": [
     {
       "display_name": "Substance 3D Designer",
@@ -184,6 +184,14 @@
       "full_version": "26.3.0.58",
       "release_date": "2026-04-29",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Lightroom",
+      "sap_code": "LRCC",
+      "version": "9.3.1",
+      "full_version": "9.3.1.202604291653",
+      "release_date": "2026-04-29",
+      "date_source": "api"
     },
     {
       "display_name": "Audition (Beta)",
