@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 13, 2026 01:48 PM EDT",
+  "last_updated": "May 13, 2026 02:49 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -110,7 +110,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "877.1 MB",
+      "download_size": "776.7 MB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
@@ -122,13 +122,13 @@
     {
       "display_name": "Audition (Beta)",
       "sap_code": "AUDTBETA",
-      "version": "26.3",
-      "full_version": "26.3.0.74",
+      "version": "26.5",
+      "full_version": "26.5.0.2",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDTBETA/26.3/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDTBETA/26.5/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/audition/system-requirements.html",
@@ -686,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "11.0.0",
+      "min_macos_version": "12.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
