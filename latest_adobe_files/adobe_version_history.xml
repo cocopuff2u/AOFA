@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>May 12, 2026 03:39 PM EDT</last_updated>
+  <last_updated>May 13, 2026 01:48 PM EDT</last_updated>
   <versions>
+    <version>
+      <display_name>Media Encoder (Beta)</display_name>
+      <sap_code>AMEBETA</sap_code>
+      <version>26.5</version>
+      <full_version>26.5.0.1</full_version>
+      <release_date>2026-05-13</release_date>
+      <date_source>first_seen</date_source>
+    </version>
     <version>
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
