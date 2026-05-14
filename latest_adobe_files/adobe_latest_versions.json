@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 14, 2026 11:56 AM EDT",
+  "last_updated": "May 14, 2026 12:50 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -181,7 +181,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.65 GB",
+      "download_size": "1.52 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/character-animator.html",
       "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
@@ -616,13 +616,13 @@
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
-      "version": "26.3",
-      "full_version": "26.3.0.71",
+      "version": "26.5",
+      "full_version": "26.5.0.2",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PPROBETA/26.3/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PPROBETA/26.5/96x96.png",
       "product_page": "https://www.adobe.com/products/premiere.html",
       "whats_new_url": "https://helpx.adobe.com/premiere-pro/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/premiere-pro/system-requirements.html",
@@ -686,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "11.0.0",
+      "min_macos_version": "12.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
