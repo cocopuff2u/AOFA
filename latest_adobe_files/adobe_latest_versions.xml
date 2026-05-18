@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>May 18, 2026 03:43 AM EDT</last_updated>
+  <last_updated>May 18, 2026 05:27 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -25,7 +25,7 @@
       <sap_code>ARDR</sap_code>
       <version>26.001</version>
       <full_version>26.001.21563</full_version>
-      <release_date>N/A</release_date>
+      <release_date>2026-05-18</release_date>
       <license_mode>FREE</license_mode>
       <min_macos_version>N/A</min_macos_version>
       <download_size>N/A</download_size>
