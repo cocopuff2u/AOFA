@@ -1,4 +1,4 @@
-last_updated: "May 19, 2026 01:08 PM EDT"
+last_updated: "May 19, 2026 02:49 PM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AMEBETA"
     version: "26.5"
     full_version: "26.5.0.6"
+    release_date: "2026-05-19"
+    date_source: "first_seen"
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "26.5"
+    full_version: "26.5.0.8"
     release_date: "2026-05-19"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
