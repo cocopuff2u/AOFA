@@ -1,5 +1,11 @@
-last_updated: "May 19, 2026 04:43 PM EDT"
+last_updated: "May 20, 2026 01:32 AM EDT"
 versions:
+  - display_name: "Photoshop"
+    sap_code: "PHSP"
+    version: "27.7"
+    full_version: "27.7.0.11"
+    release_date: "2026-05-20"
+    date_source: "first_seen"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "26.5"
