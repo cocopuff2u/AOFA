@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 21, 2026 05:21 AM EDT",
+  "last_updated": "May 21, 2026 07:14 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -686,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "11.0.0",
+      "min_macos_version": "12.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
@@ -699,13 +699,13 @@
     {
       "display_name": "Substance 3D Sampler",
       "sap_code": "SBSTA",
-      "version": "6.0.0",
-      "full_version": "6.0.0.9632",
+      "version": "6.0.1",
+      "full_version": "6.0.1.9906",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "12.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.0/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.1/96x96.png",
       "product_page": "https://www.adobe.com/go/sampler-more-info",
       "whats_new_url": "https://www.adobe.com/go/sampler-release-notes",
       "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Sampler",
