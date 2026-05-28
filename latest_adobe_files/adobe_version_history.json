@@ -1,6 +1,14 @@
 {
-  "last_updated": "May 27, 2026 03:00 PM EDT",
+  "last_updated": "May 28, 2026 07:23 AM EDT",
   "versions": [
+    {
+      "display_name": "Substance 3D Designer",
+      "sap_code": "SBSTD",
+      "version": "16.0.2",
+      "full_version": "16.0.2.11092",
+      "release_date": "2026-05-28",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
