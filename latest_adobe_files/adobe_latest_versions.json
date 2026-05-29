@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 29, 2026 01:20 PM EDT",
+  "last_updated": "May 29, 2026 03:04 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -72,7 +72,7 @@
       "display_name": "After Effects (Beta)",
       "sap_code": "AEFTBETA",
       "version": "26.5",
-      "full_version": "26.5.0.15",
+      "full_version": "26.5.0.16",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
@@ -110,7 +110,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
-      "download_size": "776.7 MB",
+      "download_size": "877.1 MB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/audition.html",
       "whats_new_url": "https://helpx.adobe.com/audition/using/whats-new.html",
@@ -123,7 +123,7 @@
       "display_name": "Audition (Beta)",
       "sap_code": "AUDTBETA",
       "version": "26.5",
-      "full_version": "26.5.0.17",
+      "full_version": "26.5.0.18",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
