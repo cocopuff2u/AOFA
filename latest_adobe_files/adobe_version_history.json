@@ -1,6 +1,14 @@
 {
-  "last_updated": "May 28, 2026 03:05 PM EDT",
+  "last_updated": "May 29, 2026 11:19 AM EDT",
   "versions": [
+    {
+      "display_name": "Substance 3D Designer",
+      "sap_code": "SBSTD",
+      "version": "16.0.3",
+      "full_version": "16.0.3.11138",
+      "release_date": "2026-05-29",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Substance 3D Designer",
       "sap_code": "SBSTD",
@@ -80,6 +88,22 @@
       "full_version": "26.5.0.14",
       "release_date": "2026-05-26",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Lightroom Classic",
+      "sap_code": "LTRM",
+      "version": "15.3.1",
+      "full_version": "15.3.1.202605261338",
+      "release_date": "2026-05-26",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Lightroom",
+      "sap_code": "LRCC",
+      "version": "9.3.2",
+      "full_version": "9.3.2.202605261830",
+      "release_date": "2026-05-26",
+      "date_source": "api"
     },
     {
       "display_name": "Audition (Beta)",
