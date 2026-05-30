@@ -1,6 +1,14 @@
 {
-  "last_updated": "May 29, 2026 03:04 PM EDT",
+  "last_updated": "May 30, 2026 01:30 PM EDT",
   "versions": [
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.19",
+      "release_date": "2026-05-30",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Substance 3D Designer",
       "sap_code": "SBSTD",
