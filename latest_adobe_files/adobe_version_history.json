@@ -1,6 +1,22 @@
 {
-  "last_updated": "June 01, 2026 02:12 PM EDT",
+  "last_updated": "June 02, 2026 07:39 AM EDT",
   "versions": [
+    {
+      "display_name": "InDesign",
+      "sap_code": "IDSN",
+      "version": "21.4",
+      "full_version": "21.4.0.074",
+      "release_date": "2026-06-02",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "InCopy",
+      "sap_code": "AICY",
+      "version": "21.4",
+      "full_version": "21.4.0.074",
+      "release_date": "2026-06-02",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
