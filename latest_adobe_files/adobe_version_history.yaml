@@ -1,4 +1,4 @@
-last_updated: "June 09, 2026 02:56 PM EDT"
+last_updated: "June 10, 2026 05:28 AM EDT"
 versions:
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
@@ -18,6 +18,12 @@ versions:
     full_version: "26.5.0.27"
     release_date: "2026-06-09"
     date_source: "first_seen"
+  - display_name: "Acrobat"
+    sap_code: "APRO"
+    version: "26.1"
+    full_version: "26.001.21662"
+    release_date: "2026-06-09"
+    date_source: "api"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "26.5"
