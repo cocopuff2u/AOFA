@@ -1,5 +1,11 @@
-last_updated: "June 12, 2026 02:52 PM EDT"
+last_updated: "June 15, 2026 02:01 AM EDT"
 versions:
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "26.5"
+    full_version: "26.5.0.34"
+    release_date: "2026-06-15"
+    date_source: "first_seen"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "26.5"
