@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>June 17, 2026 12:23 PM EDT</last_updated>
+  <last_updated>June 17, 2026 01:59 PM EDT</last_updated>
   <versions>
     <version>
       <display_name>Premiere Pro</display_name>
@@ -11,10 +11,42 @@
       <date_source>first_seen</date_source>
     </version>
     <version>
+      <display_name>Premiere</display_name>
+      <sap_code>PPRO</sap_code>
+      <version>26.3</version>
+      <full_version>26.3.0.93</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>26.5</version>
       <full_version>26.5.0.36</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Audition (Beta)</display_name>
+      <sap_code>AUDTBETA</sap_code>
+      <version>26.5</version>
+      <full_version>26.5.0.37</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Audition</display_name>
+      <sap_code>AUDT</sap_code>
+      <version>26.3</version>
+      <full_version>26.3.0.79</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>After Effects</display_name>
+      <sap_code>AEFT</sap_code>
+      <version>26.3</version>
+      <full_version>26.3.0.87</full_version>
       <release_date>2026-06-17</release_date>
       <date_source>first_seen</date_source>
     </version>
