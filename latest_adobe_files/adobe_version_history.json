@@ -1,6 +1,14 @@
 {
-  "last_updated": "June 17, 2026 04:09 AM EDT",
+  "last_updated": "June 17, 2026 08:30 AM EDT",
   "versions": [
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.36",
+      "release_date": "2026-06-17",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Acrobat Reader",
       "sap_code": "ARDR",
