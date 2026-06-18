@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>June 17, 2026 03:06 PM EDT</last_updated>
+  <last_updated>June 17, 2026 11:22 PM EDT</last_updated>
   <versions>
     <version>
       <display_name>Premiere Pro</display_name>
@@ -11,10 +11,26 @@
       <date_source>first_seen</date_source>
     </version>
     <version>
+      <display_name>Premiere (Beta)</display_name>
+      <sap_code>PPROBETA</sap_code>
+      <version>26.5</version>
+      <full_version>26.5.0.36</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
       <display_name>Premiere</display_name>
       <sap_code>PPRO</sap_code>
       <version>26.3</version>
       <full_version>26.3.0.93</full_version>
+      <release_date>2026-06-17</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Photoshop</display_name>
+      <sap_code>PHSP</sap_code>
+      <version>27.8</version>
+      <full_version>27.8.0.13</full_version>
       <release_date>2026-06-17</release_date>
       <date_source>first_seen</date_source>
     </version>
@@ -177,6 +193,22 @@
       <full_version>26.5.0.31</full_version>
       <release_date>2026-06-11</release_date>
       <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Lightroom Classic</display_name>
+      <sap_code>LTRM</sap_code>
+      <version>15.4</version>
+      <full_version>15.4.0.202606101834</full_version>
+      <release_date>2026-06-10</release_date>
+      <date_source>api</date_source>
+    </version>
+    <version>
+      <display_name>Lightroom</display_name>
+      <sap_code>LRCC</sap_code>
+      <version>9.4</version>
+      <full_version>9.4.202606102051</full_version>
+      <release_date>2026-06-10</release_date>
+      <date_source>api</date_source>
     </version>
     <version>
       <display_name>Audition (Beta)</display_name>

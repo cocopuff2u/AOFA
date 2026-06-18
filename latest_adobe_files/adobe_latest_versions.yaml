@@ -1,4 +1,4 @@
-last_updated: June 17, 2026 09:22 PM EDT
+last_updated: June 17, 2026 11:22 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -15,6 +15,20 @@ products:
   categories:
   - acrobat-pdf
   - design
+- display_name: Acrobat Reader
+  sap_code: ARDR
+  version: '26.001'
+  full_version: 26.001.21677
+  release_date: '2026-06-17'
+  license_mode: FREE
+  min_macos_version: N/A
+  download_size: N/A
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
+  product_page: https://www.adobe.com/acrobat/pdf-reader.html
+  whats_new_url: https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html
+  system_requirements_url: https://helpx.adobe.com/reader/system-requirements.html
+  categories:
+  - pdf-document
 - display_name: Adobe Application Manager
   sap_code: AAM
   version: 6.2.10
@@ -371,13 +385,13 @@ products:
   - beta-apps
 - display_name: Lightroom
   sap_code: LRCC
-  version: 9.3.2
-  full_version: 9.3.2.202605261830
-  release_date: '2026-05-26'
+  version: '9.4'
+  full_version: 9.4.202606102051
+  release_date: '2026-06-10'
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.3.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.4/96x96.png
   product_page: https://www.adobe.com/go/lrcc_learnmore
   whats_new_url: https://www.adobe.com/go/lrcc_whatsnew
   system_requirements_url: https://helpx.adobe.com/lightroom-cc/system-requirements.html
@@ -385,13 +399,13 @@ products:
   - photography
 - display_name: Lightroom Classic
   sap_code: LTRM
-  version: 15.3.1
-  full_version: 15.3.1.202605261338
-  release_date: '2026-05-26'
+  version: '15.4'
+  full_version: 15.4.0.202606101834
+  release_date: '2026-06-10'
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.3.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.4/96x96.png
   product_page: https://www.adobe.com/products/photoshop-lightroom-classic.html
   whats_new_url: https://helpx.adobe.com/lightroom-classic/help/whats-new.html
   system_requirements_url: https://www.adobe.com/go/system_req_page_lightroom-classic_prod
@@ -453,13 +467,13 @@ products:
   categories: []
 - display_name: Photoshop
   sap_code: PHSP
-  version: '27.7'
-  full_version: 27.7.0.11
+  version: '27.8'
+  full_version: 27.8.0.13
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.7/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.8/96x96.png
   product_page: https://www.adobe.com/products/photoshop
   whats_new_url: https://helpx.adobe.com/photoshop/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/photoshop/system-requirements.html
@@ -503,7 +517,7 @@ products:
 - display_name: Premiere (Beta)
   sap_code: PPROBETA
   version: '26.5'
-  full_version: 26.5.0.35
+  full_version: 26.5.0.36
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -561,7 +575,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
