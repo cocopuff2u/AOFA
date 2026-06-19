@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 19, 2026 08:26 AM EDT",
+  "last_updated": "June 19, 2026 10:11 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -563,7 +563,7 @@
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "13.0.0",
-      "download_size": "6.93 GB",
+      "download_size": "6.92 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.8/96x96.png",
       "product_page": "https://www.adobe.com/products/photoshop",
       "whats_new_url": "https://helpx.adobe.com/photoshop/using/whats-new.html",
@@ -686,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "11.0.0",
+      "min_macos_version": "12.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
