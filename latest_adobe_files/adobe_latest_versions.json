@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 19, 2026 04:39 PM EDT",
+  "last_updated": "June 19, 2026 05:32 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -480,7 +480,7 @@
       "version": "15.4",
       "full_version": "15.4.0.202606101834",
       "release_date": "2026-06-10",
-      "license_mode": "RESIDUAL",
+      "license_mode": "N/A",
       "min_macos_version": "14.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.4/96x96.png",
@@ -617,7 +617,7 @@
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
       "version": "26.5",
-      "full_version": "26.5.0.36",
+      "full_version": "26.5.0.38",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
@@ -686,7 +686,7 @@
       "full_version": "9.1.2.3332",
       "release_date": "N/A",
       "license_mode": "PAID",
-      "min_macos_version": "12.0.0",
+      "min_macos_version": "11.0.0",
       "download_size": "N/A",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png",
       "product_page": "https://www.adobe.com/go/painter-more-info",
