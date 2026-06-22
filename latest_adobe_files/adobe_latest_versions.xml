@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>June 22, 2026 05:09 AM EDT</last_updated>
+  <last_updated>June 22, 2026 08:08 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -182,7 +182,7 @@
       <release_date>N/A</release_date>
       <license_mode>FREEMIUM</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>1.65 GB</download_size>
+      <download_size>1.52 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/character-animator.html</product_page>
       <whats_new_url>https://helpx.adobe.com/adobe-character-animator/using/whats-new.html</whats_new_url>
@@ -478,13 +478,13 @@
     <product>
       <display_name>Lightroom Classic</display_name>
       <sap_code>LTRM</sap_code>
-      <version>15.3.1</version>
-      <full_version>15.3.1.202605261338</full_version>
-      <release_date>2026-05-26</release_date>
+      <version>15.4.1</version>
+      <full_version>15.4.1.202606201310</full_version>
+      <release_date>2026-06-20</release_date>
       <license_mode>RESIDUAL</license_mode>
       <min_macos_version>14.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.3.1/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.4.1/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/photoshop-lightroom-classic.html</product_page>
       <whats_new_url>https://helpx.adobe.com/lightroom-classic/help/whats-new.html</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/system_req_page_lightroom-classic_prod</system_requirements_url>

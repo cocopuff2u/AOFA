@@ -1,4 +1,4 @@
-last_updated: June 22, 2026 05:09 AM EDT
+last_updated: June 22, 2026 08:08 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.65 GB
+  download_size: 1.52 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -399,13 +399,13 @@ products:
   - photography
 - display_name: Lightroom Classic
   sap_code: LTRM
-  version: 15.3.1
-  full_version: 15.3.1.202605261338
-  release_date: '2026-05-26'
+  version: 15.4.1
+  full_version: 15.4.1.202606201310
+  release_date: '2026-06-20'
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.3.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.4.1/96x96.png
   product_page: https://www.adobe.com/products/photoshop-lightroom-classic.html
   whats_new_url: https://helpx.adobe.com/lightroom-classic/help/whats-new.html
   system_requirements_url: https://www.adobe.com/go/system_req_page_lightroom-classic_prod
