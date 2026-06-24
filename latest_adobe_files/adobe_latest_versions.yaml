@@ -1,4 +1,4 @@
-last_updated: June 24, 2026 05:37 PM EDT
+last_updated: June 24, 2026 06:35 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -15,20 +15,6 @@ products:
   categories:
   - acrobat-pdf
   - design
-- display_name: Acrobat Reader
-  sap_code: ARDR
-  version: '26.001'
-  full_version: 26.001.21677
-  release_date: '2026-06-17'
-  license_mode: FREE
-  min_macos_version: N/A
-  download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
-  product_page: https://www.adobe.com/acrobat/pdf-reader.html
-  whats_new_url: https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html
-  system_requirements_url: https://helpx.adobe.com/reader/system-requirements.html
-  categories:
-  - pdf-document
 - display_name: Adobe Application Manager
   sap_code: AAM
   version: 6.2.10
@@ -59,7 +45,7 @@ products:
 - display_name: After Effects (Beta)
   sap_code: AEFTBETA
   version: '26.5'
-  full_version: 26.5.0.40
+  full_version: 26.5.0.43
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
