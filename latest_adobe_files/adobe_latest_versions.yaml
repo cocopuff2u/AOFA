@@ -1,4 +1,4 @@
-last_updated: June 25, 2026 09:01 AM EDT
+last_updated: June 25, 2026 09:50 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -15,20 +15,6 @@ products:
   categories:
   - acrobat-pdf
   - design
-- display_name: Acrobat Reader
-  sap_code: ARDR
-  version: '26.001'
-  full_version: 26.001.21677
-  release_date: '2026-06-17'
-  license_mode: FREE
-  min_macos_version: N/A
-  download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
-  product_page: https://www.adobe.com/acrobat/pdf-reader.html
-  whats_new_url: https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html
-  system_requirements_url: https://helpx.adobe.com/reader/system-requirements.html
-  categories:
-  - pdf-document
 - display_name: Adobe Application Manager
   sap_code: AAM
   version: 6.2.10
@@ -150,7 +136,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.65 GB
+  download_size: 1.52 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -313,13 +299,13 @@ products:
   categories: []
 - display_name: Illustrator
   sap_code: ILST
-  version: 30.5.1
-  full_version: 30.5.1.3
+  version: '30.6'
+  full_version: 30.6.0.109
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.5.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.6/96x96.png
   product_page: https://creative.adobe.com/products/illustrator
   whats_new_url: https://helpx.adobe.com/illustrator/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/illustrator/system-requirements.html
@@ -428,7 +414,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '26.5'
-  full_version: 26.5.0.44
+  full_version: 26.5.0.45
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -585,13 +571,13 @@ products:
   - ar
 - display_name: Substance 3D Sampler
   sap_code: SBSTA
-  version: 6.0.1
-  full_version: 6.0.1.9906
+  version: 6.0.2
+  full_version: 6.0.2.10247
   release_date: N/A
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.2/96x96.png
   product_page: https://www.adobe.com/go/sampler-more-info
   whats_new_url: https://www.adobe.com/go/sampler-release-notes
   system_requirements_url: https://www.adobe.com/go/Substance-3D-system-requirements-Sampler
