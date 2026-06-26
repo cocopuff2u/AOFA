@@ -1,4 +1,4 @@
-last_updated: June 26, 2026 05:19 AM EDT
+last_updated: June 26, 2026 07:09 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -18,8 +18,8 @@ products:
 - display_name: Acrobat Reader
   sap_code: ARDR
   version: '26.001'
-  full_version: 26.001.21677
-  release_date: '2026-06-17'
+  full_version: 26.001.21691
+  release_date: '2026-06-25'
   license_mode: FREE
   min_macos_version: N/A
   download_size: N/A
@@ -59,7 +59,7 @@ products:
 - display_name: After Effects (Beta)
   sap_code: AEFTBETA
   version: '26.5'
-  full_version: 26.5.0.44
+  full_version: 26.5.0.43
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -101,7 +101,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '26.5'
-  full_version: 26.5.0.46
+  full_version: 26.5.0.45
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -517,7 +517,7 @@ products:
 - display_name: Premiere (Beta)
   sap_code: PPROBETA
   version: '26.5'
-  full_version: 26.5.0.45
+  full_version: 26.5.0.44
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0

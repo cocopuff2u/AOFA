@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>June 25, 2026 04:48 PM EDT</last_updated>
+  <last_updated>June 26, 2026 07:09 AM EDT</last_updated>
   <versions>
     <version>
       <display_name>Substance 3D Sampler</display_name>
@@ -49,6 +49,14 @@
       <full_version>26.5.0.44</full_version>
       <release_date>2026-06-25</release_date>
       <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Acrobat Reader</display_name>
+      <sap_code>ARDR</sap_code>
+      <version>26.001</version>
+      <full_version>26.001.21691</full_version>
+      <release_date>2026-06-25</release_date>
+      <date_source>api</date_source>
     </version>
     <version>
       <display_name>Premiere (Beta)</display_name>
