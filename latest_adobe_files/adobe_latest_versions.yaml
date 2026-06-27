@@ -1,4 +1,4 @@
-last_updated: June 27, 2026 07:37 AM EDT
+last_updated: June 27, 2026 08:41 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -428,7 +428,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '26.5'
-  full_version: 26.5.0.45
+  full_version: 26.5.0.47
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
