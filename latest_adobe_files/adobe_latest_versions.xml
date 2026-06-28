@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>June 28, 2026 11:34 AM EDT</last_updated>
+  <last_updated>June 28, 2026 12:34 PM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -24,8 +24,8 @@
       <display_name>Acrobat Reader</display_name>
       <sap_code>ARDR</sap_code>
       <version>26.001</version>
-      <full_version>26.001.21677</full_version>
-      <release_date>2026-06-17</release_date>
+      <full_version>26.001.21691</full_version>
+      <release_date>2026-06-25</release_date>
       <license_mode>FREE</license_mode>
       <min_macos_version>N/A</min_macos_version>
       <download_size>N/A</download_size>
@@ -182,7 +182,7 @@
       <release_date>N/A</release_date>
       <license_mode>FREEMIUM</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>1.52 GB</download_size>
+      <download_size>1.65 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/character-animator.html</product_page>
       <whats_new_url>https://helpx.adobe.com/adobe-character-animator/using/whats-new.html</whats_new_url>
@@ -618,7 +618,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>26.5</version>
-      <full_version>26.5.0.47</full_version>
+      <full_version>26.5.0.48</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>

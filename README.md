@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">June 28, 2026 11:34 AM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">June 28, 2026 12:34 PM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -22,7 +22,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | **Product** | **Version Information** | **Links** |
 |-------------|------------------------|-----------|
 | <img src=".github/icons/APRO_26_1.png" alt="Acrobat" width="80"><br>**Acrobat**<br><br>**SAP Code:**<br>`APRO` | **Version:**<br>`26.001.21662`<br><br>**Release Date:**<br>`2026-06-09`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://creative.adobe.com/products/acrobat) |
-| <img src=".github/icons/ARDR_26_001.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.001.21677`<br><br>**Release Date:**<br>`2026-06-17`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html) |
+| <img src=".github/icons/ARDR_26_001.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.001.21691`<br><br>**Release Date:**<br>`2026-06-25`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html) |
 | <img src=".github/icons/AAM_6_2_10.png" alt="Adobe Application Manager" width="80"><br>**Adobe Application Manager**<br><br>**SAP Code:**<br>`AAM` | **Version:**<br>`6.2.10`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
 | <img src=".github/icons/AEFT_26_3.png" alt="After Effects" width="80"><br>**After Effects**<br><br>**SAP Code:**<br>`AEFT` | **Version:**<br>`26.3.0.87`<br><br>**Release Date:**<br>`2026-06-17`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/after-effects/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/after-effects/system-requirements.html) |
 | <img src=".github/icons/FLPR_24_0_9.png" alt="Animate" width="80"><br>**Animate**<br><br>**SAP Code:**<br>`FLPR` | **Version:**<br>`24.0.9.73`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/animate/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/animate/system-requirements.html) |
@@ -77,7 +77,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/IDSNBETA_21_4.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`21.4.0.044`<br><br>**Release Date:**<br>`2026-04-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AMEBETA_26_5.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`26.5.0.48`<br><br>**Release Date:**<br>`2026-06-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/PPROBETA_26_5.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`26.5.0.47`<br><br>**Release Date:**<br>`2026-06-27`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/PPROBETA_26_5.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`26.5.0.48`<br><br>**Release Date:**<br>`2026-06-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 
 </div>
