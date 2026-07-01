@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 01, 2026 07:14 AM EDT",
+  "last_updated": "July 01, 2026 09:10 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -139,13 +139,13 @@
     {
       "display_name": "Bridge",
       "sap_code": "KBRG",
-      "version": "16.0.4",
-      "full_version": "16.0.4.40",
+      "version": "16.0.3",
+      "full_version": "16.0.3.21",
       "release_date": "N/A",
       "license_mode": "FREE",
       "min_macos_version": "13.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.4/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.3/96x96.png",
       "product_page": "https://www.adobe.com/products/bridge.html",
       "whats_new_url": "https://helpx.adobe.com/bridge/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/bridge/system-requirements.html",
