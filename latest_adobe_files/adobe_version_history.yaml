@@ -1,4 +1,4 @@
-last_updated: "July 01, 2026 11:08 AM EDT"
+last_updated: "July 01, 2026 01:42 PM EDT"
 versions:
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
@@ -10,6 +10,12 @@ versions:
     sap_code: "KBRG"
     version: "16.0.4"
     full_version: "16.0.4.40"
+    release_date: "2026-07-01"
+    date_source: "first_seen"
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "26.5"
+    full_version: "26.5.0.52"
     release_date: "2026-07-01"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
