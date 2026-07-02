@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 02, 2026 03:38 AM EDT",
+  "last_updated": "July 02, 2026 06:49 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -665,13 +665,13 @@
     {
       "display_name": "Substance 3D Designer",
       "sap_code": "SBSTD",
-      "version": "16.0.3",
-      "full_version": "16.0.3.11138",
+      "version": "16.0.4",
+      "full_version": "16.0.4.11309",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.3/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.4/96x96.png",
       "product_page": "https://www.adobe.com/go/designer-more-info",
       "whats_new_url": "https://www.adobe.com/go/Substance-3D-release-notes-Designer",
       "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Designer",
