@@ -1,4 +1,4 @@
-last_updated: "July 02, 2026 11:28 AM EDT"
+last_updated: "July 02, 2026 01:59 PM EDT"
 versions:
   - display_name: "Substance 3D Designer"
     sap_code: "SBSTD"
@@ -16,6 +16,12 @@ versions:
     sap_code: "AMEBETA"
     version: "26.5"
     full_version: "26.5.0.52"
+    release_date: "2026-07-02"
+    date_source: "first_seen"
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "26.5"
+    full_version: "26.5.0.53"
     release_date: "2026-07-02"
     date_source: "first_seen"
   - display_name: "Media Encoder (Beta)"
