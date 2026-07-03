@@ -1,4 +1,4 @@
-last_updated: "July 03, 2026 11:22 AM EDT"
+last_updated: "July 03, 2026 03:42 PM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AMEBETA"
     version: "26.5"
     full_version: "26.5.0.53"
+    release_date: "2026-07-03"
+    date_source: "first_seen"
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "26.5"
+    full_version: "26.5.0.54"
     release_date: "2026-07-03"
     date_source: "first_seen"
   - display_name: "Substance 3D Designer"
