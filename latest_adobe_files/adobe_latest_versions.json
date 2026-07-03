@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 03, 2026 06:46 AM EDT",
+  "last_updated": "July 03, 2026 09:02 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -512,7 +512,7 @@
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
       "version": "26.5",
-      "full_version": "26.5.0.52",
+      "full_version": "26.5.0.53",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
