@@ -1,4 +1,4 @@
-last_updated: July 09, 2026 12:11 AM EDT
+last_updated: July 09, 2026 08:18 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -101,7 +101,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '26.5'
-  full_version: 26.5.0.58
+  full_version: 26.5.0.59
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -114,13 +114,13 @@ products:
   - beta-apps
 - display_name: Bridge
   sap_code: KBRG
-  version: 16.0.4
-  full_version: 16.0.4.40
+  version: 16.0.5
+  full_version: 16.0.5.19
   release_date: N/A
   license_mode: FREE
   min_macos_version: '13.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.4/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.5/96x96.png
   product_page: https://www.adobe.com/products/bridge.html
   whats_new_url: https://helpx.adobe.com/bridge/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/bridge/system-requirements.html
@@ -428,7 +428,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '26.5'
-  full_version: 26.5.0.56
+  full_version: 26.5.0.58
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
@@ -575,7 +575,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 12.0.0
+  min_macos_version: 11.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
