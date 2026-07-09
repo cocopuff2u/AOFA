@@ -1,6 +1,14 @@
 {
-  "last_updated": "July 09, 2026 12:07 PM EDT",
+  "last_updated": "July 09, 2026 02:56 PM EDT",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.59",
+      "release_date": "2026-07-09",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
@@ -30,6 +38,22 @@
       "sap_code": "AUDTBETA",
       "version": "26.5",
       "full_version": "26.5.0.59",
+      "release_date": "2026-07-09",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.60",
+      "release_date": "2026-07-09",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.58",
       "release_date": "2026-07-09",
       "date_source": "first_seen"
     },
