@@ -1,4 +1,4 @@
-last_updated: "July 13, 2026 03:43 PM EDT"
+last_updated: "July 14, 2026 07:39 AM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -357,6 +357,12 @@ versions:
   - display_name: "Acrobat Reader"
     sap_code: "ARDR"
     version: "26.001"
+    full_version: "26.001.21691"
+    release_date: "2026-06-25"
+    date_source: "api"
+  - display_name: "Acrobat"
+    sap_code: "APRO"
+    version: "26.1"
     full_version: "26.001.21691"
     release_date: "2026-06-25"
     date_source: "api"
