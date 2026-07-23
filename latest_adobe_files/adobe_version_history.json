@@ -1,6 +1,14 @@
 {
-  "last_updated": "July 23, 2026 06:32 AM EDT",
+  "last_updated": "July 23, 2026 08:44 AM EDT",
   "versions": [
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "26.5",
+      "full_version": "26.5.0.73",
+      "release_date": "2026-07-23",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Bridge",
       "sap_code": "KBRG",
@@ -696,6 +704,14 @@
       "full_version": "26.5.0.47",
       "release_date": "2026-06-26",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "26.001",
+      "full_version": "26.001.21745",
+      "release_date": "2026-06-26",
+      "date_source": "jamf"
     },
     {
       "display_name": "Substance 3D Sampler",
