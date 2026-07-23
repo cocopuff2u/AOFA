@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 23, 2026 03:41 AM EDT",
+  "last_updated": "July 23, 2026 06:32 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -139,13 +139,13 @@
     {
       "display_name": "Bridge",
       "sap_code": "KBRG",
-      "version": "16.0.5",
-      "full_version": "16.0.5.19",
+      "version": "16.0.6",
+      "full_version": "16.0.6.9",
       "release_date": "N/A",
       "license_mode": "FREE",
       "min_macos_version": "13.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.5/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.6/96x96.png",
       "product_page": "https://www.adobe.com/products/bridge.html",
       "whats_new_url": "https://helpx.adobe.com/bridge/using/whats-new.html",
       "system_requirements_url": "https://helpx.adobe.com/bridge/system-requirements.html",
@@ -181,7 +181,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.52 GB",
+      "download_size": "1.65 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/character-animator.html",
       "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",
