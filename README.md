@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">July 24, 2026 10:04 AM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">July 24, 2026 12:50 PM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -31,7 +31,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/CHAR_26_0.png" alt="Character Animator" width="80"><br>**Character Animator**<br><br>**SAP Code:**<br>`CHAR` | **Version:**<br>`26.0.0.50`<br><br>**Release Date:**<br>`2026-01-20`<br><br>**Release Date Source:**<br>`Manual Research` | [Release Notes](https://helpx.adobe.com/adobe-character-animator/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/adobe-character-animator/system-requirements.html) |
 | <img src=".github/icons/KCCC_6_9_1.png" alt="Creative Cloud" width="80"><br>**Creative Cloud**<br><br>**SAP Code:**<br>`KCCC` | **Version:**<br>`6.9.1`<br><br>**Release Date:**<br>`2026-03-30`<br><br>**Release Date Source:**<br>`Jamf Patch` | N/A |
 | <img src=".github/icons/ESHR_4_1_8.png" alt="Dimension" width="80"><br>**Dimension**<br><br>**SAP Code:**<br>`ESHR` | **Version:**<br>`4.1.8.4754`<br><br>**Release Date:**<br>`2026-03-05`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/dn-release-notes)<br>[System Requirements](https://www.adobe.com/go/dn-requirements) |
-| <img src=".github/icons/DRWV_21_8.png" alt="Dreamweaver" width="80"><br>**Dreamweaver**<br><br>**SAP Code:**<br>`DRWV` | **Version:**<br>`21.8.0.15898`<br><br>**Release Date:**<br>`2026-04-30`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/dw_whatsnew)<br>[System Requirements](https://www.adobe.com/go/system_req_page_dreamweaver_prod) |
+| <img src=".github/icons/DRWV_21_8_1.png" alt="Dreamweaver" width="80"><br>**Dreamweaver**<br><br>**SAP Code:**<br>`DRWV` | **Version:**<br>`21.8.1.15907`<br><br>**Release Date:**<br>`2026-07-24`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/dw_whatsnew)<br>[System Requirements](https://www.adobe.com/go/system_req_page_dreamweaver_prod) |
 | <img src=".github/icons/KETK_4_0.png" alt="Extendscript Toolkit CC" width="80"><br>**Extendscript Toolkit CC**<br><br>**SAP Code:**<br>`KETK` | **Version:**<br>`4.0`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
 | <img src=".github/icons/KEMN_7_0.png" alt="Extension Manager CC" width="80"><br>**Extension Manager CC**<br><br>**SAP Code:**<br>`KEMN` | **Version:**<br>`7.0`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
 | <img src=".github/icons/FWKS_12_0_0.png" alt="Fireworks CS6" width="80"><br>**Fireworks CS6**<br><br>**SAP Code:**<br>`FWKS` | **Version:**<br>`12.0.0`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
@@ -77,7 +77,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/IDSNBETA_21_4.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`21.4.0.044`<br><br>**Release Date:**<br>`2026-04-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AMEBETA_26_5.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`26.5.0.74`<br><br>**Release Date:**<br>`2026-07-24`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/PPROBETA_26_5.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`26.5.0.73`<br><br>**Release Date:**<br>`2026-07-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/PPROBETA_26_5.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`26.5.0.74`<br><br>**Release Date:**<br>`2026-07-24`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 
 </div>
