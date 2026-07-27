@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>July 27, 2026 07:34 AM EDT</last_updated>
+  <last_updated>July 27, 2026 11:06 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -513,7 +513,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>26.5</version>
-      <full_version>26.5.0.76</full_version>
+      <full_version>26.5.0.77</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
@@ -618,7 +618,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>26.5</version>
-      <full_version>26.5.0.75</full_version>
+      <full_version>26.5.0.77</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
@@ -687,7 +687,7 @@
       <full_version>9.1.2.3332</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
-      <min_macos_version>12.0.0</min_macos_version>
+      <min_macos_version>11.0.0</min_macos_version>
       <download_size>N/A</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/painter-more-info</product_page>
