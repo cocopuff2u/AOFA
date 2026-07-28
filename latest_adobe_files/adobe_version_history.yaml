@@ -1,5 +1,11 @@
-last_updated: "July 27, 2026 03:47 PM EDT"
+last_updated: "July 28, 2026 03:45 PM EDT"
 versions:
+  - display_name: "After Effects (Beta)"
+    sap_code: "AEFTBETA"
+    version: "26.5"
+    full_version: "26.5.0.77"
+    release_date: "2026-07-28"
+    date_source: "first_seen"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "26.5"
