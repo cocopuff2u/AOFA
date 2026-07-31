@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 29, 2026 03:37 PM EDT",
+  "last_updated": "July 31, 2026 12:50 PM EDT",
   "versions": [
     {
       "display_name": "After Effects (Beta)",
@@ -160,6 +160,14 @@
       "full_version": "26.5.0.72",
       "release_date": "2026-07-23",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "26.001",
+      "full_version": "26.001.21771",
+      "release_date": "2026-07-23",
+      "date_source": "jamf"
     },
     {
       "display_name": "Acrobat",
