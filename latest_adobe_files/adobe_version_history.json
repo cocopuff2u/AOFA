@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 31, 2026 12:50 PM EDT",
+  "last_updated": "August 03, 2026 08:33 AM EDT",
   "versions": [
+    {
+      "display_name": "Illustrator",
+      "sap_code": "ILST",
+      "version": "30.7",
+      "full_version": "30.7.0.114",
+      "release_date": "2026-08-03",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat",
+      "sap_code": "APRO",
+      "version": "26.1",
+      "full_version": "26.001.21771",
+      "release_date": "2026-08-01",
+      "date_source": "api"
+    },
     {
       "display_name": "After Effects (Beta)",
       "sap_code": "AEFTBETA",
