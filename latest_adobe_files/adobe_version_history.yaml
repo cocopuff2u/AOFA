@@ -1,4 +1,4 @@
-last_updated: "August 04, 2026 03:49 PM EDT"
+last_updated: "August 06, 2026 05:45 AM EDT"
 versions:
   - display_name: "Premiere"
     sap_code: "PPRO"
@@ -6,6 +6,12 @@ versions:
     full_version: "26.3.2.2"
     release_date: "2026-08-04"
     date_source: "first_seen"
+  - display_name: "Photoshop"
+    sap_code: "PHSP"
+    version: "27.9.1"
+    full_version: "27.9.1.1"
+    release_date: "2026-08-04"
+    date_source: "jamf"
   - display_name: "Media Encoder"
     sap_code: "AME"
     version: "26.3.2"
