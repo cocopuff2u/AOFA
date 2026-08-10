@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 10, 2026 06:25 AM EDT",
+  "last_updated": "August 10, 2026 07:54 AM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -12,6 +12,14 @@
     {
       "display_name": "InDesign",
       "sap_code": "IDSN",
+      "version": "21.5.1",
+      "full_version": "21.5.1.073",
+      "release_date": "2026-08-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "InCopy",
+      "sap_code": "AICY",
       "version": "21.5.1",
       "full_version": "21.5.1.073",
       "release_date": "2026-08-10",
