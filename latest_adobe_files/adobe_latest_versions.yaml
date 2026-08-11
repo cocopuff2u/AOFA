@@ -1,4 +1,4 @@
-last_updated: August 11, 2026 03:21 AM EDT
+last_updated: August 11, 2026 05:09 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -18,8 +18,8 @@ products:
 - display_name: Acrobat Reader
   sap_code: ARDR
   version: '26.001'
-  full_version: 26.001.21771
-  release_date: '2026-08-01'
+  full_version: 26.001.21789
+  release_date: N/A
   license_mode: FREE
   min_macos_version: N/A
   download_size: N/A
@@ -428,7 +428,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '27.0'
-  full_version: 27.0.0.7
+  full_version: 27.0.0.14
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
