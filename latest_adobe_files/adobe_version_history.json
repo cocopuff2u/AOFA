@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 11, 2026 03:14 PM EDT",
+  "last_updated": "August 11, 2026 04:56 PM EDT",
   "versions": [
     {
       "display_name": "Media Encoder (Beta)",
@@ -14,6 +14,14 @@
       "sap_code": "AUDTBETA",
       "version": "27.0",
       "full_version": "27.0.0.15",
+      "release_date": "2026-08-11",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "27.0",
+      "full_version": "27.0.0.13",
       "release_date": "2026-08-11",
       "date_source": "first_seen"
     },
