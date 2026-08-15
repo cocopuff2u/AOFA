@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">August 15, 2026 11:30 AM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">August 15, 2026 12:35 PM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -71,7 +71,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | **Product** | **Version Information** |
 |-------------|------------------------|
 | <img src=".github/icons/AEFTBETA_27_0.png" alt="After Effects (Beta)" width="80"><br>**After Effects (Beta)**<br><br>**SAP Code:**<br>`AEFTBETA` | **Version:**<br>`27.0.0.16`<br><br>**Release Date:**<br>`2026-08-14`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/AUDTBETA_27_0.png" alt="Audition (Beta)" width="80"><br>**Audition (Beta)**<br><br>**SAP Code:**<br>`AUDTBETA` | **Version:**<br>`27.0.0.18`<br><br>**Release Date:**<br>`2026-08-14`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/AUDTBETA_27_0.png" alt="Audition (Beta)" width="80"><br>**Audition (Beta)**<br><br>**SAP Code:**<br>`AUDTBETA` | **Version:**<br>`27.0.0.19`<br><br>**Release Date:**<br>`2026-08-15`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/KBRGBETA_16_0_1.png" alt="Bridge (Beta)" width="80"><br>**Bridge (Beta)**<br><br>**SAP Code:**<br>`KBRGBETA` | **Version:**<br>`16.0.1.15`<br><br>**Release Date:**<br>`2025-12-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 | <img src=".github/icons/CHARBETA_25_6.png" alt="Character Animator (Beta)" width="80"><br>**Character Animator (Beta)**<br><br>**SAP Code:**<br>`CHARBETA` | **Version:**<br>`25.6.0.092`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/IDSNBETA_21_4.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`21.4.0.044`<br><br>**Release Date:**<br>`2026-04-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
