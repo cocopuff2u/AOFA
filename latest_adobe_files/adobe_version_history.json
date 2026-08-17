@@ -1,6 +1,14 @@
 {
-  "last_updated": "August 16, 2026 01:27 PM EDT",
+  "last_updated": "August 17, 2026 04:54 AM EDT",
   "versions": [
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "27.0",
+      "full_version": "27.0.0.20",
+      "release_date": "2026-08-17",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
