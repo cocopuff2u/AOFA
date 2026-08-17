@@ -1,4 +1,4 @@
-last_updated: "August 17, 2026 06:40 AM EDT"
+last_updated: "August 17, 2026 02:51 PM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -10,6 +10,12 @@ versions:
     sap_code: "AMEBETA"
     version: "27.0"
     full_version: "27.0.0.20"
+    release_date: "2026-08-17"
+    date_source: "first_seen"
+  - display_name: "Audition (Beta)"
+    sap_code: "AUDTBETA"
+    version: "27.0"
+    full_version: "27.0.0.21"
     release_date: "2026-08-17"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
