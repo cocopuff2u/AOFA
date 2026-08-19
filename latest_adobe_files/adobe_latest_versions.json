@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 19, 2026 12:40 PM EDT",
+  "last_updated": "August 19, 2026 01:34 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -123,7 +123,7 @@
       "display_name": "Audition (Beta)",
       "sap_code": "AUDTBETA",
       "version": "27.0",
-      "full_version": "27.0.0.22",
+      "full_version": "27.0.0.23",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
