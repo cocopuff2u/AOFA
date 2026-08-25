@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 25, 2026 01:39 PM EDT",
+  "last_updated": "August 25, 2026 02:51 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -460,13 +460,13 @@
     {
       "display_name": "Lightroom",
       "sap_code": "LRCC",
-      "version": "9.5",
-      "full_version": "9.5.202607280500",
-      "release_date": "2026-07-28",
+      "version": "9.5.1",
+      "full_version": "9.5.1.202608151945",
+      "release_date": "2026-08-15",
       "license_mode": "RESIDUAL",
       "min_macos_version": "14.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.5/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.5.1/96x96.png",
       "product_page": "https://www.adobe.com/go/lrcc_learnmore",
       "whats_new_url": "https://www.adobe.com/go/lrcc_whatsnew",
       "system_requirements_url": "https://helpx.adobe.com/lightroom-cc/system-requirements.html",
@@ -477,13 +477,13 @@
     {
       "display_name": "Lightroom Classic",
       "sap_code": "LTRM",
-      "version": "15.5",
-      "full_version": "15.5.0.202607291506",
-      "release_date": "2026-07-29",
+      "version": "15.5.1",
+      "full_version": "15.5.1.202608131348",
+      "release_date": "2026-08-13",
       "license_mode": "RESIDUAL",
       "min_macos_version": "14.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.5/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.5.1/96x96.png",
       "product_page": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
       "whats_new_url": "https://helpx.adobe.com/lightroom-classic/help/whats-new.html",
       "system_requirements_url": "https://www.adobe.com/go/system_req_page_lightroom-classic_prod",
