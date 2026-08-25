@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 25, 2026 05:45 AM EDT",
+  "last_updated": "August 25, 2026 06:42 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -617,7 +617,7 @@
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
       "version": "27.0",
-      "full_version": "27.0.0.27",
+      "full_version": "27.0.0.28",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
