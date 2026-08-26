@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 26, 2026 09:09 AM EDT",
+  "last_updated": "August 26, 2026 10:54 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -682,13 +682,13 @@
     {
       "display_name": "Substance 3D Designer",
       "sap_code": "SBSTD",
-      "version": "16.0.4",
-      "full_version": "16.0.4.11309",
+      "version": "16.0.5",
+      "full_version": "16.0.5.11585",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "14.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.4/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.5/96x96.png",
       "product_page": "https://www.adobe.com/go/designer-more-info",
       "whats_new_url": "https://www.adobe.com/go/Substance-3D-release-notes-Designer",
       "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Designer",
@@ -716,13 +716,13 @@
     {
       "display_name": "Substance 3D Sampler",
       "sap_code": "SBSTA",
-      "version": "6.0.2",
-      "full_version": "6.0.2.10247",
+      "version": "6.0.3",
+      "full_version": "6.0.3.10557",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "12.0.0",
       "download_size": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.2/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.3/96x96.png",
       "product_page": "https://www.adobe.com/go/sampler-more-info",
       "whats_new_url": "https://www.adobe.com/go/sampler-release-notes",
       "system_requirements_url": "https://www.adobe.com/go/Substance-3D-system-requirements-Sampler",
