@@ -1,5 +1,11 @@
-last_updated: "August 26, 2026 10:54 AM EDT"
+last_updated: "August 27, 2026 05:27 AM EDT"
 versions:
+  - display_name: "Media Encoder (Beta)"
+    sap_code: "AMEBETA"
+    version: "27.0"
+    full_version: "27.0.0.30"
+    release_date: "2026-08-27"
+    date_source: "first_seen"
   - display_name: "Substance 3D Sampler"
     sap_code: "SBSTA"
     version: "6.0.3"
