@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>August 28, 2026 01:17 AM EDT</last_updated>
+  <last_updated>August 28, 2026 02:33 PM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -23,9 +23,9 @@
     <product>
       <display_name>Acrobat Reader</display_name>
       <sap_code>ARDR</sap_code>
-      <version>26.001</version>
-      <full_version>26.001.21789</full_version>
-      <release_date>2026-08-11</release_date>
+      <version>26.002</version>
+      <full_version>26.002.21869</full_version>
+      <release_date>N/A</release_date>
       <license_mode>FREE</license_mode>
       <min_macos_version>N/A</min_macos_version>
       <download_size>N/A</download_size>
@@ -513,7 +513,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.0</version>
-      <full_version>27.0.0.30</full_version>
+      <full_version>27.0.0.31</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -618,7 +618,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>27.0</version>
-      <full_version>27.0.0.30</full_version>
+      <full_version>27.0.0.31</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
