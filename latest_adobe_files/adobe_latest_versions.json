@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 30, 2026 07:24 PM EDT",
+  "last_updated": "August 31, 2026 01:21 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -22,9 +22,9 @@
     {
       "display_name": "Acrobat Reader",
       "sap_code": "ARDR",
-      "version": "26.002",
-      "full_version": "26.002.21869",
-      "release_date": "N/A",
+      "version": "26.001",
+      "full_version": "26.001.21789",
+      "release_date": "2026-08-11",
       "license_mode": "FREE",
       "min_macos_version": "N/A",
       "download_size": "N/A",

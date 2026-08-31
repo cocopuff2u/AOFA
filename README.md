@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">August 30, 2026 07:24 PM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">August 31, 2026 01:21 AM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -22,7 +22,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | **Product** | **Version Information** | **Links** |
 |-------------|------------------------|-----------|
 | <img src=".github/icons/APRO_26_1.png" alt="Acrobat" width="80"><br>**Acrobat**<br><br>**SAP Code:**<br>`APRO` | **Version:**<br>`26.001.21771`<br><br>**Release Date:**<br>`2026-08-01`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://creative.adobe.com/products/acrobat) |
-| <img src=".github/icons/ARDR_26_002.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.002.21869`<br><br>**Release Date:**<br>`2026-08-28`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html) |
+| <img src=".github/icons/ARDR_26_001.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.001.21789`<br><br>**Release Date:**<br>`2026-07-31`<br><br>**Release Date Source:**<br>`Jamf Patch` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html) |
 | <img src=".github/icons/AAM_6_2_10.png" alt="Adobe Application Manager" width="80"><br>**Adobe Application Manager**<br><br>**SAP Code:**<br>`AAM` | **Version:**<br>`6.2.10`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
 | <img src=".github/icons/AEFT_26_3.png" alt="After Effects" width="80"><br>**After Effects**<br><br>**SAP Code:**<br>`AEFT` | **Version:**<br>`26.3.0.87`<br><br>**Release Date:**<br>`2026-06-17`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/after-effects/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/after-effects/system-requirements.html) |
 | <img src=".github/icons/FLPR_24_0_9.png" alt="Animate" width="80"><br>**Animate**<br><br>**SAP Code:**<br>`FLPR` | **Version:**<br>`24.0.9.73`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/animate/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/animate/system-requirements.html) |
