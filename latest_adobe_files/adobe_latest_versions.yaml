@@ -1,4 +1,4 @@
-last_updated: August 31, 2026 01:21 AM EDT
+last_updated: August 31, 2026 09:32 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -17,9 +17,9 @@ products:
   - design
 - display_name: Acrobat Reader
   sap_code: ARDR
-  version: '26.001'
-  full_version: 26.001.21789
-  release_date: '2026-08-11'
+  version: '26.002'
+  full_version: 26.002.21869
+  release_date: '2026-08-31'
   license_mode: FREE
   min_macos_version: N/A
   download_size: N/A
@@ -313,13 +313,13 @@ products:
   categories: []
 - display_name: Illustrator
   sap_code: ILST
-  version: '30.7'
-  full_version: 30.7.0.114
+  version: 30.8.1
+  full_version: 30.8.1.1
   release_date: N/A
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.7/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.8.1/96x96.png
   product_page: https://creative.adobe.com/products/illustrator
   whats_new_url: https://helpx.adobe.com/illustrator/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/illustrator/system-requirements.html
@@ -428,7 +428,7 @@ products:
 - display_name: Media Encoder (Beta)
   sap_code: AMEBETA
   version: '27.0'
-  full_version: 27.0.0.33
+  full_version: 27.0.0.34
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
@@ -589,7 +589,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
