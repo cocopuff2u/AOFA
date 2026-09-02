@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">September 02, 2026 05:28 AM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">September 02, 2026 10:21 AM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -77,7 +77,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/IDSNBETA_21_6.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`21.6.0.023`<br><br>**Release Date:**<br>`2026-08-20`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AMEBETA_27_0.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`27.0.0.36`<br><br>**Release Date:**<br>`2026-09-02`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/PPROBETA_27_0.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.0.0.33`<br><br>**Release Date:**<br>`2026-08-30`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/PPROBETA_27_0.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.0.0.36`<br><br>**Release Date:**<br>`2026-09-02`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PPROBETA_15_1.png" alt="Premiere Pro (Beta)" width="80"><br>**Premiere Pro (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`15.1.0.18`<br><br>**Release Date:**<br>`2026-08-06`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 
