@@ -1,5 +1,5 @@
 {
-  "last_updated": "September 03, 2026 12:19 PM EDT",
+  "last_updated": "September 03, 2026 03:43 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -72,7 +72,7 @@
       "display_name": "After Effects (Beta)",
       "sap_code": "AEFTBETA",
       "version": "27.0",
-      "full_version": "27.0.0.35",
+      "full_version": "27.0.0.36",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
@@ -181,7 +181,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.65 GB",
+      "download_size": "1.52 GB",
       "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png",
       "product_page": "https://www.adobe.com/products/character-animator.html",
       "whats_new_url": "https://helpx.adobe.com/adobe-character-animator/using/whats-new.html",

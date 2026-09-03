@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>September 03, 2026 07:05 AM EDT</last_updated>
+  <last_updated>September 03, 2026 03:43 PM EDT</last_updated>
   <versions>
     <version>
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.0</version>
       <full_version>27.0.0.37</full_version>
+      <release_date>2026-09-03</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>After Effects (Beta)</display_name>
+      <sap_code>AEFTBETA</sap_code>
+      <version>27.0</version>
+      <full_version>27.0.0.36</full_version>
       <release_date>2026-09-03</release_date>
       <date_source>first_seen</date_source>
     </version>
