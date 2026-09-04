@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>September 04, 2026 01:45 AM EDT</last_updated>
+  <last_updated>September 04, 2026 07:07 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -513,7 +513,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.0</version>
-      <full_version>27.0.0.37</full_version>
+      <full_version>27.0.0.38</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -683,13 +683,13 @@
     <product>
       <display_name>Substance 3D Designer</display_name>
       <sap_code>SBSTD</sap_code>
-      <version>16.0.5</version>
-      <full_version>16.0.5.11585</full_version>
+      <version>16.0.6</version>
+      <full_version>16.0.6.11611</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.5/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.6/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/designer-more-info</product_page>
       <whats_new_url>https://www.adobe.com/go/Substance-3D-release-notes-Designer</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/Substance-3D-system-requirements-Designer</system_requirements_url>
