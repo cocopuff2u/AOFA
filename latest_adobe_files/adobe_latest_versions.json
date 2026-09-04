@@ -1,5 +1,5 @@
 {
-  "last_updated": "September 04, 2026 03:26 PM EDT",
+  "last_updated": "September 04, 2026 06:18 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -72,7 +72,7 @@
       "display_name": "After Effects (Beta)",
       "sap_code": "AEFTBETA",
       "version": "27.0",
-      "full_version": "27.0.0.36",
+      "full_version": "27.0.0.37",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
