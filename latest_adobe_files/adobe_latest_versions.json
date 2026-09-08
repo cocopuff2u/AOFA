@@ -1,12 +1,12 @@
 {
-  "last_updated": "September 08, 2026 12:23 AM EDT",
+  "last_updated": "September 08, 2026 05:32 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
       "sap_code": "APRO",
       "version": "26.1",
-      "full_version": "26.001.21771",
-      "release_date": "2026-08-01",
+      "full_version": "26.002.21901",
+      "release_date": "N/A",
       "license_mode": "RESIDUAL",
       "min_macos_version": "10.15.0",
       "download_size": "N/A",
