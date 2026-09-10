@@ -1,4 +1,4 @@
-last_updated: September 10, 2026 07:08 AM EDT
+last_updated: September 10, 2026 12:17 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -44,13 +44,13 @@ products:
   categories: []
 - display_name: After Effects
   sap_code: AEFT
-  version: '26.3'
-  full_version: 26.3.0.87
+  version: '26.5'
+  full_version: 26.5.0.89
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.3/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.5/96x96.png
   product_page: https://www.adobe.com/products/aftereffects.html
   whats_new_url: https://helpx.adobe.com/after-effects/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/after-effects/system-requirements.html
@@ -86,13 +86,13 @@ products:
   - video-audio
 - display_name: Audition
   sap_code: AUDT
-  version: '26.3'
-  full_version: 26.3.0.79
+  version: '26.5'
+  full_version: 26.5.0.82
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.3/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.5/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/audition/system-requirements.html
@@ -150,7 +150,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.52 GB
+  download_size: 1.65 GB
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -413,13 +413,13 @@ products:
   - photography
 - display_name: Media Encoder
   sap_code: AME
-  version: 26.3.2
-  full_version: 26.3.2.2
+  version: '26.5'
+  full_version: 26.5.0.85
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.3.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.5/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/media-encoder/system-requirements.html
@@ -502,13 +502,13 @@ products:
   - gen-ai
 - display_name: Premiere
   sap_code: PPRO
-  version: 26.3.2
-  full_version: 26.3.2.2
+  version: '26.5'
+  full_version: 26.5.0.99
   release_date: N/A
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.3.2/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.5/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/premiere-pro/system-requirements.html
@@ -682,13 +682,13 @@ products:
   categories: []
 - display_name: UXP Developer Tools
   sap_code: UXPD
-  version: 2.1.0
-  full_version: 2.1.0.30
+  version: 2.3.0
+  full_version: 2.3.0.5
   release_date: N/A
   license_mode: N/A
   min_macos_version: 10.13.6
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/UXPD/2.1.0/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/UXPD/2.3.0/96x96.png
   product_page: https://www.adobe.com/go/uxp-developer-tool-support
   whats_new_url: https://www.adobe.com/go/uxp-developer-tool-support
   system_requirements_url: https://www.adobe.com/go/uxp-devtool-sysreq/

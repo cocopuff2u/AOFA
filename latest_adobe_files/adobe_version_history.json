@@ -1,6 +1,14 @@
 {
-  "last_updated": "September 10, 2026 07:08 AM EDT",
+  "last_updated": "September 10, 2026 12:17 PM EDT",
   "versions": [
+    {
+      "display_name": "UXP Developer Tools",
+      "sap_code": "UXPD",
+      "version": "2.3.0",
+      "full_version": "2.3.0.5",
+      "release_date": "2026-09-10",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
@@ -10,10 +18,42 @@
       "date_source": "first_seen"
     },
     {
+      "display_name": "Premiere",
+      "sap_code": "PPRO",
+      "version": "26.5",
+      "full_version": "26.5.0.99",
+      "release_date": "2026-09-10",
+      "date_source": "first_seen"
+    },
+    {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
       "version": "27.0",
       "full_version": "27.0.0.44",
+      "release_date": "2026-09-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder",
+      "sap_code": "AME",
+      "version": "26.5",
+      "full_version": "26.5.0.85",
+      "release_date": "2026-09-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition",
+      "sap_code": "AUDT",
+      "version": "26.5",
+      "full_version": "26.5.0.82",
+      "release_date": "2026-09-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "After Effects",
+      "sap_code": "AEFT",
+      "version": "26.5",
+      "full_version": "26.5.0.89",
       "release_date": "2026-09-10",
       "date_source": "first_seen"
     },
