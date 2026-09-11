@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>September 11, 2026 01:50 AM EDT</last_updated>
+  <last_updated>September 11, 2026 07:08 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -140,13 +140,13 @@
     <product>
       <display_name>Bridge</display_name>
       <sap_code>KBRG</sap_code>
-      <version>16.0.6</version>
-      <full_version>16.0.6.9</full_version>
+      <version>16.0.7</version>
+      <full_version>16.0.7.36</full_version>
       <release_date>N/A</release_date>
       <license_mode>FREE</license_mode>
       <min_macos_version>13.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.6/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.7/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/bridge.html</product_page>
       <whats_new_url>https://helpx.adobe.com/bridge/using/whats-new.html</whats_new_url>
       <system_requirements_url>https://helpx.adobe.com/bridge/system-requirements.html</system_requirements_url>
@@ -513,7 +513,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.0</version>
-      <full_version>27.0.0.44</full_version>
+      <full_version>27.0.0.45</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -618,7 +618,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>27.0</version>
-      <full_version>27.0.0.44</full_version>
+      <full_version>27.0.0.45</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
