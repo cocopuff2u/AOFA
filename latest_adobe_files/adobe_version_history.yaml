@@ -1,4 +1,4 @@
-last_updated: "September 21, 2026 03:18 PM EDT"
+last_updated: "September 21, 2026 07:11 PM EDT"
 versions:
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
@@ -16,6 +16,12 @@ versions:
     sap_code: "AUDTBETA"
     version: "27.0"
     full_version: "27.0.0.56"
+    release_date: "2026-09-21"
+    date_source: "first_seen"
+  - display_name: "After Effects (Beta)"
+    sap_code: "AEFTBETA"
+    version: "27.0"
+    full_version: "27.0.0.54"
     release_date: "2026-09-21"
     date_source: "first_seen"
   - display_name: "InDesign"
