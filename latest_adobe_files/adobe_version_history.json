@@ -1,6 +1,30 @@
 {
-  "last_updated": "September 23, 2026 04:11 PM EDT",
+  "last_updated": "September 24, 2026 05:53 AM EDT",
   "versions": [
+    {
+      "display_name": "Substance 3D Sampler",
+      "sap_code": "SBSTA",
+      "version": "6.0.4",
+      "full_version": "6.0.4.10899",
+      "release_date": "2026-09-24",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "27.0",
+      "full_version": "27.0.0.58",
+      "release_date": "2026-09-24",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "27.0",
+      "full_version": "27.0.0.58",
+      "release_date": "2026-09-24",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
