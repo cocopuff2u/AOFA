@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">September 28, 2026 01:35 PM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">September 28, 2026 07:12 PM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -70,7 +70,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 | **Product** | **Version Information** |
 |-------------|------------------------|
-| <img src=".github/icons/AEFTBETA_27_0.png" alt="After Effects (Beta)" width="80"><br>**After Effects (Beta)**<br><br>**SAP Code:**<br>`AEFTBETA` | **Version:**<br>`27.0.0.58`<br><br>**Release Date:**<br>`2026-09-25`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/AEFTBETA_27_0.png" alt="After Effects (Beta)" width="80"><br>**After Effects (Beta)**<br><br>**SAP Code:**<br>`AEFTBETA` | **Version:**<br>`27.0.0.61`<br><br>**Release Date:**<br>`2026-09-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AUDTBETA_27_0.png" alt="Audition (Beta)" width="80"><br>**Audition (Beta)**<br><br>**SAP Code:**<br>`AUDTBETA` | **Version:**<br>`27.0.0.63`<br><br>**Release Date:**<br>`2026-09-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/KBRGBETA_16_0_1.png" alt="Bridge (Beta)" width="80"><br>**Bridge (Beta)**<br><br>**SAP Code:**<br>`KBRGBETA` | **Version:**<br>`16.0.1.15`<br><br>**Release Date:**<br>`2025-12-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 | <img src=".github/icons/CHARBETA_25_6.png" alt="Character Animator (Beta)" width="80"><br>**Character Animator (Beta)**<br><br>**SAP Code:**<br>`CHARBETA` | **Version:**<br>`25.6.0.092`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
@@ -78,7 +78,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/IDSNBETA_22_0.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`22.0.0.072`<br><br>**Release Date:**<br>`2026-09-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AMEBETA_27_0.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`27.0.0.62`<br><br>**Release Date:**<br>`2026-09-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/PPROBETA_27_0.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.0.0.61`<br><br>**Release Date:**<br>`2026-09-27`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/PPROBETA_27_0.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.0.0.62`<br><br>**Release Date:**<br>`2026-09-28`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PPROBETA_15_1.png" alt="Premiere Pro (Beta)" width="80"><br>**Premiere Pro (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`15.1.0.18`<br><br>**Release Date:**<br>`2026-08-06`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 
