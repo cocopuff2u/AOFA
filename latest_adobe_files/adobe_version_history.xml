@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>September 28, 2026 07:12 PM EDT</last_updated>
+  <last_updated>September 29, 2026 01:34 AM EDT</last_updated>
   <versions>
     <version>
       <display_name>Premiere (Beta)</display_name>
@@ -131,6 +131,14 @@
       <date_source>first_seen</date_source>
     </version>
     <version>
+      <display_name>Lightroom Classic</display_name>
+      <sap_code>LTRM</sap_code>
+      <version>15.6</version>
+      <full_version>15.6.0.202609251514</full_version>
+      <release_date>2026-09-25</release_date>
+      <date_source>api</date_source>
+    </version>
+    <version>
       <display_name>Audition (Beta)</display_name>
       <sap_code>AUDTBETA</sap_code>
       <version>27.0</version>
@@ -201,6 +209,14 @@
       <full_version>27.0.0.57</full_version>
       <release_date>2026-09-23</release_date>
       <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Lightroom</display_name>
+      <sap_code>LRCC</sap_code>
+      <version>9.6</version>
+      <full_version>9.6.202609231659</full_version>
+      <release_date>2026-09-23</release_date>
+      <date_source>api</date_source>
     </version>
     <version>
       <display_name>Illustrator</display_name>
