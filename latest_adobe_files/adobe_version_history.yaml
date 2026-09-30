@@ -1,5 +1,11 @@
-last_updated: "September 29, 2026 02:34 PM EDT"
+last_updated: "September 30, 2026 11:51 AM EDT"
 versions:
+  - display_name: "Bridge"
+    sap_code: "KBRG"
+    version: "16.0.8"
+    full_version: "16.0.8.10"
+    release_date: "2026-09-30"
+    date_source: "first_seen"
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
     version: "27.0"
