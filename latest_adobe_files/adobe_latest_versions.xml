@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>October 02, 2026 02:56 AM EDT</last_updated>
+  <last_updated>October 02, 2026 09:47 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -530,7 +530,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.2</full_version>
+      <full_version>27.1.0.3</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -635,7 +635,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.2</full_version>
+      <full_version>27.1.0.3</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
