@@ -1,5 +1,11 @@
-last_updated: "October 05, 2026 02:18 PM EDT"
+last_updated: "October 05, 2026 08:44 PM EDT"
 versions:
+  - display_name: "Premiere (Beta)"
+    sap_code: "PPROBETA"
+    version: "27.1"
+    full_version: "27.1.0.6"
+    release_date: "2026-10-05"
+    date_source: "first_seen"
   - display_name: "Media Encoder (Beta)"
     sap_code: "AMEBETA"
     version: "27.1"
