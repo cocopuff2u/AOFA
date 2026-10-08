@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <version_history>
-  <last_updated>October 08, 2026 12:22 PM EDT</last_updated>
+  <last_updated>October 08, 2026 05:59 PM EDT</last_updated>
   <versions>
     <version>
       <display_name>Substance 3D Stager</display_name>
@@ -31,6 +31,22 @@
       <sap_code>ESHR</sap_code>
       <version>4.1.9</version>
       <full_version>4.1.9.4977</full_version>
+      <release_date>2026-10-08</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>Audition (Beta)</display_name>
+      <sap_code>AUDTBETA</sap_code>
+      <version>27.1</version>
+      <full_version>27.1.0.10</full_version>
+      <release_date>2026-10-08</release_date>
+      <date_source>first_seen</date_source>
+    </version>
+    <version>
+      <display_name>After Effects (Beta)</display_name>
+      <sap_code>AEFTBETA</sap_code>
+      <version>27.1</version>
+      <full_version>27.1.0.8</full_version>
       <release_date>2026-10-08</release_date>
       <date_source>first_seen</date_source>
     </version>
