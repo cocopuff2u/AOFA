@@ -1,6 +1,22 @@
 {
-  "last_updated": "October 09, 2026 05:35 PM EDT",
+  "last_updated": "October 10, 2026 11:14 AM EDT",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.11",
+      "release_date": "2026-10-10",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.11",
+      "release_date": "2026-10-10",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
