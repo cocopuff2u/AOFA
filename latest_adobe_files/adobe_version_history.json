@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 15, 2026 09:19 AM EDT",
+  "last_updated": "October 15, 2026 02:11 PM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -22,6 +22,22 @@
       "sap_code": "AUDTBETA",
       "version": "27.1",
       "full_version": "27.1.0.16",
+      "release_date": "2026-10-15",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.17",
+      "release_date": "2026-10-15",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "After Effects (Beta)",
+      "sap_code": "AEFTBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.15",
       "release_date": "2026-10-15",
       "date_source": "first_seen"
     },
