@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 16, 2026 08:19 AM EDT",
+  "last_updated": "October 16, 2026 01:19 PM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -14,6 +14,22 @@
       "sap_code": "AMEBETA",
       "version": "27.1",
       "full_version": "27.1.0.17",
+      "release_date": "2026-10-16",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Bridge (Beta)",
+      "sap_code": "KBRGBETA",
+      "version": "17.0.0",
+      "full_version": "17.0.0.79",
+      "release_date": "2026-10-16",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.18",
       "release_date": "2026-10-16",
       "date_source": "first_seen"
     },

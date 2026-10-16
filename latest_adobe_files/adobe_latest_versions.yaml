@@ -1,4 +1,4 @@
-last_updated: October 16, 2026 08:19 AM EDT
+last_updated: October 16, 2026 01:19 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -18,8 +18,8 @@ products:
 - display_name: Acrobat Reader
   sap_code: ARDR
   version: '26.002'
-  full_version: 26.002.22031
-  release_date: '2026-10-14'
+  full_version: 26.002.22008
+  release_date: N/A
   license_mode: FREE
   min_macos_version: N/A
   download_size: N/A
@@ -101,7 +101,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '27.1'
-  full_version: 27.1.0.17
+  full_version: 27.1.0.18
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
@@ -131,13 +131,13 @@ products:
   - ar
 - display_name: Bridge (Beta)
   sap_code: KBRGBETA
-  version: 16.0.1
-  full_version: 16.0.1.15
+  version: 17.0.0
+  full_version: 17.0.0.79
   release_date: N/A
   license_mode: FREE
-  min_macos_version: '13.0'
+  min_macos_version: '14.0'
   download_size: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRGBETA/16.0.1/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRGBETA/17.0.0/96x96.png
   product_page: https://www.adobe.com/products/bridge.html
   whats_new_url: https://helpx.adobe.com/bridge/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/bridge/system-requirements.html
@@ -575,7 +575,7 @@ products:
   full_version: 9.1.2.3332
   release_date: N/A
   license_mode: PAID
-  min_macos_version: 11.0.0
+  min_macos_version: 12.0.0
   download_size: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
