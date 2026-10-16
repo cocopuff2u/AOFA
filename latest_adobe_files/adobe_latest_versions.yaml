@@ -1,4 +1,4 @@
-last_updated: October 16, 2026 01:19 PM EDT
+last_updated: October 16, 2026 04:56 PM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -59,7 +59,7 @@ products:
 - display_name: After Effects (Beta)
   sap_code: AEFTBETA
   version: '27.1'
-  full_version: 27.1.0.15
+  full_version: 27.1.0.16
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0

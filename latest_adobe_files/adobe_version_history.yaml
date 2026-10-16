@@ -1,4 +1,4 @@
-last_updated: "October 16, 2026 01:19 PM EDT"
+last_updated: "October 16, 2026 04:56 PM EDT"
 versions:
   - display_name: "Premiere (Beta)"
     sap_code: "PPROBETA"
@@ -22,6 +22,12 @@ versions:
     sap_code: "AUDTBETA"
     version: "27.1"
     full_version: "27.1.0.18"
+    release_date: "2026-10-16"
+    date_source: "first_seen"
+  - display_name: "After Effects (Beta)"
+    sap_code: "AEFTBETA"
+    version: "27.1"
+    full_version: "27.1.0.16"
     release_date: "2026-10-16"
     date_source: "first_seen"
   - display_name: "Premiere (Beta)"
