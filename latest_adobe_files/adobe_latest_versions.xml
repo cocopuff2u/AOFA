@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>October 20, 2026 07:24 AM EDT</last_updated>
+  <last_updated>October 20, 2026 10:53 AM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -89,13 +89,13 @@
     <product>
       <display_name>Animate</display_name>
       <sap_code>FLPR</sap_code>
-      <version>24.0.9</version>
-      <full_version>24.0.9.73</full_version>
+      <version>24.0.15</version>
+      <full_version>24.0.15.5</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>12.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/24.0.9/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/24.0.15/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/animate.html</product_page>
       <whats_new_url>https://helpx.adobe.com/animate/using/whats-new.html</whats_new_url>
       <system_requirements_url>https://helpx.adobe.com/animate/system-requirements.html</system_requirements_url>
@@ -182,7 +182,7 @@
       <release_date>N/A</release_date>
       <license_mode>FREEMIUM</license_mode>
       <min_macos_version>14.0.0</min_macos_version>
-      <download_size>1.52 GB</download_size>
+      <download_size>1.65 GB</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/character-animator.html</product_page>
       <whats_new_url>https://helpx.adobe.com/adobe-character-animator/using/whats-new.html</whats_new_url>
@@ -211,13 +211,13 @@
     <product>
       <display_name>Creative Cloud</display_name>
       <sap_code>KCCC</sap_code>
-      <version>6.9.1</version>
-      <full_version>6.9.1</full_version>
+      <version>6.11.0</version>
+      <full_version>6.11.0</full_version>
       <release_date>N/A</release_date>
       <license_mode>N/A</license_mode>
       <min_macos_version>N/A</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/KCCC/6.9.1/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/KCCC/6.11.0/96x96.png</icon_url>
       <product_page>N/A</product_page>
       <whats_new_url>N/A</whats_new_url>
       <system_requirements_url>N/A</system_requirements_url>
@@ -322,36 +322,6 @@
       <download_size>N/A</download_size>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/FLBR/4.7/96x96.png</icon_url>
       <product_page>https://creative.adobe.com/products/flash-builder</product_page>
-      <whats_new_url>N/A</whats_new_url>
-      <system_requirements_url>N/A</system_requirements_url>
-      <categories/>
-    </product>
-    <product>
-      <display_name>Gaming SDK 1.2</display_name>
-      <sap_code>GSDK</sap_code>
-      <version>1.2</version>
-      <full_version>1.2</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>N/A</license_mode>
-      <min_macos_version>N/A</min_macos_version>
-      <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.2/96x96.png</icon_url>
-      <product_page>https://creative.adobe.com/products/gaming-sdk</product_page>
-      <whats_new_url>N/A</whats_new_url>
-      <system_requirements_url>N/A</system_requirements_url>
-      <categories/>
-    </product>
-    <product>
-      <display_name>Gaming SDK 1.3</display_name>
-      <sap_code>GSDK</sap_code>
-      <version>1.3</version>
-      <full_version>1.3</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>N/A</license_mode>
-      <min_macos_version>N/A</min_macos_version>
-      <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.3/96x96.png</icon_url>
-      <product_page>https://creative.adobe.com/products/gaming-sdk</product_page>
       <whats_new_url>N/A</whats_new_url>
       <system_requirements_url>N/A</system_requirements_url>
       <categories/>
@@ -542,30 +512,15 @@
       <categories/>
     </product>
     <product>
-      <display_name>Muse CC (2017)</display_name>
-      <sap_code>MUSE</sap_code>
-      <version>2017.1.0</version>
-      <full_version>2017.1.0.821</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>N/A</license_mode>
-      <min_macos_version>10.10</min_macos_version>
-      <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/MUSE/2017.1.0/96x96.png</icon_url>
-      <product_page>https://creative.adobe.com/products/muse</product_page>
-      <whats_new_url>http://www.adobe.com/products/muse/features.html</whats_new_url>
-      <system_requirements_url>N/A</system_requirements_url>
-      <categories/>
-    </product>
-    <product>
       <display_name>Photoshop</display_name>
       <sap_code>PHSP</sap_code>
-      <version>27.9.1</version>
-      <full_version>27.9.1.1</full_version>
+      <version>27.11</version>
+      <full_version>27.11.0.26</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>13.0.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.9.1/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.11/96x96.png</icon_url>
       <product_page>https://www.adobe.com/products/photoshop</product_page>
       <whats_new_url>https://helpx.adobe.com/photoshop/using/whats-new.html</whats_new_url>
       <system_requirements_url>https://helpx.adobe.com/photoshop/system-requirements.html</system_requirements_url>
@@ -632,23 +587,6 @@
       </categories>
     </product>
     <product>
-      <display_name>Premiere Pro</display_name>
-      <sap_code>PPRO</sap_code>
-      <version>25.6.6</version>
-      <full_version>25.6.6.005</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>PAID</license_mode>
-      <min_macos_version>12.0.0</min_macos_version>
-      <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/25.6.6/96x96.png</icon_url>
-      <product_page>https://www.adobe.com/products/premiere.html</product_page>
-      <whats_new_url>https://helpx.adobe.com/premiere-pro/using/whats-new.html</whats_new_url>
-      <system_requirements_url>https://helpx.adobe.com/premiere-pro/system-requirements.html</system_requirements_url>
-      <categories>
-        <category>video-audio</category>
-      </categories>
-    </product>
-    <product>
       <display_name>Scout CC</display_name>
       <sap_code>ASCT</sap_code>
       <version>1.1.3</version>
@@ -683,13 +621,13 @@
     <product>
       <display_name>Substance 3D Painter</display_name>
       <sap_code>SBSTP</sap_code>
-      <version>9.1.2</version>
-      <full_version>9.1.2.3332</full_version>
+      <version>12.1.5</version>
+      <full_version>12.1.5.5783</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>12.0.0</min_macos_version>
       <download_size>N/A</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/9.1.2/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/12.1.5/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/painter-more-info</product_page>
       <whats_new_url>https://www.adobe.com/go/painter-release-notes</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/Substance-3D-system-requirements-Painter</system_requirements_url>
@@ -727,57 +665,6 @@
       <product_page>https://www.adobe.com/go/stager</product_page>
       <whats_new_url>https://www.adobe.com/go/stager-release-notes</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/stager-requirements</system_requirements_url>
-      <categories>
-        <category>ar</category>
-      </categories>
-    </product>
-    <product>
-      <display_name>Substance Alchemist</display_name>
-      <sap_code>SBSTA</sap_code>
-      <version>2.3.2</version>
-      <full_version>2.3.2.135</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>PAID</license_mode>
-      <min_macos_version>10.12</min_macos_version>
-      <download_size>815.4 MB</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/2.3.2/96x96.png</icon_url>
-      <product_page>https://www.adobe.com/products/substance.html</product_page>
-      <whats_new_url>https://www.adobe.com/products/substance.html</whats_new_url>
-      <system_requirements_url>https://docs.substance3d.com/sadoc/technical-requirements-185106444.html</system_requirements_url>
-      <categories>
-        <category>ar</category>
-      </categories>
-    </product>
-    <product>
-      <display_name>Substance Designer</display_name>
-      <sap_code>SBSTD</sap_code>
-      <version>9.3.0</version>
-      <full_version>9.3.0.3187</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>PAID</license_mode>
-      <min_macos_version>10.12</min_macos_version>
-      <download_size>919.1 MB</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/9.3.0/96x96.png</icon_url>
-      <product_page>https://www.adobe.com/products/substance.html</product_page>
-      <whats_new_url>https://www.adobe.com/products/substance.html</whats_new_url>
-      <system_requirements_url>https://docs.substance3d.com/sddoc/technical-requirements-185106446.html</system_requirements_url>
-      <categories>
-        <category>ar</category>
-      </categories>
-    </product>
-    <product>
-      <display_name>Substance Painter</display_name>
-      <sap_code>SBSTP</sap_code>
-      <version>7.1.1</version>
-      <full_version>7.1.1.959</full_version>
-      <release_date>N/A</release_date>
-      <license_mode>PAID</license_mode>
-      <min_macos_version>10.12</min_macos_version>
-      <download_size>2.33 GB</download_size>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/7.1.1/96x96.png</icon_url>
-      <product_page>https://www.adobe.com/products/substance.html</product_page>
-      <whats_new_url>https://www.adobe.com/products/substance.html</whats_new_url>
-      <system_requirements_url>https://docs.substance3d.com/spdoc/technical-requirements-172824034.html</system_requirements_url>
       <categories>
         <category>ar</category>
       </categories>

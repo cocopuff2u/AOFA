@@ -11,6 +11,7 @@ import json
 from datetime import datetime, timezone as tz
 import os
 import re
+from email.utils import parsedate_to_datetime
 
 # Try to import optional dependencies
 try:
@@ -32,39 +33,47 @@ ADOBE_API_URL = "https://cdn-ffc.oobesaas.adobe.com/core/v5/products/all"
 ADOBE_API_PARAMS = "channel=ccm&platform=osx10-64,osx10,macarm64,macuniversal"
 ADOBE_API_HEADER = "x-adobe-app-id: accc-hdcore-desktop"
 
-# Adobe Reader ARM (Adobe Release Manager) endpoint
+# Adobe ARM (Adobe Release Manager) endpoints. The Last-Modified header on these
+# files is set when Adobe publishes the update, so it doubles as a release date.
 ADOBE_READER_VERSION_URL = "https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/reader/current_version.txt"
+ADOBE_ACROBAT_VERSION_URL = "https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/acrobat/current_version.txt"
 
 # Acrobat release notes URL (official Adobe source for release dates - Acrobat doesn't have timestamp in version)
 ACROBAT_RELEASE_NOTES_URL = "https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html"
 
-# Jamf Patch API for cross-referencing release dates
+# Jamf Patch API. The software list only carries a lastModified stamp, but each
+# title's patch definition lists every version with its own releaseDate.
 JAMF_PATCH_API_URL = "https://jamf-patch.jamfcloud.com/v1/software"
+JAMF_PATCH_DEFINITION_URL = "https://jamf-patch.jamfcloud.com/v1/patch/{id}"
 
-# Map SAP codes to Jamf software title IDs (partial matches work)
-SAP_TO_JAMF_MAP = {
-    'PHSP': 'AdobePhotoshop',
-    'ILST': 'AdobeIllustrator',
-    'IDSN': 'AdobeInDesign',
-    'AICY': 'AdobeInCopy',
-    'PPRO': 'AdobePremierePro',
-    'AEFT': 'AdobeAfterEffects',
-    'AUDT': 'AdobeAudition',
-    'AME': 'AdobeMediaEncoder',
-    'CHAR': 'AdobeCharacterAnimator',
-    'FLPR': 'AdobeAnimate',
-    'DRWV': 'AdobeDreamweaver',
-    'LRCC': 'AdobeLightroom',
-    'LTRM': 'AdobeLightroomClassic',
-    'KBRG': 'AdobeBridge',
-    'ESHR': 'AdobeDimension',
-    'SBSTD': 'AdobeSubstance3DDesigner',
-    'SBSTP': 'AdobeSubstance3DPainter',
-    'SBSTA': 'AdobeSubstance3DSampler',
-    'STGR': 'AdobeSubstance3DStager',
-    'APRO': 'AdobeAcrobat',
-    'ARDR': 'AdobeAcrobatReader',
-    'RUSH': 'AdobePremiereRush',
+# Map SAP codes to Jamf software title names. Jamf publishes both a rolling
+# title ("Adobe Photoshop") and per-year titles ("Adobe Photoshop 2026"); the
+# pattern matches both so older versions can be backfilled too.
+JAMF_TITLE_PATTERNS = {
+    'PHSP': r'^Adobe Photoshop( \d{4})?$',
+    'ILST': r'^Adobe Illustrator( \d{4})?$',
+    'IDSN': r'^Adobe InDesign( \d{4})?$',
+    'AICY': r'^Adobe InCopy( \d{4})?$',
+    'PPRO': r'^Adobe Premiere Pro( \d{4})?$',
+    'AEFT': r'^Adobe After Effects( \d{4})?$',
+    'AUDT': r'^Adobe Audition( \d{4})?$',
+    'AME': r'^Adobe Media Encoder( \d{4})?$',
+    'CHAR': r'^Adobe Character Animator( \d{4})?$',
+    'FLPR': r'^Adobe Animate( \d{4})?$',
+    'DRWV': r'^Adobe Dreamweaver( \d{4})?$',
+    'KBRG': r'^Adobe Bridge( \d{4})?$',
+    'LRCC': r'^Adobe Lightroom CC$',
+    'LTRM': r'^Adobe Lightroom Classic$',
+    'ESHR': r'^Adobe Dimension$',
+    'SBSTD': r'^Adobe Substance 3D Designer$',
+    'SBSTP': r'^Adobe Substance 3D Painter$',
+    'SBSTA': r'^Adobe Substance 3D Sampler$',
+    'STGR': r'^Adobe Substance 3D Stager$',
+    'APRO': r'^Adobe Acrobat DC Continuous$',
+    'ARDR': r'^Adobe Acrobat Reader DC Continuous$',
+    'KCCC': r'^Adobe Creative Cloud$',
+    'RUSH': r'^Adobe Premiere Rush$',
+    'SPRK': r'^Adobe XD$',
 }
 
 # Friendly product names
@@ -98,6 +107,41 @@ PRODUCT_NAMES = {
     "KETK": "ExtendScript Toolkit",
     "KEMN": "Extension Manager"
 }
+
+
+def version_key(version):
+    """
+    Numeric sort key for version strings so that 27.11 > 27.9.
+    Plain string comparison gets this wrong and picks stale versions.
+    """
+    parts = re.split(r'[.\-_]', str(version or ''))
+    return tuple(int(x) if x.isdigit() else 0 for x in parts)
+
+
+def parse_http_date(value):
+    """Convert an HTTP date header (RFC 2822) to an ISO date string, or None."""
+    try:
+        return parsedate_to_datetime(value.strip()).strftime("%Y-%m-%d")
+    except Exception:
+        return None
+
+
+def fetch_last_modified_date(url):
+    """
+    Return the Last-Modified header of a URL as an ISO date, or None.
+    Used for Adobe ARM manifests, which are rewritten when an update ships.
+    """
+    try:
+        result = subprocess.run(
+            ["curl", "-sI", "-m", "20", url],
+            capture_output=True, text=True, timeout=30
+        )
+        for line in result.stdout.splitlines():
+            if line.lower().startswith('last-modified:'):
+                return parse_http_date(line.split(':', 1)[1])
+    except Exception as e:
+        print(f"Warning: Could not read Last-Modified for {url}: {e}")
+    return None
 
 
 def fetch_adobe_products():
@@ -136,95 +180,133 @@ def fetch_adobe_reader_version():
     return None
 
 
+def _extract_json_payload(raw_bytes):
+    """
+    Jamf patch definitions are served as a CMS-signed blob with the JSON
+    payload embedded. Pull out the first balanced JSON object.
+    """
+    start = raw_bytes.find(b'{"name"')
+    if start < 0:
+        return None
+    depth = 0
+    in_string = False
+    escape = False
+    for i in range(start, len(raw_bytes)):
+        c = raw_bytes[i:i + 1]
+        if in_string:
+            if escape:
+                escape = False
+            elif c == b'\\':
+                escape = True
+            elif c == b'"':
+                in_string = False
+            continue
+        if c == b'"':
+            in_string = True
+        elif c == b'{':
+            depth += 1
+        elif c == b'}':
+            depth -= 1
+            if depth == 0:
+                try:
+                    return json.loads(raw_bytes[start:i + 1].decode('utf-8', 'replace'))
+                except json.JSONDecodeError:
+                    return None
+    return None
+
+
 def fetch_jamf_patch_data():
     """
-    Fetch Adobe product patch data from Jamf's patch management catalog.
-    Returns a dict mapping (product_name, version) to release date.
-    Uses the lastModified date from the public API as the release indicator.
+    Fetch per-version release dates from Jamf's patch definitions.
+    Returns {sap_code: {jamf_version: release_date}}.
     """
     print("Fetching Jamf patch definitions...")
     jamf_data = {}
 
     try:
         result = subprocess.run(
-            ["curl", "-s", JAMF_PATCH_API_URL],
-            capture_output=True, text=True, timeout=30
+            ["curl", "-s", "-m", "30", JAMF_PATCH_API_URL],
+            capture_output=True, text=True, timeout=45
         )
-        if result.stdout:
-            software_list = json.loads(result.stdout)
-
-            # Filter for Adobe products and extract version info
-            adobe_count = 0
-            for item in software_list:
-                if not isinstance(item, dict):
-                    continue
-
-                name = item.get('name', '')
-                if 'Adobe' not in name:
-                    continue
-
-                adobe_count += 1
-                version = item.get('currentVersion', '')
-                last_modified = item.get('lastModified', '')
-
-                if version and last_modified:
-                    # Convert lastModified (ISO format) to date only
-                    # Format: "2025-09-25T16:37:38Z" -> "2025-09-25"
-                    release_date = last_modified.split('T')[0] if 'T' in last_modified else last_modified
-                    jamf_data[(name, version)] = release_date
-
-            print(f"Loaded {len(jamf_data)} Jamf entries for {adobe_count} Adobe products")
+        software_list = json.loads(result.stdout) if result.stdout else []
     except Exception as e:
-        print(f"Warning: Could not fetch Jamf data: {e}")
+        print(f"Warning: Could not fetch Jamf software list: {e}")
+        return jamf_data
 
+    # Only titles touched in the last few years; older ones predate the history
+    cutoff = f"{datetime.now().year - 3}-01-01"
+    titles = []
+    for item in software_list:
+        if not isinstance(item, dict):
+            continue
+        if item.get('lastModified', '') < cutoff:
+            continue
+        name = item.get('name', '')
+        for sap_code, pattern in JAMF_TITLE_PATTERNS.items():
+            if re.match(pattern, name):
+                titles.append((sap_code, item.get('id'), name))
+                break
+
+    fetched = 0
+    for sap_code, title_id, name in titles:
+        if not title_id:
+            continue
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "-m", "30", JAMF_PATCH_DEFINITION_URL.format(id=title_id)],
+                capture_output=True, timeout=45
+            )
+            definition = _extract_json_payload(result.stdout)
+        except Exception as e:
+            print(f"Warning: Could not fetch Jamf definition for {name}: {e}")
+            continue
+        if not definition:
+            continue
+        fetched += 1
+        versions = jamf_data.setdefault(sap_code, {})
+        for patch in definition.get('patches', []):
+            version = patch.get('version', '')
+            release_date = patch.get('releaseDate', '')
+            if version and release_date:
+                date_only = release_date.split('T')[0]
+                # Keep the earliest date if two titles list the same version
+                if version not in versions or date_only < versions[version]:
+                    versions[version] = date_only
+
+    total = sum(len(v) for v in jamf_data.values())
+    print(f"Loaded {total} Jamf version dates from {fetched} titles")
     return jamf_data
 
 
-def lookup_jamf_release_date(sap_code, full_version, display_name, jamf_data):
+def lookup_jamf_release_date(sap_code, full_version, jamf_data):
     """
-    Look up a release date from Jamf patch data.
-    Returns (release_date, True) if found, (None, False) if not.
+    Find the Jamf release date for a version. Jamf versions are usually
+    shorter than Adobe's full build ("27.11.0" vs "27.11.0.26") and may
+    drop leading zeros ("21.6.0.57" vs "21.6.0.057"), so compare numeric
+    tuples and take the longest prefix match.
     """
-    # Try to match by product name patterns
-    search_terms = []
+    versions = jamf_data.get(sap_code) if jamf_data else None
+    if not versions:
+        return None
 
-    # Add SAP code mapping if available
-    jamf_pattern = SAP_TO_JAMF_MAP.get(sap_code, '')
-    if jamf_pattern:
-        search_terms.append(jamf_pattern)
-
-    # Also try the display name
-    if display_name:
-        # Convert "Photoshop" to search for "Adobe Photoshop"
-        search_terms.append(f"Adobe {display_name}")
-        search_terms.append(display_name)
-
-    for (jamf_name, jamf_version), release_date in jamf_data.items():
-        # Check if any search term matches the Jamf product name
-        name_match = False
-        for term in search_terms:
-            if term.lower() in jamf_name.lower() or jamf_name.lower() in term.lower():
-                name_match = True
-                break
-
-        if not name_match:
+    full_key = version_key(full_version)
+    best_len = 0
+    best_date = None
+    reverse_date = None
+    for jamf_version, release_date in versions.items():
+        jamf_key = version_key(jamf_version)
+        if len(jamf_key) < 2:
             continue
-
-        # Try version matching
-        # Exact match
-        if jamf_version == full_version:
-            return release_date, True
-
-        # Jamf might have shorter version (e.g., "27.2" vs "27.2.0.15")
-        if full_version.startswith(jamf_version):
-            return release_date, True
-
-        # Or we might have shorter version
-        version_base = full_version.rsplit('.', 1)[0]
-        if jamf_version.startswith(version_base):
-            return release_date, True
-
-    return None, False
+        if len(jamf_key) <= len(full_key):
+            # Jamf version is a prefix of Adobe's full build
+            if full_key[:len(jamf_key)] == jamf_key and len(jamf_key) > best_len:
+                best_len = len(jamf_key)
+                best_date = release_date
+        elif len(full_key) >= 3 and jamf_key[:len(full_key)] == full_key:
+            # Adobe's version is the shorter one; take the earliest matching build
+            if reverse_date is None or release_date < reverse_date:
+                reverse_date = release_date
+    return best_date or reverse_date
 
 
 def fetch_acrobat_release_dates():
@@ -379,9 +461,11 @@ def extract_product_info(data):
             # Extract release date from build timestamp in full_version
             release_date = parse_build_timestamp(full_version) or 'N/A'
 
-            # Store only the latest version per product
-            if display_name not in products or version > products[display_name]['version']:
-                products[display_name] = {
+            # Store only the latest version per SAP code. Adobe renames products
+            # over time (Premiere Pro -> Premiere, Substance Painter -> Substance
+            # 3D Painter) so keying by display name would show duplicates.
+            if sap_code not in products or version_key(full_version) > version_key(products[sap_code]['full_version']):
+                products[sap_code] = {
                     'display_name': display_name,
                     'sap_code': sap_code,
                     'version': version or 'N/A',
@@ -467,11 +551,55 @@ def load_version_history(output_dir):
     return {'versions': []}
 
 
+def choose_release_date(info, sap_code, full_version, today, jamf_data):
+    """
+    Pick the best release date for a newly seen version.
+    Order: Adobe-provided date (build timestamp, release notes, ARM) ->
+    Jamf patch definition when it predates today -> first seen (today).
+    """
+    release_date = info.get('release_date', 'N/A')
+    if release_date != 'N/A':
+        return release_date, 'api'
+
+    jamf_date = lookup_jamf_release_date(sap_code, full_version, jamf_data)
+    if jamf_date and jamf_date < today:
+        return jamf_date, 'jamf'
+
+    return today, 'first_seen'
+
+
+def backfill_history_dates(history, jamf_data):
+    """
+    Replace 'first_seen' dates with Jamf's release date when Jamf says the
+    version shipped more than a day earlier. A first-seen date within a day
+    of Jamf's is kept, since hourly polling of Adobe's CDN is just as accurate.
+    """
+    if not jamf_data:
+        return 0
+    changed = 0
+    for entry in history.get('versions', []):
+        if entry.get('date_source') != 'first_seen':
+            continue
+        jamf_date = lookup_jamf_release_date(entry['sap_code'], entry['full_version'], jamf_data)
+        if not jamf_date:
+            continue
+        try:
+            seen = datetime.strptime(entry['release_date'], "%Y-%m-%d")
+            shipped = datetime.strptime(jamf_date, "%Y-%m-%d")
+        except ValueError:
+            continue
+        if (seen - shipped).days > 1:
+            print(f"Backfilled {entry['display_name']} {entry['full_version']}: {entry['release_date']} -> {jamf_date} (jamf)")
+            entry['release_date'] = jamf_date
+            entry['date_source'] = 'jamf'
+            changed += 1
+    return changed
+
+
 def update_version_history(products, output_dir, jamf_data=None):
     """
     Update version history with any new versions detected.
     Records: display_name, sap_code, version, full_version, release_date, date_source
-    Uses product's release_date if available, checks Jamf, otherwise uses current date.
     date_source indicates where the date came from: 'api', 'jamf', 'manual', or 'first_seen'
     """
     history = load_version_history(output_dir)
@@ -484,34 +612,14 @@ def update_version_history(products, output_dir, jamf_data=None):
         existing_versions.add(key)
 
     new_entries = []
-    for name, info in products.items():
+    for info in products.values():
+        name = info['display_name']
         sap_code = info['sap_code']
         full_version = info['full_version']
         key = f"{sap_code}_{full_version}"
 
         if key not in existing_versions:
-            # Determine the release date to use
-            release_date = info.get('release_date', 'N/A')
-
-            if release_date != 'N/A':
-                # API provided a date
-                date_source = 'api'
-            else:
-                # Try Jamf as a fallback source
-                if jamf_data:
-                    jamf_date, found = lookup_jamf_release_date(sap_code, full_version, name, jamf_data)
-                    if found and jamf_date:
-                        release_date = jamf_date
-                        date_source = 'jamf'
-                    else:
-                        # No Jamf date found, use first_seen
-                        release_date = today
-                        date_source = 'first_seen'
-                else:
-                    # No Jamf data available, use first_seen
-                    release_date = today
-                    date_source = 'first_seen'
-
+            release_date, date_source = choose_release_date(info, sap_code, full_version, today, jamf_data)
             new_entry = {
                 'display_name': name,
                 'sap_code': sap_code,
@@ -523,16 +631,16 @@ def update_version_history(products, output_dir, jamf_data=None):
             new_entries.append(new_entry)
             print(f"New version detected: {name} {full_version} ({release_date} - {date_source})")
 
-    if new_entries:
-        # Add new entries to history
+    backfilled = backfill_history_dates(history, jamf_data)
+
+    if new_entries or backfilled:
         history['versions'].extend(new_entries)
         # Sort by release date (newest first), then by name
         history['versions'].sort(key=lambda x: (x['release_date'], x['display_name']), reverse=True)
         history['last_updated'] = datetime.now(timezone('US/Eastern')).strftime("%B %d, %Y %I:%M %p %Z")
 
-        # Save version history in all formats
         save_version_history(history, output_dir)
-        print(f"Updated version history with {len(new_entries)} new entries")
+        print(f"Updated version history: {len(new_entries)} new entries, {backfilled} dates backfilled")
     else:
         print("No new versions detected")
 
@@ -637,8 +745,8 @@ def main():
     reader_version = fetch_adobe_reader_version()
     if reader_version:
         # Use same icon as Acrobat
-        acrobat_icon = products.get('Acrobat', {}).get('icon_url', 'N/A')
-        products['Acrobat Reader'] = {
+        acrobat_icon = products.get('APRO', {}).get('icon_url', 'N/A')
+        products['ARDR'] = {
             'display_name': 'Acrobat Reader',
             'sap_code': 'ARDR',
             'version': reader_version.split('.')[0] + '.' + reader_version.split('.')[1],
@@ -655,22 +763,30 @@ def main():
         }
         print(f"Added Adobe Reader version {reader_version}")
 
-    # Fetch Acrobat release dates from official Adobe release notes (Acrobat doesn't have timestamp in version)
+    # Acrobat/Reader have no timestamp in their version. Use Adobe's release
+    # notes first, then fall back to the Last-Modified date of the ARM manifest
+    # that Adobe rewrites when an update ships.
     acrobat_release_dates = fetch_acrobat_release_dates()
-    if acrobat_release_dates:
-        # Apply release dates to Acrobat and Reader products
-        for product_name, product_info in products.items():
-            if product_info['sap_code'] in ['APRO', 'ARDR']:
-                full_version = product_info['full_version']
-                if full_version in acrobat_release_dates:
-                    product_info['release_date'] = acrobat_release_dates[full_version]
-                    print(f"Added release date for {product_name}: {acrobat_release_dates[full_version]}")
+    arm_urls = {'APRO': ADOBE_ACROBAT_VERSION_URL, 'ARDR': ADOBE_READER_VERSION_URL}
+    for sap_code, arm_url in arm_urls.items():
+        product_info = products.get(sap_code)
+        if not product_info:
+            continue
+        full_version = product_info['full_version']
+        if full_version in acrobat_release_dates:
+            product_info['release_date'] = acrobat_release_dates[full_version]
+            print(f"Added release date for {product_info['display_name']}: {product_info['release_date']} (release notes)")
+        else:
+            arm_date = fetch_last_modified_date(arm_url)
+            if arm_date:
+                product_info['release_date'] = arm_date
+                print(f"Added release date for {product_info['display_name']}: {arm_date} (ARM Last-Modified)")
 
     print(f"Found {len(products)} unique products")
 
     # Download icons for all products (will skip existing ones)
     print("Checking product icons...")
-    for name, info in products.items():
+    for info in products.values():
         download_product_icon(
             info['sap_code'],
             info['version'],
@@ -694,6 +810,15 @@ def main():
     with open(os.path.join(output_dir, "adobe_latest_versions.xml"), "w") as f:
         f.write(xml_data)
     print("Wrote: adobe_latest_versions.xml")
+
+    # Flat SAP -> version map for scripts that only need the number
+    simple = {
+        sap: {'display_name': info['display_name'], 'version': info['full_version']}
+        for sap, info in sorted(products.items())
+    }
+    with open(os.path.join(output_dir, "adobe_simple_versions.json"), "w") as f:
+        json.dump({'last_updated': json.loads(json_data)['last_updated'], 'products': simple}, f, indent=2)
+    print("Wrote: adobe_simple_versions.json")
 
     # Fetch Jamf patch data for cross-referencing release dates
     jamf_data = fetch_jamf_patch_data()
