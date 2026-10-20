@@ -1,0 +1,173 @@
+{
+  "last_updated": "October 20, 2026 10:53 AM EDT",
+  "products": {
+    "AAM": {
+      "display_name": "Adobe Application Manager",
+      "version": "6.2.10"
+    },
+    "AEFT": {
+      "display_name": "After Effects",
+      "version": "26.5.0.89"
+    },
+    "AEFTBETA": {
+      "display_name": "After Effects (Beta)",
+      "version": "27.1.0.19"
+    },
+    "AICY": {
+      "display_name": "InCopy",
+      "version": "21.6.0.057"
+    },
+    "AME": {
+      "display_name": "Media Encoder",
+      "version": "26.5.2.2"
+    },
+    "AMEBETA": {
+      "display_name": "Media Encoder (Beta)",
+      "version": "27.1.0.21"
+    },
+    "APRO": {
+      "display_name": "Acrobat",
+      "version": "26.002.22031"
+    },
+    "ARDR": {
+      "display_name": "Acrobat Reader",
+      "version": "26.002.22031"
+    },
+    "ASCT": {
+      "display_name": "Scout CC",
+      "version": "1.1.3"
+    },
+    "AUDT": {
+      "display_name": "Audition",
+      "version": "26.5.0.82"
+    },
+    "AUDTBETA": {
+      "display_name": "Audition (Beta)",
+      "version": "27.1.0.21"
+    },
+    "CHAR": {
+      "display_name": "Character Animator",
+      "version": "26.0.0.50"
+    },
+    "CHARBETA": {
+      "display_name": "Character Animator (Beta)",
+      "version": "25.6.0.092"
+    },
+    "DRWV": {
+      "display_name": "Dreamweaver",
+      "version": "21.8.1.15907"
+    },
+    "ESHR": {
+      "display_name": "Dimension",
+      "version": "4.1.9.4977"
+    },
+    "FLBR": {
+      "display_name": "Flash Builder Premium",
+      "version": "4.7"
+    },
+    "FLPR": {
+      "display_name": "Animate",
+      "version": "24.0.15.5"
+    },
+    "FWKS": {
+      "display_name": "Fireworks CS6",
+      "version": "12.0.0"
+    },
+    "GSDK": {
+      "display_name": "Gaming SDK 1.4",
+      "version": "1.4"
+    },
+    "IDSN": {
+      "display_name": "InDesign",
+      "version": "21.6.0.057"
+    },
+    "IDSNBETA": {
+      "display_name": "InDesign (Beta)",
+      "version": "21.4.0.044"
+    },
+    "ILST": {
+      "display_name": "Illustrator",
+      "version": "30.8.2.7"
+    },
+    "ILSTPR": {
+      "display_name": "Illustrator (Prerelease)",
+      "version": "27.7.0.421"
+    },
+    "KBRG": {
+      "display_name": "Bridge",
+      "version": "16.0.8.10"
+    },
+    "KBRGBETA": {
+      "display_name": "Bridge (Beta)",
+      "version": "17.0.0.79"
+    },
+    "KCCC": {
+      "display_name": "Creative Cloud",
+      "version": "6.11.0"
+    },
+    "KEMN": {
+      "display_name": "Extension Manager CC",
+      "version": "7.0"
+    },
+    "KETK": {
+      "display_name": "Extendscript Toolkit CC",
+      "version": "4.0"
+    },
+    "LRCC": {
+      "display_name": "Lightroom",
+      "version": "9.6.202609231659"
+    },
+    "LTRM": {
+      "display_name": "Lightroom Classic",
+      "version": "15.6.0.202609251514"
+    },
+    "MUSE": {
+      "display_name": "Muse CC",
+      "version": "2018.1.1.29"
+    },
+    "PHSP": {
+      "display_name": "Photoshop",
+      "version": "27.11.0.26"
+    },
+    "PHSPBETA": {
+      "display_name": "Photoshop (Beta)",
+      "version": "25.9.0.2611"
+    },
+    "PPRO": {
+      "display_name": "Premiere",
+      "version": "26.5.2.5"
+    },
+    "PPROBETA": {
+      "display_name": "Premiere (Beta)",
+      "version": "27.1.0.21"
+    },
+    "SBSTA": {
+      "display_name": "Substance 3D Sampler",
+      "version": "6.0.4.10899"
+    },
+    "SBSTD": {
+      "display_name": "Substance 3D Designer",
+      "version": "16.0.7.11787"
+    },
+    "SBSTP": {
+      "display_name": "Substance 3D Painter",
+      "version": "12.1.5.5783"
+    },
+    "SPRKBE": {
+      "display_name": "XD (Beta)",
+      "version": "57.1.12.2"
+    },
+    "STGR": {
+      "display_name": "Substance 3D Stager",
+      "version": "3.1.9.6719"
+    },
+    "TAPI": {
+      "display_name": "Touch App Plugins",
+      "version": "1.0"
+    },
+    "UXPD": {
+      "display_name": "UXP Developer Tools",
+      "version": "2.3.0.5"
+    }
+  }
+}

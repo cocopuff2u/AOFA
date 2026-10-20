@@ -162,7 +162,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 ## All Adobe Products
 
-<sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
+<sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**Simple JSON**](latest_adobe_files/adobe_simple_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
 <sup>_Last Updated: <code style="color : mediumseagreen">{last_updated}</code> (Automatically updated every hour)_</sup>
 
@@ -190,10 +190,10 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 | Source | Description |
 |--------|-------------|
-| `Official Adobe Source` | Release date provided directly from Adobe's API (most reliable) |
-| `Jamf Patch` | Release date verified against Jamf's patch management catalog |
+| `Official Adobe Source` | Date from Adobe itself: build timestamp in the version, Acrobat release notes, or the Last-Modified date of Adobe's ARM manifest |
+| `First Seen Date` | Date AOFA first saw the version on Adobe's CDN. The feed is polled hourly, so this is normally the day Adobe published it |
+| `Jamf Patch` | Per-version release date from Jamf's patch definitions. Used to backfill versions that predate AOFA or were seen late |
 | `Manual Research` | Release date found through Adobe release notes, blogs, or community sources |
-| `First Seen Date` | Date when the version was first detected by AOFA (used when no official date is available) |
 
 ## Data Sources
 
@@ -204,7 +204,8 @@ AOFA pulls data from the following APIs:
 | Adobe CDN API | `https://cdn-ffc.oobesaas.adobe.com/core/v5/products/all` | Primary source for all Creative Cloud product data |
 | Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/reader/current_version.txt` | Adobe Release Manager endpoint for Acrobat Reader version |
 | Adobe Release Notes | `https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html` | Official Acrobat/Reader release dates |
-| Jamf Patch | `https://jamf-patch.jamfcloud.com/v1/software` | Cross-reference for release dates from Jamf's patch catalog |
+| Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/acrobat/current_version.txt` | Adobe Release Manager endpoint for Acrobat version and release date |
+| Jamf Patch | `https://jamf-patch.jamfcloud.com/v1/patch/{{id}}` | Per-version release dates from Jamf's patch definitions |
 
 <sup>A local copy of the raw Adobe API response is saved for easier viewing: [**adobe_raw_api_response.json**](latest_adobe_files/adobe_raw_api_response.json)</sup>
 
@@ -272,7 +273,7 @@ for name,(sap,ver) in sorted(seen.items()):
 
 ```bash
 # Fetch latest versions
-curl -s https://raw.githubusercontent.com/cocopuff2u/AOFA/main/latest_adobe_files/adobe_simple_versions.json
+curl -s https://raw.githubusercontent.com/cocopuff2u/AOFA/master/latest_adobe_files/adobe_simple_versions.json
 ```
 
 ## Contributing
