@@ -81,6 +81,9 @@ def generate_readme():
         icon_url = product.get('icon_url', '')
         whats_new_url = product.get('whats_new_url', '')
         system_req_url = product.get('system_requirements_url', '')
+        download_arm64 = product.get('download_url_arm64', '')
+        download_intel = product.get('download_url_intel', '')
+        download_universal = product.get('download_url_universal', '')
 
         # Skip beta apps for main table
         if 'Beta' in name or 'BETA' in sap:
@@ -110,6 +113,13 @@ def generate_readme():
             links.append(f"[Release Notes]({whats_new_url})")
         if system_req_url and system_req_url != 'N/A':
             links.append(f"[System Requirements]({system_req_url})")
+        if download_arm64 and download_arm64 != 'N/A':
+            links.append(f"[Download (Apple Silicon)]({download_arm64})")
+        if download_intel and download_intel != 'N/A':
+            links.append(f"[Download (Intel)]({download_intel})")
+        if download_universal and download_universal != 'N/A':
+            label = "Update Installer" if "Upd" in download_universal else "Download"
+            links.append(f"[{label} (Universal)]({download_universal})")
         links_cell = "<br>".join(links) if links else "N/A"
 
         product_rows.append(
@@ -202,9 +212,11 @@ AOFA pulls data from the following APIs:
 | Source | URL | Description |
 |--------|-----|-------------|
 | Adobe CDN API | `https://cdn-ffc.oobesaas.adobe.com/core/v5/products/all` | Primary source for all Creative Cloud product data |
+| Adobe CC Desktop Feed | `https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/applications?name=CreativeCloud&platform=macarm64` | Full build of the Creative Cloud desktop app and its standalone installer version |
 | Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/reader/current_version.txt` | Adobe Release Manager endpoint for Acrobat Reader version |
 | Adobe Release Notes | `https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html` | Official Acrobat/Reader release dates |
 | Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/acrobat/current_version.txt` | Adobe Release Manager endpoint for Acrobat version and release date |
+| Adobe Update Server | `https://ardownload2.adobe.com/pub/adobe/{{reader,acrobat}}/mac/AcrobatDC/{{version}}/` | Public Acrobat Reader installer and Acrobat updater DMGs |
 | Jamf Patch | `https://jamf-patch.jamfcloud.com/v1/patch/{{id}}` | Per-version release dates from Jamf's patch definitions |
 
 <sup>A local copy of the raw Adobe API response is saved for easier viewing: [**adobe_raw_api_response.json**](latest_adobe_files/adobe_raw_api_response.json)</sup>
@@ -231,6 +243,10 @@ Header: x-adobe-app-id: accc-hdcore-desktop
 | `license_mode` | License type (PAID, FREE, FREEMIUM, RESIDUAL) |
 | `min_macos_version` | Minimum macOS version required |
 | `download_size` | Download size (MB/GB format) |
+| `installer_version` | Version Adobe labels the standalone installer with, when it differs from the installed app (Creative Cloud only) |
+| `download_url_arm64` | Direct download link for the Apple Silicon installer (Creative Cloud only) |
+| `download_url_intel` | Direct download link for the Intel installer (Creative Cloud only) |
+| `download_url_universal` | Direct download link for a universal DMG. Acrobat Reader is the full installer; Acrobat is Adobe's updater DMG, since Adobe publishes no public full installer |
 | `icon_url` | Product icon URL |
 | `product_page` | Official product webpage |
 | `whats_new_url` | Link to release notes/what's new page |

@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 23, 2026 05:56 AM EDT",
+  "last_updated": "October 23, 2026 10:15 AM EDT",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -309,7 +309,7 @@
       "display_name": "Creative Cloud",
       "sap_code": "KCCC",
       "version": "6.11.0",
-      "full_version": "6.11.0",
+      "full_version": "6.11.0.479",
       "release_date": "2026-10-13",
       "date_source": "jamf"
     },

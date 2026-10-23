@@ -38,8 +38,31 @@ ADOBE_API_HEADER = "x-adobe-app-id: accc-hdcore-desktop"
 ADOBE_READER_VERSION_URL = "https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/reader/current_version.txt"
 ADOBE_ACROBAT_VERSION_URL = "https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/acrobat/current_version.txt"
 
+# Public Acrobat/Reader DMGs on Adobe's update server, keyed by the dotless
+# version (26.002.22031 -> 2600222031). Reader is a full installer; Adobe only
+# publishes an updater DMG for Acrobat, not a full installer.
+ADOBE_READER_DMG_URL = "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/{v}/AcroRdrDC_{v}_MUI.dmg"
+ADOBE_ACROBAT_DMG_URL = "https://ardownload2.adobe.com/pub/adobe/acrobat/mac/AcrobatDC/{v}/AcrobatDCUpd{v}.dmg"
+
 # Acrobat release notes URL (official Adobe source for release dates - Acrobat doesn't have timestamp in version)
 ACROBAT_RELEASE_NOTES_URL = "https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html"
+
+# Creative Cloud desktop app. The products API only reports the marketing
+# version ("6.11.0"), so the full build and the standalone installer come from
+# the update feed the Creative Cloud app itself polls. Adobe uses two numbers:
+# the installer DMG is labelled with the <application> version ("6.11.0.478.6")
+# while the installed Creative Cloud.app carries the "ACCC" package version
+# ("6.11.0.479"), which is what Info.plist and Jamf report.
+ADOBE_CC_DESKTOP_FEED_URL = (
+    "https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/applications"
+    "?name=CreativeCloud&osVersion=15.0&platform={platform}"
+)
+ADOBE_CC_DESKTOP_ESD_URL = (
+    "https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/"
+    "{release}/{build}/{platform}/ACCCx{underscored}.dmg"
+)
+# Feed platform id -> output field suffix
+ADOBE_CC_DESKTOP_PLATFORMS = {'macarm64': 'arm64', 'osx10': 'intel'}
 
 # Jamf Patch API. The software list only carries a lastModified stamp, but each
 # title's patch definition lists every version with its own releaseDate.
@@ -163,6 +186,141 @@ def fetch_adobe_products():
     except json.JSONDecodeError as e:
         print(f"Error parsing Adobe API response: {e}")
         return None
+
+
+def fetch_url_headers(url):
+    """Return lowercase HTTP response headers for a URL as a dict, or {} on failure."""
+    headers = {}
+    try:
+        result = subprocess.run(
+            ["curl", "-sI", "-m", "20", url],
+            capture_output=True, text=True, timeout=30
+        )
+        for line in result.stdout.splitlines():
+            if ':' in line:
+                key, value = line.split(':', 1)
+                headers[key.strip().lower()] = value.strip()
+    except Exception as e:
+        print(f"Warning: Could not read headers for {url}: {e}")
+    return headers
+
+
+def build_cc_desktop_download_url(installer_version, platform):
+    """
+    Adobe stages the standalone Creative Cloud installer at a predictable path
+    built from the installer version: 6.11.0.478.6 ->
+    .../ESD/6.11.0/478.6/macarm64/ACCCx6_11_0_478_6.dmg
+    """
+    parts = installer_version.split('.')
+    if len(parts) < 4:
+        return None
+    return ADOBE_CC_DESKTOP_ESD_URL.format(
+        release='.'.join(parts[:3]),
+        build='.'.join(parts[3:]),
+        platform=platform,
+        underscored='_'.join(parts),
+    )
+
+
+def fetch_creative_cloud_desktop():
+    """
+    Fetch the Creative Cloud desktop app build and installer links from the
+    update feed the app polls. Returns a dict with:
+      full_version      - version of the installed Creative Cloud.app (ACCC package)
+      installer_version - version Adobe labels the standalone installer with
+      download_urls     - {'arm64': url, 'intel': url} (only verified links)
+      download_size     - size in bytes of the Apple Silicon installer, or 0
+    Returns None if the feed is unavailable.
+    """
+    print("Fetching Creative Cloud desktop app feed...")
+    info = None
+    for platform, suffix in ADOBE_CC_DESKTOP_PLATFORMS.items():
+        url = ADOBE_CC_DESKTOP_FEED_URL.format(platform=platform)
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "-m", "30", url],
+                capture_output=True, text=True, timeout=45
+            )
+            root = ET.fromstring(result.stdout)
+        except Exception as e:
+            print(f"Warning: Could not fetch Creative Cloud feed for {platform}: {e}")
+            continue
+
+        installer_version = root.findtext('application/version')
+        if not installer_version:
+            print(f"Warning: Creative Cloud feed for {platform} lists no application")
+            continue
+
+        app_version = None
+        for package in root.iter('package'):
+            if package.findtext('name') == 'ACCC':
+                app_version = package.findtext('version')
+                break
+
+        if info is None:
+            info = {
+                'full_version': app_version or installer_version,
+                'installer_version': installer_version,
+                'download_urls': {},
+                'download_size': 0,
+            }
+        elif installer_version != info['installer_version']:
+            print(f"Warning: Creative Cloud {platform} installer {installer_version} differs from {info['installer_version']}")
+
+        download_url = build_cc_desktop_download_url(installer_version, platform)
+        if not download_url:
+            continue
+        headers = fetch_url_headers(download_url)
+        if 'content-length' not in headers:
+            print(f"Warning: Creative Cloud installer not found at {download_url}")
+            continue
+        info['download_urls'][suffix] = download_url
+        if suffix == 'arm64':
+            info['download_size'] = int(headers['content-length'])
+
+    if info:
+        print(f"Creative Cloud desktop: app {info['full_version']}, installer {info['installer_version']}, "
+              f"{len(info['download_urls'])} download links")
+    return info
+
+
+def apply_creative_cloud_desktop(products, cc_info):
+    """Merge the Creative Cloud desktop feed data into the KCCC product entry."""
+    product = products.get('KCCC')
+    if not product or not cc_info:
+        return
+    if version_key(cc_info['full_version'])[:3] != version_key(product['full_version'])[:3]:
+        # The two Adobe feeds disagree on the release; trust the products API
+        # for the number and skip the links rather than mix versions.
+        print(f"Warning: Creative Cloud feed {cc_info['full_version']} does not match API {product['full_version']}")
+        return
+    product['full_version'] = cc_info['full_version']
+    product['installer_version'] = cc_info['installer_version']
+    for suffix, url in cc_info['download_urls'].items():
+        product[f'download_url_{suffix}'] = url
+    if cc_info['download_size']:
+        product['download_size'] = format_file_size(cc_info['download_size'])
+
+
+def apply_acrobat_downloads(products):
+    """
+    Add direct download links for Acrobat and Reader. Both ship as universal
+    DMGs at predictable paths on Adobe's update server; links are verified
+    before they are published.
+    """
+    for sap_code, template in (('ARDR', ADOBE_READER_DMG_URL), ('APRO', ADOBE_ACROBAT_DMG_URL)):
+        product = products.get(sap_code)
+        if not product or product['full_version'] == 'N/A':
+            continue
+        url = template.format(v=product['full_version'].replace('.', ''))
+        headers = fetch_url_headers(url)
+        if 'content-length' not in headers:
+            print(f"Warning: {product['display_name']} installer not found at {url}")
+            continue
+        product['download_url_universal'] = url
+        if product['download_size'] == 'N/A':
+            product['download_size'] = format_file_size(int(headers['content-length'])) or 'N/A'
+        print(f"Added download link for {product['display_name']}: {url}")
 
 
 def fetch_adobe_reader_version():
@@ -474,6 +632,10 @@ def extract_product_info(data):
                     'license_mode': license_mode or 'N/A',
                     'min_macos_version': min_macos_version or 'N/A',
                     'download_size': format_file_size(download_size) or 'N/A',
+                    'installer_version': 'N/A',
+                    'download_url_arm64': 'N/A',
+                    'download_url_intel': 'N/A',
+                    'download_url_universal': 'N/A',
                     'icon_url': icon_url or 'N/A',
                     'product_page': product_page or 'N/A',
                     'whats_new_url': whats_new_url or 'N/A',
@@ -596,6 +758,26 @@ def backfill_history_dates(history, jamf_data):
     return changed
 
 
+def refine_history_versions(history, products):
+    """
+    When a product's full_version gains precision (Creative Cloud went from
+    "6.11.0" to "6.11.0.479" once the desktop feed was added), extend the
+    existing history entry for that release instead of logging a duplicate.
+    """
+    changed = 0
+    for entry in history.get('versions', []):
+        info = products.get(entry['sap_code'])
+        if not info:
+            continue
+        new_full = info['full_version']
+        old_full = entry['full_version']
+        if new_full != old_full and new_full.startswith(old_full + '.') and info['version'] == entry['version']:
+            print(f"Refined {entry['display_name']} {old_full} -> {new_full} in version history")
+            entry['full_version'] = new_full
+            changed += 1
+    return changed
+
+
 def update_version_history(products, output_dir, jamf_data=None):
     """
     Update version history with any new versions detected.
@@ -604,6 +786,8 @@ def update_version_history(products, output_dir, jamf_data=None):
     """
     history = load_version_history(output_dir)
     today = datetime.now(timezone('US/Eastern')).strftime("%Y-%m-%d")
+
+    refined = refine_history_versions(history, products)
 
     # Build a set of existing version entries for quick lookup
     existing_versions = set()
@@ -633,7 +817,7 @@ def update_version_history(products, output_dir, jamf_data=None):
 
     backfilled = backfill_history_dates(history, jamf_data)
 
-    if new_entries or backfilled:
+    if new_entries or backfilled or refined:
         history['versions'].extend(new_entries)
         # Sort by release date (newest first), then by name
         history['versions'].sort(key=lambda x: (x['release_date'], x['display_name']), reverse=True)
@@ -741,6 +925,10 @@ def main():
     # Extract product information
     products = extract_product_info(raw_data)
 
+    # The products API only gives the Creative Cloud app's marketing version;
+    # the desktop update feed has the full build and the standalone installer.
+    apply_creative_cloud_desktop(products, fetch_creative_cloud_desktop())
+
     # Fetch Adobe Reader separately (distributed via ARM, not Creative Cloud)
     reader_version = fetch_adobe_reader_version()
     if reader_version:
@@ -755,6 +943,10 @@ def main():
             'license_mode': 'FREE',
             'min_macos_version': 'N/A',
             'download_size': 'N/A',
+            'installer_version': 'N/A',
+            'download_url_arm64': 'N/A',
+            'download_url_intel': 'N/A',
+            'download_url_universal': 'N/A',
             'icon_url': acrobat_icon,
             'product_page': 'https://www.adobe.com/acrobat/pdf-reader.html',
             'whats_new_url': 'https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html',
@@ -781,6 +973,8 @@ def main():
             if arm_date:
                 product_info['release_date'] = arm_date
                 print(f"Added release date for {product_info['display_name']}: {arm_date} (ARM Last-Modified)")
+
+    apply_acrobat_downloads(products)
 
     print(f"Found {len(products)} unique products")
 

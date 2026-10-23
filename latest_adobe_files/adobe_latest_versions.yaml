@@ -1,4 +1,4 @@
-last_updated: October 23, 2026 05:55 AM EDT
+last_updated: October 23, 2026 10:22 AM EDT
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -7,7 +7,11 @@ products:
   release_date: '2026-10-14'
   license_mode: RESIDUAL
   min_macos_version: 10.15.0
-  download_size: N/A
+  download_size: 1.09 GB
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: https://ardownload2.adobe.com/pub/adobe/acrobat/mac/AcrobatDC/2600222031/AcrobatDCUpd2600222031.dmg
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
   product_page: https://creative.adobe.com/products/acrobat
   whats_new_url: https://www.adobe.com/go/ffc-acr-latest-version
@@ -22,7 +26,11 @@ products:
   release_date: '2026-10-14'
   license_mode: FREE
   min_macos_version: N/A
-  download_size: N/A
+  download_size: 704.7 MB
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600222031/AcroRdrDC_2600222031_MUI.dmg
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
   product_page: https://www.adobe.com/acrobat/pdf-reader.html
   whats_new_url: https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html
@@ -37,6 +45,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AAM/6.2.10/96x96.png
   product_page: N/A
   whats_new_url: N/A
@@ -50,6 +62,10 @@ products:
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFT/26.5/96x96.png
   product_page: https://www.adobe.com/products/aftereffects.html
   whats_new_url: https://helpx.adobe.com/after-effects/using/whats-new.html
@@ -64,6 +80,10 @@ products:
   license_mode: PAID
   min_macos_version: 15.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AEFTBETA/27.1/96x96.png
   product_page: https://www.adobe.com/products/aftereffects.html
   whats_new_url: https://helpx.adobe.com/after-effects/using/whats-new.html
@@ -78,6 +98,10 @@ products:
   license_mode: PAID
   min_macos_version: '12.0'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/24.0.15/96x96.png
   product_page: https://www.adobe.com/products/animate.html
   whats_new_url: https://helpx.adobe.com/animate/using/whats-new.html
@@ -92,6 +116,10 @@ products:
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDT/26.5/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
@@ -106,6 +134,10 @@ products:
   license_mode: PAID
   min_macos_version: 15.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AUDTBETA/27.1/96x96.png
   product_page: https://www.adobe.com/products/audition.html
   whats_new_url: https://helpx.adobe.com/audition/using/whats-new.html
@@ -120,6 +152,10 @@ products:
   license_mode: FREE
   min_macos_version: '13.0'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRG/16.0.8/96x96.png
   product_page: https://www.adobe.com/products/bridge.html
   whats_new_url: https://helpx.adobe.com/bridge/using/whats-new.html
@@ -137,6 +173,10 @@ products:
   license_mode: FREE
   min_macos_version: '14.0'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KBRGBETA/17.0.0/96x96.png
   product_page: https://www.adobe.com/products/bridge.html
   whats_new_url: https://helpx.adobe.com/bridge/using/whats-new.html
@@ -151,6 +191,10 @@ products:
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
   download_size: 1.65 GB
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHAR/26.0/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -165,6 +209,10 @@ products:
   license_mode: FREEMIUM
   min_macos_version: 12.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/CHARBETA/25.6/96x96.png
   product_page: https://www.adobe.com/products/character-animator.html
   whats_new_url: https://helpx.adobe.com/adobe-character-animator/using/whats-new.html
@@ -174,11 +222,15 @@ products:
 - display_name: Creative Cloud
   sap_code: KCCC
   version: 6.11.0
-  full_version: 6.11.0
+  full_version: 6.11.0.479
   release_date: N/A
   license_mode: N/A
   min_macos_version: N/A
-  download_size: N/A
+  download_size: 262.7 MB
+  installer_version: 6.11.0.478.6
+  download_url_arm64: https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.11.0/478.6/macarm64/ACCCx6_11_0_478_6.dmg
+  download_url_intel: https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.11.0/478.6/osx10/ACCCx6_11_0_478_6.dmg
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KCCC/6.11.0/96x96.png
   product_page: N/A
   whats_new_url: N/A
@@ -199,6 +251,10 @@ products:
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ESHR/4.1.9/96x96.png
   product_page: https://www.adobe.com/go/dn
   whats_new_url: https://www.adobe.com/go/dn-release-notes
@@ -214,6 +270,10 @@ products:
   license_mode: PAID
   min_macos_version: '10.14'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.8.1/96x96.png
   product_page: https://www.adobe.com/go/dreamweaver
   whats_new_url: https://www.adobe.com/go/dw_whatsnew
@@ -227,6 +287,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KETK/4.0/96x96.png
   product_page: https://creative.adobe.com/products/estk
   whats_new_url: N/A
@@ -240,6 +304,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/KEMN/7.0/96x96.png
   product_page: https://creative.adobe.com/products/extension-manager
   whats_new_url: N/A
@@ -253,6 +321,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/FWKS/12.0.0/96x96.png
   product_page: https://creative.adobe.com/products/fireworks
   whats_new_url: N/A
@@ -267,6 +339,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/FLBR/4.7/96x96.png
   product_page: https://creative.adobe.com/products/flash-builder
   whats_new_url: N/A
@@ -280,6 +356,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/GSDK/1.4/96x96.png
   product_page: https://creative.adobe.com/products/gaming-sdk
   whats_new_url: N/A
@@ -293,6 +373,10 @@ products:
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILST/30.8.2/96x96.png
   product_page: https://creative.adobe.com/products/illustrator
   whats_new_url: https://helpx.adobe.com/illustrator/using/whats-new.html
@@ -309,6 +393,10 @@ products:
   license_mode: PAID
   min_macos_version: 10.15.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ILSTPR/27.7/96x96.png
   product_page: https://creative.adobe.com/products/illustrator
   whats_new_url: https://www.adobe.com/products/illustrator/features.html
@@ -323,6 +411,10 @@ products:
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AICY/21.6/96x96.png
   product_page: https://www.adobe.com/products/incopy.html
   whats_new_url: https://helpx.adobe.com/incopy/using/whats-new.html
@@ -337,6 +429,10 @@ products:
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSN/21.6/96x96.png
   product_page: https://www.adobe.com/products/indesign.html
   whats_new_url: https://helpx.adobe.com/indesign/using/whats-new.html
@@ -351,6 +447,10 @@ products:
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/IDSNBETA/21.4/96x96.png
   product_page: https://www.adobe.com/products/indesign.html
   whats_new_url: https://helpx.adobe.com/indesign/using/whats-new.html
@@ -365,6 +465,10 @@ products:
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LRCC/9.6/96x96.png
   product_page: https://www.adobe.com/go/lrcc_learnmore
   whats_new_url: https://www.adobe.com/go/lrcc_whatsnew
@@ -379,6 +483,10 @@ products:
   license_mode: RESIDUAL
   min_macos_version: '14.0'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/15.6/96x96.png
   product_page: https://www.adobe.com/products/photoshop-lightroom-classic.html
   whats_new_url: https://helpx.adobe.com/lightroom-classic/help/whats-new.html
@@ -393,6 +501,10 @@ products:
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AME/26.5.2/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
@@ -407,6 +519,10 @@ products:
   license_mode: PAID
   min_macos_version: 15.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/AMEBETA/27.1/96x96.png
   product_page: https://www.adobe.com/products/media-encoder.html
   whats_new_url: https://helpx.adobe.com/media-encoder/using/whats-new.html
@@ -421,6 +537,10 @@ products:
   license_mode: N/A
   min_macos_version: '10.10'
   download_size: 700.2 MB
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/MUSE/2018.1.1/96x96.png
   product_page: https://creative.adobe.com/products/muse
   whats_new_url: http://www.adobe.com/products/muse/features.html
@@ -434,6 +554,10 @@ products:
   license_mode: PAID
   min_macos_version: 13.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSP/27.11/96x96.png
   product_page: https://www.adobe.com/products/photoshop
   whats_new_url: https://helpx.adobe.com/photoshop/using/whats-new.html
@@ -454,6 +578,10 @@ products:
   license_mode: PAID
   min_macos_version: 11.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PHSPBETA/25.9/96x96.png
   product_page: https://creative.adobe.com/products/photoshop
   whats_new_url: https://www.adobe.com/products/photoshop/features.html
@@ -469,6 +597,10 @@ products:
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPRO/26.5.2/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
@@ -483,6 +615,10 @@ products:
   license_mode: PAID
   min_macos_version: 15.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/PPROBETA/27.1/96x96.png
   product_page: https://www.adobe.com/products/premiere.html
   whats_new_url: https://helpx.adobe.com/premiere-pro/using/whats-new.html
@@ -497,6 +633,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/ASCT/1.1.3/96x96.png
   product_page: https://creative.adobe.com/products/scout
   whats_new_url: N/A
@@ -510,6 +650,10 @@ products:
   license_mode: PAID
   min_macos_version: 14.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTD/16.0.7/96x96.png
   product_page: https://www.adobe.com/go/designer-more-info
   whats_new_url: https://www.adobe.com/go/Substance-3D-release-notes-Designer
@@ -524,6 +668,10 @@ products:
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTP/12.2.0/96x96.png
   product_page: https://www.adobe.com/go/painter-more-info
   whats_new_url: https://www.adobe.com/go/painter-release-notes
@@ -538,6 +686,10 @@ products:
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SBSTA/6.0.4/96x96.png
   product_page: https://www.adobe.com/go/sampler-more-info
   whats_new_url: https://www.adobe.com/go/sampler-release-notes
@@ -552,6 +704,10 @@ products:
   license_mode: PAID
   min_macos_version: 12.0.0
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/STGR/3.1.9/96x96.png
   product_page: https://www.adobe.com/go/stager
   whats_new_url: https://www.adobe.com/go/stager-release-notes
@@ -566,6 +722,10 @@ products:
   license_mode: N/A
   min_macos_version: N/A
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/TAPI/1.0/96x96.png
   product_page: N/A
   whats_new_url: N/A
@@ -579,6 +739,10 @@ products:
   license_mode: N/A
   min_macos_version: 10.13.6
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/UXPD/2.3.0/96x96.png
   product_page: https://www.adobe.com/go/uxp-developer-tool-support
   whats_new_url: https://www.adobe.com/go/uxp-developer-tool-support
@@ -592,6 +756,10 @@ products:
   license_mode: RESIDUAL
   min_macos_version: '10.15'
   download_size: N/A
+  installer_version: N/A
+  download_url_arm64: N/A
+  download_url_intel: N/A
+  download_url_universal: N/A
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/SPRKBE/57.1.12/96x96.png
   product_page: https://www.adobe.com/go/xd_more_info
   whats_new_url: https://www.adobe.com/go/xd_whats_new
