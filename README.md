@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**Simple JSON**](latest_adobe_files/adobe_simple_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">October 23, 2026 05:55 AM EDT</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">October 23, 2026 10:22 AM EDT</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -21,15 +21,15 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 | **Product** | **Version Information** | **Links** |
 |-------------|------------------------|-----------|
-| <img src=".github/icons/APRO_26_1.png" alt="Acrobat" width="80"><br>**Acrobat**<br><br>**SAP Code:**<br>`APRO` | **Version:**<br>`26.002.22031`<br><br>**Release Date:**<br>`2026-10-14`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://www.adobe.com/go/ffc-acr-latest-version) |
-| <img src=".github/icons/ARDR_26_002.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.002.22031`<br><br>**Release Date:**<br>`2026-10-14`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html) |
+| <img src=".github/icons/APRO_26_1.png" alt="Acrobat" width="80"><br>**Acrobat**<br><br>**SAP Code:**<br>`APRO` | **Version:**<br>`26.002.22031`<br><br>**Release Date:**<br>`2026-10-14`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://www.adobe.com/go/ffc-acr-latest-version)<br>[Update Installer (Universal)](https://ardownload2.adobe.com/pub/adobe/acrobat/mac/AcrobatDC/2600222031/AcrobatDCUpd2600222031.dmg) |
+| <img src=".github/icons/ARDR_26_002.png" alt="Acrobat Reader" width="80"><br>**Acrobat Reader**<br><br>**SAP Code:**<br>`ARDR` | **Version:**<br>`26.002.22031`<br><br>**Release Date:**<br>`2026-10-14`<br><br>**Release Date Source:**<br>`Official Adobe Source` | [Release Notes](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html)<br>[System Requirements](https://helpx.adobe.com/reader/system-requirements.html)<br>[Download (Universal)](https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600222031/AcroRdrDC_2600222031_MUI.dmg) |
 | <img src=".github/icons/AAM_6_2_10.png" alt="Adobe Application Manager" width="80"><br>**Adobe Application Manager**<br><br>**SAP Code:**<br>`AAM` | **Version:**<br>`6.2.10`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
 | <img src=".github/icons/AEFT_26_5.png" alt="After Effects" width="80"><br>**After Effects**<br><br>**SAP Code:**<br>`AEFT` | **Version:**<br>`26.5.0.89`<br><br>**Release Date:**<br>`2026-09-10`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/after-effects/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/after-effects/system-requirements.html) |
 | <img src=".github/icons/FLPR_24_0_15.png" alt="Animate" width="80"><br>**Animate**<br><br>**SAP Code:**<br>`FLPR` | **Version:**<br>`24.0.15.5`<br><br>**Release Date:**<br>`2026-09-06`<br><br>**Release Date Source:**<br>`Jamf Patch` | [Release Notes](https://helpx.adobe.com/animate/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/animate/system-requirements.html) |
 | <img src=".github/icons/AUDT_26_5.png" alt="Audition" width="80"><br>**Audition**<br><br>**SAP Code:**<br>`AUDT` | **Version:**<br>`26.5.0.82`<br><br>**Release Date:**<br>`2026-09-10`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/audition/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/audition/system-requirements.html) |
 | <img src=".github/icons/KBRG_16_0_8.png" alt="Bridge" width="80"><br>**Bridge**<br><br>**SAP Code:**<br>`KBRG` | **Version:**<br>`16.0.8.10`<br><br>**Release Date:**<br>`2026-09-30`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://helpx.adobe.com/bridge/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/bridge/system-requirements.html) |
 | <img src=".github/icons/CHAR_26_0.png" alt="Character Animator" width="80"><br>**Character Animator**<br><br>**SAP Code:**<br>`CHAR` | **Version:**<br>`26.0.0.50`<br><br>**Release Date:**<br>`2026-01-20`<br><br>**Release Date Source:**<br>`Manual Research` | [Release Notes](https://helpx.adobe.com/adobe-character-animator/using/whats-new.html)<br>[System Requirements](https://helpx.adobe.com/adobe-character-animator/system-requirements.html) |
-| <img src=".github/icons/KCCC_6_11_0.png" alt="Creative Cloud" width="80"><br>**Creative Cloud**<br><br>**SAP Code:**<br>`KCCC` | **Version:**<br>`6.11.0`<br><br>**Release Date:**<br>`2026-10-13`<br><br>**Release Date Source:**<br>`Jamf Patch` | N/A |
+| <img src=".github/icons/KCCC_6_11_0.png" alt="Creative Cloud" width="80"><br>**Creative Cloud**<br><br>**SAP Code:**<br>`KCCC` | **Version:**<br>`6.11.0.479`<br><br>**Release Date:**<br>`2026-10-13`<br><br>**Release Date Source:**<br>`Jamf Patch` | [Download (Apple Silicon)](https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.11.0/478.6/macarm64/ACCCx6_11_0_478_6.dmg)<br>[Download (Intel)](https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.11.0/478.6/osx10/ACCCx6_11_0_478_6.dmg) |
 | <img src=".github/icons/ESHR_4_1_9.png" alt="Dimension" width="80"><br>**Dimension**<br><br>**SAP Code:**<br>`ESHR` | **Version:**<br>`4.1.9.4977`<br><br>**Release Date:**<br>`2026-10-08`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/dn-release-notes)<br>[System Requirements](https://www.adobe.com/go/dn-requirements) |
 | <img src=".github/icons/DRWV_21_8_1.png" alt="Dreamweaver" width="80"><br>**Dreamweaver**<br><br>**SAP Code:**<br>`DRWV` | **Version:**<br>`21.8.1.15907`<br><br>**Release Date:**<br>`2026-07-24`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/dw_whatsnew)<br>[System Requirements](https://www.adobe.com/go/system_req_page_dreamweaver_prod) |
 | <img src=".github/icons/KETK_4_0.png" alt="Extendscript Toolkit CC" width="80"><br>**Extendscript Toolkit CC**<br><br>**SAP Code:**<br>`KETK` | **Version:**<br>`4.0`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
@@ -91,9 +91,11 @@ AOFA pulls data from the following APIs:
 | Source | URL | Description |
 |--------|-----|-------------|
 | Adobe CDN API | `https://cdn-ffc.oobesaas.adobe.com/core/v5/products/all` | Primary source for all Creative Cloud product data |
+| Adobe CC Desktop Feed | `https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/applications?name=CreativeCloud&platform=macarm64` | Full build of the Creative Cloud desktop app and its standalone installer version |
 | Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/reader/current_version.txt` | Adobe Release Manager endpoint for Acrobat Reader version |
 | Adobe Release Notes | `https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html` | Official Acrobat/Reader release dates |
 | Adobe ARM | `https://armmf.adobe.com/arm-manifests/mac/AcrobatDC/acrobat/current_version.txt` | Adobe Release Manager endpoint for Acrobat version and release date |
+| Adobe Update Server | `https://ardownload2.adobe.com/pub/adobe/{reader,acrobat}/mac/AcrobatDC/{version}/` | Public Acrobat Reader installer and Acrobat updater DMGs |
 | Jamf Patch | `https://jamf-patch.jamfcloud.com/v1/patch/{id}` | Per-version release dates from Jamf's patch definitions |
 
 <sup>A local copy of the raw Adobe API response is saved for easier viewing: [**adobe_raw_api_response.json**](latest_adobe_files/adobe_raw_api_response.json)</sup>
@@ -120,6 +122,10 @@ Header: x-adobe-app-id: accc-hdcore-desktop
 | `license_mode` | License type (PAID, FREE, FREEMIUM, RESIDUAL) |
 | `min_macos_version` | Minimum macOS version required |
 | `download_size` | Download size (MB/GB format) |
+| `installer_version` | Version Adobe labels the standalone installer with, when it differs from the installed app (Creative Cloud only) |
+| `download_url_arm64` | Direct download link for the Apple Silicon installer (Creative Cloud only) |
+| `download_url_intel` | Direct download link for the Intel installer (Creative Cloud only) |
+| `download_url_universal` | Direct download link for a universal DMG. Acrobat Reader is the full installer; Acrobat is Adobe's updater DMG, since Adobe publishes no public full installer |
 | `icon_url` | Product icon URL |
 | `product_page` | Official product webpage |
 | `whats_new_url` | Link to release notes/what's new page |

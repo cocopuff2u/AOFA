@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 23, 2026 05:55 AM EDT",
+  "last_updated": "October 23, 2026 10:22 AM EDT",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -103,7 +103,7 @@
     },
     "KCCC": {
       "display_name": "Creative Cloud",
-      "version": "6.11.0"
+      "version": "6.11.0.479"
     },
     "KEMN": {
       "display_name": "Extension Manager CC",
