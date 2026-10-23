@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 23, 2026 10:55 AM EDT",
+  "last_updated": "October 23, 2026 03:05 PM EDT",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -11,7 +11,7 @@
     },
     "AEFTBETA": {
       "display_name": "After Effects (Beta)",
-      "version": "27.1.0.22"
+      "version": "27.1.0.23"
     },
     "AICY": {
       "display_name": "InCopy",
