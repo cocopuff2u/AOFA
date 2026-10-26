@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 26, 2026 03:10 PM EDT",
+  "last_updated": "October 26, 2026 07:45 PM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -221,7 +221,7 @@
       "release_date": "N/A",
       "license_mode": "FREEMIUM",
       "min_macos_version": "14.0.0",
-      "download_size": "1.52 GB",
+      "download_size": "1.65 GB",
       "installer_version": "N/A",
       "download_url_arm64": "N/A",
       "download_url_intel": "N/A",
@@ -704,7 +704,7 @@
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
       "version": "27.1",
-      "full_version": "27.1.0.24",
+      "full_version": "27.1.0.27",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
