@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 26, 2026 02:00 AM EDT",
+  "last_updated": "October 26, 2026 08:49 AM EDT",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -23,7 +23,7 @@
     },
     "AMEBETA": {
       "display_name": "Media Encoder (Beta)",
-      "version": "27.1.0.26"
+      "version": "27.1.0.27"
     },
     "APRO": {
       "display_name": "Acrobat",
