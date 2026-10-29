@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>October 29, 2026 10:07 AM EDT</last_updated>
+  <last_updated>October 29, 2026 04:12 PM EDT</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -89,7 +89,7 @@
       <display_name>After Effects (Beta)</display_name>
       <sap_code>AEFTBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.23</full_version>
+      <full_version>27.1.0.30</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -152,7 +152,7 @@
       <display_name>Audition (Beta)</display_name>
       <sap_code>AUDTBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.31</full_version>
+      <full_version>27.1.0.32</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
