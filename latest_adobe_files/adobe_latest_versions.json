@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 29, 2026 02:57 AM EDT",
+  "last_updated": "October 29, 2026 10:07 AM EDT",
   "products": [
     {
       "display_name": "Acrobat",
@@ -594,7 +594,7 @@
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
       "version": "27.1",
-      "full_version": "27.1.0.30",
+      "full_version": "27.1.0.31",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
@@ -704,7 +704,7 @@
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
       "version": "27.1",
-      "full_version": "27.1.0.30",
+      "full_version": "27.1.0.31",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
