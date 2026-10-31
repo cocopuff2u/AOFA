@@ -1,5 +1,5 @@
 {
-  "last_updated": "October 31, 2026 01:23 AM EDT",
+  "last_updated": "October 31, 2026 08:11 AM EDT",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -23,7 +23,7 @@
     },
     "AMEBETA": {
       "display_name": "Media Encoder (Beta)",
-      "version": "27.1.0.32"
+      "version": "27.1.0.33"
     },
     "APRO": {
       "display_name": "Acrobat",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.32"
+      "version": "27.1.0.33"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",
