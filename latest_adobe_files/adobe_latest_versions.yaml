@@ -1,4 +1,4 @@
-last_updated: November 01, 2026 09:58 AM EST
+last_updated: November 01, 2026 02:31 PM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -129,7 +129,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '27.1'
-  full_version: 27.1.0.34
+  full_version: 27.1.0.35
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
