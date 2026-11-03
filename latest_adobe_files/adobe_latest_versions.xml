@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>November 03, 2026 01:31 AM EST</last_updated>
+  <last_updated>November 03, 2026 09:59 AM EST</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -27,16 +27,16 @@
     <product>
       <display_name>Acrobat Reader</display_name>
       <sap_code>ARDR</sap_code>
-      <version>26.002</version>
-      <full_version>26.002.22031</full_version>
-      <release_date>2026-10-14</release_date>
+      <version>26.003</version>
+      <full_version>26.003.22075</full_version>
+      <release_date>2026-11-02</release_date>
       <license_mode>FREE</license_mode>
       <min_macos_version>N/A</min_macos_version>
-      <download_size>704.7 MB</download_size>
+      <download_size>705.9 MB</download_size>
       <installer_version>N/A</installer_version>
       <download_url_arm64>N/A</download_url_arm64>
       <download_url_intel>N/A</download_url_intel>
-      <download_url_universal>https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600222031/AcroRdrDC_2600222031_MUI.dmg</download_url_universal>
+      <download_url_universal>https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600322075/AcroRdrDC_2600322075_MUI.dmg</download_url_universal>
       <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png</icon_url>
       <product_page>https://www.adobe.com/acrobat/pdf-reader.html</product_page>
       <whats_new_url>https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html</whats_new_url>
@@ -286,8 +286,8 @@
     <product>
       <display_name>Dimension</display_name>
       <sap_code>ESHR</sap_code>
-      <version>4.1.9</version>
-      <full_version>4.1.9.4977</full_version>
+      <version>4.1.10</version>
+      <full_version>4.1.10.5004</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>12.0.0</min_macos_version>
@@ -296,7 +296,7 @@
       <download_url_arm64>N/A</download_url_arm64>
       <download_url_intel>N/A</download_url_intel>
       <download_url_universal>N/A</download_url_universal>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/ESHR/4.1.9/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/ESHR/4.1.10/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/dn</product_page>
       <whats_new_url>https://www.adobe.com/go/dn-release-notes</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/dn-requirements</system_requirements_url>
@@ -595,7 +595,7 @@
       <display_name>Media Encoder (Beta)</display_name>
       <sap_code>AMEBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.35</full_version>
+      <full_version>27.1.0.36</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -705,7 +705,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.34</full_version>
+      <full_version>27.1.0.36</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
@@ -807,8 +807,8 @@
     <product>
       <display_name>Substance 3D Stager</display_name>
       <sap_code>STGR</sap_code>
-      <version>3.1.9</version>
-      <full_version>3.1.9.6719</full_version>
+      <version>3.1.10</version>
+      <full_version>3.1.10.6755</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>12.0.0</min_macos_version>
@@ -817,7 +817,7 @@
       <download_url_arm64>N/A</download_url_arm64>
       <download_url_intel>N/A</download_url_intel>
       <download_url_universal>N/A</download_url_universal>
-      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/STGR/3.1.9/96x96.png</icon_url>
+      <icon_url>https://ffc-static-cdn.oobesaas.adobe.com/icons/STGR/3.1.10/96x96.png</icon_url>
       <product_page>https://www.adobe.com/go/stager</product_page>
       <whats_new_url>https://www.adobe.com/go/stager-release-notes</whats_new_url>
       <system_requirements_url>https://www.adobe.com/go/stager-requirements</system_requirements_url>

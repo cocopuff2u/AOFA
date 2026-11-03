@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 03, 2026 01:31 AM EST",
+  "last_updated": "November 03, 2026 09:59 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -23,7 +23,7 @@
     },
     "AMEBETA": {
       "display_name": "Media Encoder (Beta)",
-      "version": "27.1.0.35"
+      "version": "27.1.0.36"
     },
     "APRO": {
       "display_name": "Acrobat",
@@ -31,7 +31,7 @@
     },
     "ARDR": {
       "display_name": "Acrobat Reader",
-      "version": "26.002.22031"
+      "version": "26.003.22075"
     },
     "ASCT": {
       "display_name": "Scout CC",
@@ -59,7 +59,7 @@
     },
     "ESHR": {
       "display_name": "Dimension",
-      "version": "4.1.9.4977"
+      "version": "4.1.10.5004"
     },
     "FLBR": {
       "display_name": "Flash Builder Premium",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.34"
+      "version": "27.1.0.36"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",
@@ -159,7 +159,7 @@
     },
     "STGR": {
       "display_name": "Substance 3D Stager",
-      "version": "3.1.9.6719"
+      "version": "3.1.10.6755"
     },
     "TAPI": {
       "display_name": "Touch App Plugins",

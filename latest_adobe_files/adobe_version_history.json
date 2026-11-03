@@ -1,6 +1,38 @@
 {
-  "last_updated": "November 02, 2026 06:25 PM EST",
+  "last_updated": "November 03, 2026 09:59 AM EST",
   "versions": [
+    {
+      "display_name": "Substance 3D Stager",
+      "sap_code": "STGR",
+      "version": "3.1.10",
+      "full_version": "3.1.10.6755",
+      "release_date": "2026-11-03",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.36",
+      "release_date": "2026-11-03",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Media Encoder (Beta)",
+      "sap_code": "AMEBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.36",
+      "release_date": "2026-11-03",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Dimension",
+      "sap_code": "ESHR",
+      "version": "4.1.10",
+      "full_version": "4.1.10.5004",
+      "release_date": "2026-11-03",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Media Encoder (Beta)",
       "sap_code": "AMEBETA",
@@ -24,6 +56,14 @@
       "full_version": "27.1.0.34",
       "release_date": "2026-11-02",
       "date_source": "first_seen"
+    },
+    {
+      "display_name": "Acrobat Reader",
+      "sap_code": "ARDR",
+      "version": "26.003",
+      "full_version": "26.003.22075",
+      "release_date": "2026-11-02",
+      "date_source": "api"
     },
     {
       "display_name": "Premiere (Beta)",
