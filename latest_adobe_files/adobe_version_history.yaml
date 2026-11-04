@@ -1,5 +1,11 @@
-last_updated: "November 03, 2026 03:55 PM EST"
+last_updated: "November 04, 2026 03:59 AM EST"
 versions:
+  - display_name: "Media Encoder (Beta)"
+    sap_code: "AMEBETA"
+    version: "27.1"
+    full_version: "27.1.0.37"
+    release_date: "2026-11-04"
+    date_source: "first_seen"
   - display_name: "Substance 3D Stager"
     sap_code: "STGR"
     version: "3.1.10"
