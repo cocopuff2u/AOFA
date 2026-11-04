@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <adobe_products>
-  <last_updated>November 04, 2026 03:59 AM EST</last_updated>
+  <last_updated>November 04, 2026 12:05 PM EST</last_updated>
   <products>
     <product>
       <display_name>Acrobat</display_name>
@@ -705,7 +705,7 @@
       <display_name>Premiere (Beta)</display_name>
       <sap_code>PPROBETA</sap_code>
       <version>27.1</version>
-      <full_version>27.1.0.36</full_version>
+      <full_version>27.1.0.37</full_version>
       <release_date>N/A</release_date>
       <license_mode>PAID</license_mode>
       <min_macos_version>15.0.0</min_macos_version>
