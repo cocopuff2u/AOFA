@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 05, 2026 01:29 AM EST",
+  "last_updated": "November 05, 2026 10:21 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -27,7 +27,7 @@
     },
     "APRO": {
       "display_name": "Acrobat",
-      "version": "26.002.22031"
+      "version": "26.003.22075"
     },
     "ARDR": {
       "display_name": "Acrobat Reader",
@@ -43,7 +43,7 @@
     },
     "AUDTBETA": {
       "display_name": "Audition (Beta)",
-      "version": "27.1.0.37"
+      "version": "27.1.0.38"
     },
     "CHAR": {
       "display_name": "Character Animator",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.37"
+      "version": "27.1.0.38"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",

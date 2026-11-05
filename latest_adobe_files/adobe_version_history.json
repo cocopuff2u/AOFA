@@ -1,6 +1,22 @@
 {
-  "last_updated": "November 04, 2026 06:33 PM EST",
+  "last_updated": "November 05, 2026 10:21 AM EST",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.38",
+      "release_date": "2026-11-05",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.38",
+      "release_date": "2026-11-05",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
@@ -101,6 +117,14 @@
       "display_name": "Acrobat Reader",
       "sap_code": "ARDR",
       "version": "26.003",
+      "full_version": "26.003.22075",
+      "release_date": "2026-11-02",
+      "date_source": "api"
+    },
+    {
+      "display_name": "Acrobat",
+      "sap_code": "APRO",
+      "version": "26.1",
       "full_version": "26.003.22075",
       "release_date": "2026-11-02",
       "date_source": "api"
