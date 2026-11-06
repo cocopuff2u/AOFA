@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 06, 2026 05:42 AM EST",
+  "last_updated": "November 06, 2026 12:53 PM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -11,7 +11,7 @@
     },
     "AEFTBETA": {
       "display_name": "After Effects (Beta)",
-      "version": "27.1.0.37"
+      "version": "27.1.0.38"
     },
     "AICY": {
       "display_name": "InCopy",
@@ -43,7 +43,7 @@
     },
     "AUDTBETA": {
       "display_name": "Audition (Beta)",
-      "version": "27.1.0.39"
+      "version": "27.1.0.40"
     },
     "CHAR": {
       "display_name": "Character Animator",
