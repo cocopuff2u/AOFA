@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 07, 2026 04:55 AM EST",
+  "last_updated": "November 07, 2026 03:48 PM EST",
   "versions": [
     {
       "display_name": "Premiere (Beta)",
@@ -14,6 +14,14 @@
       "sap_code": "AMEBETA",
       "version": "27.1",
       "full_version": "27.1.0.40",
+      "release_date": "2026-11-07",
+      "date_source": "first_seen"
+    },
+    {
+      "display_name": "Audition (Beta)",
+      "sap_code": "AUDTBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.41",
       "release_date": "2026-11-07",
       "date_source": "first_seen"
     },

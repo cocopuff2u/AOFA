@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 07, 2026 11:18 AM EST",
+  "last_updated": "November 07, 2026 03:48 PM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -43,7 +43,7 @@
     },
     "AUDTBETA": {
       "display_name": "Audition (Beta)",
-      "version": "27.1.0.40"
+      "version": "27.1.0.41"
     },
     "CHAR": {
       "display_name": "Character Animator",
