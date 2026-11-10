@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 09, 2026 07:38 PM EST",
+  "last_updated": "November 10, 2026 03:17 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -7,7 +7,7 @@
     },
     "AEFT": {
       "display_name": "After Effects",
-      "version": "26.5.0.89"
+      "version": "27.0.0.78"
     },
     "AEFTBETA": {
       "display_name": "After Effects (Beta)",
@@ -15,11 +15,11 @@
     },
     "AICY": {
       "display_name": "InCopy",
-      "version": "21.6.0.057"
+      "version": "22.0.0.104"
     },
     "AME": {
       "display_name": "Media Encoder",
-      "version": "26.5.2.2"
+      "version": "27.0.0.72"
     },
     "AMEBETA": {
       "display_name": "Media Encoder (Beta)",
@@ -39,11 +39,11 @@
     },
     "AUDT": {
       "display_name": "Audition",
-      "version": "26.5.0.82"
+      "version": "27.0.0.67"
     },
     "AUDTBETA": {
       "display_name": "Audition (Beta)",
-      "version": "27.1.0.41"
+      "version": "27.1.0.42"
     },
     "CHAR": {
       "display_name": "Character Animator",
@@ -67,7 +67,7 @@
     },
     "FLPR": {
       "display_name": "Animate",
-      "version": "24.0.15.5"
+      "version": "27.0.0.33"
     },
     "FWKS": {
       "display_name": "Fireworks CS6",
@@ -79,15 +79,15 @@
     },
     "IDSN": {
       "display_name": "InDesign",
-      "version": "21.6.0.057"
+      "version": "22.0.0.104"
     },
     "IDSNBETA": {
       "display_name": "InDesign (Beta)",
-      "version": "21.4.0.044"
+      "version": "22.1.0.019"
     },
     "ILST": {
       "display_name": "Illustrator",
-      "version": "30.8.2.7"
+      "version": "31.0.0.84"
     },
     "ILSTPR": {
       "display_name": "Illustrator (Prerelease)",
@@ -95,7 +95,7 @@
     },
     "KBRG": {
       "display_name": "Bridge",
-      "version": "16.0.8.10"
+      "version": "17.0.0.92"
     },
     "KBRGBETA": {
       "display_name": "Bridge (Beta)",
@@ -115,11 +115,11 @@
     },
     "LRCC": {
       "display_name": "Lightroom",
-      "version": "9.6.202609231659"
+      "version": "10.0.202610291525"
     },
     "LTRM": {
       "display_name": "Lightroom Classic",
-      "version": "15.6.0.202609251514"
+      "version": "16.0.0.202611041403"
     },
     "MUSE": {
       "display_name": "Muse CC",
@@ -127,7 +127,7 @@
     },
     "PHSP": {
       "display_name": "Photoshop",
-      "version": "27.11.0.26"
+      "version": "28.0.0.20"
     },
     "PHSPBETA": {
       "display_name": "Photoshop (Beta)",
@@ -135,7 +135,7 @@
     },
     "PPRO": {
       "display_name": "Premiere",
-      "version": "26.5.2.5"
+      "version": "27.0.0.88"
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
