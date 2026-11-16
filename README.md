@@ -13,7 +13,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 
 <sup>**Raw Data**: [**JSON**](latest_adobe_files/adobe_latest_versions.json) | [**Simple JSON**](latest_adobe_files/adobe_simple_versions.json) | [**YAML**](latest_adobe_files/adobe_latest_versions.yaml) | [**XML**](latest_adobe_files/adobe_latest_versions.xml) | **Version History**: [**JSON**](latest_adobe_files/adobe_version_history.json) | [**YAML**](latest_adobe_files/adobe_version_history.yaml) | [**XML**](latest_adobe_files/adobe_version_history.xml)</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">November 16, 2026 04:27 AM EST</code> (Automatically updated every hour)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">November 16, 2026 03:17 PM EST</code> (Automatically updated every hour)_</sup>
 
 </div>
 
@@ -53,7 +53,7 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | <img src=".github/icons/SBSTA_6_0_4.png" alt="Substance 3D Sampler" width="80"><br>**Substance 3D Sampler**<br><br>**SAP Code:**<br>`SBSTA` | **Version:**<br>`6.0.4.10899`<br><br>**Release Date:**<br>`2026-09-24`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/sampler-release-notes)<br>[System Requirements](https://www.adobe.com/go/Substance-3D-system-requirements-Sampler) |
 | <img src=".github/icons/STGR_3_1_10.png" alt="Substance 3D Stager" width="80"><br>**Substance 3D Stager**<br><br>**SAP Code:**<br>`STGR` | **Version:**<br>`3.1.10.6755`<br><br>**Release Date:**<br>`2026-11-03`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/stager-release-notes)<br>[System Requirements](https://www.adobe.com/go/stager-requirements) |
 | <img src=".github/icons/TAPI_1_0.png" alt="Touch App Plugins" width="80"><br>**Touch App Plugins**<br><br>**SAP Code:**<br>`TAPI` | **Version:**<br>`1.0`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` | N/A |
-| <img src=".github/icons/UXPD_2_3_0.png" alt="UXP Developer Tools" width="80"><br>**UXP Developer Tools**<br><br>**SAP Code:**<br>`UXPD` | **Version:**<br>`2.3.0.5`<br><br>**Release Date:**<br>`2026-09-10`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/uxp-developer-tool-support)<br>[System Requirements](https://www.adobe.com/go/uxp-devtool-sysreq/) |
+| <img src=".github/icons/UXPD_2_4_0.png" alt="UXP Developer Tools" width="80"><br>**UXP Developer Tools**<br><br>**SAP Code:**<br>`UXPD` | **Version:**<br>`2.4.0.2`<br><br>**Release Date:**<br>`2026-11-16`<br><br>**Release Date Source:**<br>`First Seen Date` | [Release Notes](https://www.adobe.com/go/uxp-developer-tool-support)<br>[System Requirements](https://www.adobe.com/go/uxp-devtool-sysreq/) |
 
 </div>
 
@@ -64,13 +64,13 @@ We welcome community contributions—fork the repository, ask questions, or shar
 | **Product** | **Version Information** |
 |-------------|------------------------|
 | <img src=".github/icons/AEFTBETA_27_1.png" alt="After Effects (Beta)" width="80"><br>**After Effects (Beta)**<br><br>**SAP Code:**<br>`AEFTBETA` | **Version:**<br>`27.1.0.45`<br><br>**Release Date:**<br>`2026-11-13`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/AUDTBETA_27_1.png" alt="Audition (Beta)" width="80"><br>**Audition (Beta)**<br><br>**SAP Code:**<br>`AUDTBETA` | **Version:**<br>`27.1.0.48`<br><br>**Release Date:**<br>`2026-11-14`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/AUDTBETA_27_1.png" alt="Audition (Beta)" width="80"><br>**Audition (Beta)**<br><br>**SAP Code:**<br>`AUDTBETA` | **Version:**<br>`27.1.0.50`<br><br>**Release Date:**<br>`2026-11-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/KBRGBETA_17_0_0.png" alt="Bridge (Beta)" width="80"><br>**Bridge (Beta)**<br><br>**SAP Code:**<br>`KBRGBETA` | **Version:**<br>`17.0.0.79`<br><br>**Release Date:**<br>`2026-10-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/CHARBETA_25_6.png" alt="Character Animator (Beta)" width="80"><br>**Character Animator (Beta)**<br><br>**SAP Code:**<br>`CHARBETA` | **Version:**<br>`25.6.0.092`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/IDSNBETA_22_1.png" alt="InDesign (Beta)" width="80"><br>**InDesign (Beta)**<br><br>**SAP Code:**<br>`IDSNBETA` | **Version:**<br>`22.1.0.019`<br><br>**Release Date:**<br>`2026-11-10`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/AMEBETA_27_1.png" alt="Media Encoder (Beta)" width="80"><br>**Media Encoder (Beta)**<br><br>**SAP Code:**<br>`AMEBETA` | **Version:**<br>`27.1.0.47`<br><br>**Release Date:**<br>`2026-11-14`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/PHSPBETA_25_9.png" alt="Photoshop (Beta)" width="80"><br>**Photoshop (Beta)**<br><br>**SAP Code:**<br>`PHSPBETA` | **Version:**<br>`25.9.0.2611`<br><br>**Release Date:**<br>`2026-01-23`<br><br>**Release Date Source:**<br>`First Seen Date` |
-| <img src=".github/icons/PPROBETA_27_1.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.1.0.48`<br><br>**Release Date:**<br>`2026-11-15`<br><br>**Release Date Source:**<br>`First Seen Date` |
+| <img src=".github/icons/PPROBETA_27_1.png" alt="Premiere (Beta)" width="80"><br>**Premiere (Beta)**<br><br>**SAP Code:**<br>`PPROBETA` | **Version:**<br>`27.1.0.49`<br><br>**Release Date:**<br>`2026-11-16`<br><br>**Release Date Source:**<br>`First Seen Date` |
 | <img src=".github/icons/SPRKBE_57_1_12.png" alt="XD (Beta)" width="80"><br>**XD (Beta)**<br><br>**SAP Code:**<br>`SPRKBE` | **Version:**<br>`57.1.12.2`<br><br>**Release Date:**<br>`2024-07-01`<br><br>**Release Date Source:**<br>`Manual Research` |
 
 </div>

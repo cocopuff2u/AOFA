@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 16, 2026 04:27 AM EST",
+  "last_updated": "November 16, 2026 03:17 PM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -43,7 +43,7 @@
     },
     "AUDTBETA": {
       "display_name": "Audition (Beta)",
-      "version": "27.1.0.48"
+      "version": "27.1.0.50"
     },
     "CHAR": {
       "display_name": "Character Animator",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.48"
+      "version": "27.1.0.49"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",
@@ -167,7 +167,7 @@
     },
     "UXPD": {
       "display_name": "UXP Developer Tools",
-      "version": "2.3.0.5"
+      "version": "2.4.0.2"
     }
   }
 }
