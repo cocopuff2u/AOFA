@@ -1,4 +1,4 @@
-last_updated: November 17, 2026 08:06 AM EST
+last_updated: November 17, 2026 05:10 PM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -22,15 +22,15 @@ products:
 - display_name: Acrobat Reader
   sap_code: ARDR
   version: '26.003'
-  full_version: 26.003.22075
-  release_date: '2026-11-02'
+  full_version: 26.003.22110
+  release_date: '2026-11-17'
   license_mode: FREE
   min_macos_version: N/A
-  download_size: 705.9 MB
+  download_size: 704.5 MB
   installer_version: N/A
   download_url_arm64: N/A
   download_url_intel: N/A
-  download_url_universal: https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600322075/AcroRdrDC_2600322075_MUI.dmg
+  download_url_universal: https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600322110/AcroRdrDC_2600322110_MUI.dmg
   icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/APRO/26.1/96x96.png
   product_page: https://www.adobe.com/acrobat/pdf-reader.html
   whats_new_url: https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html
@@ -75,7 +75,7 @@ products:
 - display_name: After Effects (Beta)
   sap_code: AEFTBETA
   version: '27.1'
-  full_version: 27.1.0.45
+  full_version: 27.1.0.49
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
@@ -129,7 +129,7 @@ products:
 - display_name: Audition (Beta)
   sap_code: AUDTBETA
   version: '27.1'
-  full_version: 27.1.0.50
+  full_version: 27.1.0.51
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
@@ -190,7 +190,7 @@ products:
   release_date: N/A
   license_mode: FREEMIUM
   min_macos_version: 14.0.0
-  download_size: 1.52 GB
+  download_size: 1.65 GB
   installer_version: N/A
   download_url_arm64: N/A
   download_url_intel: N/A
