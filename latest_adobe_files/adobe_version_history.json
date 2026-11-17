@@ -1,6 +1,14 @@
 {
-  "last_updated": "November 16, 2026 03:17 PM EST",
+  "last_updated": "November 17, 2026 08:06 AM EST",
   "versions": [
+    {
+      "display_name": "Premiere (Beta)",
+      "sap_code": "PPROBETA",
+      "version": "27.1",
+      "full_version": "27.1.0.50",
+      "release_date": "2026-11-17",
+      "date_source": "first_seen"
+    },
     {
       "display_name": "UXP Developer Tools",
       "sap_code": "UXPD",
