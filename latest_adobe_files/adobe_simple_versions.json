@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 17, 2026 11:09 PM EST",
+  "last_updated": "November 18, 2026 08:48 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -27,7 +27,7 @@
     },
     "APRO": {
       "display_name": "Acrobat",
-      "version": "26.003.22075"
+      "version": "26.003.22110"
     },
     "ARDR": {
       "display_name": "Acrobat Reader",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.50"
+      "version": "27.1.0.51"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",
