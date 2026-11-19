@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 18, 2026 10:11 PM EST",
+  "last_updated": "November 19, 2026 07:50 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -67,7 +67,7 @@
     },
     "FLPR": {
       "display_name": "Animate",
-      "version": "27.0.0.33"
+      "version": "27.0.1.5"
     },
     "FWKS": {
       "display_name": "Fireworks CS6",
@@ -119,7 +119,7 @@
     },
     "LTRM": {
       "display_name": "Lightroom Classic",
-      "version": "16.0.0.202611041403"
+      "version": "16.0.1.202611171809"
     },
     "MUSE": {
       "display_name": "Muse CC",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.51"
+      "version": "27.1.0.52"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",

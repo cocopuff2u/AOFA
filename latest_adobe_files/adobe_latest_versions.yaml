@@ -1,4 +1,4 @@
-last_updated: November 18, 2026 10:11 PM EST
+last_updated: November 19, 2026 07:50 AM EST
 products:
 - display_name: Acrobat
   sap_code: APRO
@@ -92,17 +92,17 @@ products:
   - beta-apps
 - display_name: Animate
   sap_code: FLPR
-  version: '27.0'
-  full_version: 27.0.0.33
+  version: 27.0.1
+  full_version: 27.0.1.5
   release_date: N/A
   license_mode: PAID
   min_macos_version: '12.0'
-  download_size: 4.36 GB
+  download_size: N/A
   installer_version: N/A
   download_url_arm64: N/A
   download_url_intel: N/A
   download_url_universal: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/27.0/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/FLPR/27.0.1/96x96.png
   product_page: https://www.adobe.com/products/animate.html
   whats_new_url: https://helpx.adobe.com/animate/using/whats-new.html
   system_requirements_url: https://helpx.adobe.com/animate/system-requirements.html
@@ -477,17 +477,17 @@ products:
   - photography
 - display_name: Lightroom Classic
   sap_code: LTRM
-  version: '16.0'
-  full_version: 16.0.0.202611041403
-  release_date: '2026-11-04'
+  version: 16.0.1
+  full_version: 16.0.1.202611171809
+  release_date: '2026-11-17'
   license_mode: RESIDUAL
   min_macos_version: '14.0'
-  download_size: 3.73 GB
+  download_size: N/A
   installer_version: N/A
   download_url_arm64: N/A
   download_url_intel: N/A
   download_url_universal: N/A
-  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/16.0/96x96.png
+  icon_url: https://ffc-static-cdn.oobesaas.adobe.com/icons/LTRM/16.0.1/96x96.png
   product_page: https://www.adobe.com/products/photoshop-lightroom-classic.html
   whats_new_url: https://helpx.adobe.com/lightroom-classic/help/whats-new.html
   system_requirements_url: https://www.adobe.com/go/system_req_page_lightroom-classic_prod
@@ -610,7 +610,7 @@ products:
 - display_name: Premiere (Beta)
   sap_code: PPROBETA
   version: '27.1'
-  full_version: 27.1.0.51
+  full_version: 27.1.0.52
   release_date: N/A
   license_mode: PAID
   min_macos_version: 15.0.0
