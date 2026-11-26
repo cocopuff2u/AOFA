@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 25, 2026 11:55 PM EST",
+  "last_updated": "November 26, 2026 09:58 AM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.58"
+      "version": "27.1.0.59"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",
