@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 27, 2026 03:07 AM EST",
+  "last_updated": "November 27, 2026 01:50 PM EST",
   "products": {
     "AAM": {
       "display_name": "Adobe Application Manager",
@@ -55,7 +55,7 @@
     },
     "DRWV": {
       "display_name": "Dreamweaver",
-      "version": "21.8.1.15907"
+      "version": "21.8.2.15995"
     },
     "ESHR": {
       "display_name": "Dimension",
@@ -139,7 +139,7 @@
     },
     "PPROBETA": {
       "display_name": "Premiere (Beta)",
-      "version": "27.1.0.59"
+      "version": "27.1.0.60"
     },
     "SBSTA": {
       "display_name": "Substance 3D Sampler",

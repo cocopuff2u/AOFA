@@ -1,5 +1,5 @@
 {
-  "last_updated": "November 27, 2026 03:07 AM EST",
+  "last_updated": "November 27, 2026 01:50 PM EST",
   "products": [
     {
       "display_name": "Acrobat",
@@ -307,8 +307,8 @@
     {
       "display_name": "Dreamweaver",
       "sap_code": "DRWV",
-      "version": "21.8.1",
-      "full_version": "21.8.1.15907",
+      "version": "21.8.2",
+      "full_version": "21.8.2.15995",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "10.14",
@@ -317,7 +317,7 @@
       "download_url_arm64": "N/A",
       "download_url_intel": "N/A",
       "download_url_universal": "N/A",
-      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.8.1/96x96.png",
+      "icon_url": "https://ffc-static-cdn.oobesaas.adobe.com/icons/DRWV/21.8.2/96x96.png",
       "product_page": "https://www.adobe.com/go/dreamweaver",
       "whats_new_url": "https://www.adobe.com/go/dw_whatsnew",
       "system_requirements_url": "https://www.adobe.com/go/system_req_page_dreamweaver_prod",
@@ -704,7 +704,7 @@
       "display_name": "Premiere (Beta)",
       "sap_code": "PPROBETA",
       "version": "27.1",
-      "full_version": "27.1.0.59",
+      "full_version": "27.1.0.60",
       "release_date": "N/A",
       "license_mode": "PAID",
       "min_macos_version": "15.0.0",
